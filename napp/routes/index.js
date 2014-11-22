@@ -9,21 +9,6 @@ var password = "Secret123";
 var msf = new MSF(true);
 
 
-var topNews= {
-   "Entity": {
-       "E": "TopNews",
-       "W": {
-           "Codes": [
-               "urn:newsml:reuters.com:20020923:SPDOC_119827232002"
-           ],
-           "LoadImages": false
-       },
-       "S": [
-           "TopNews.Headline"
-       ]
-   }
-}
-
 var liveNews={
    "Entity": {
        "E": "TopNews",
@@ -45,7 +30,12 @@ var liveNews={
                    }
                ]
            }
-       }
+       },
+       "S": [
+           "TopNews.Headline",
+           "TopNews.StoryDateTime",
+           "TopNews.Brief"
+       ]
    },
    "St": [
        {
@@ -68,8 +58,17 @@ router.get('/', function(req, res) {
 
            for(var i = 0; i <response.TopNews.length ; i++){
            var headline = response.TopNews[i].Headline;
-                            
-            
+                          
+
+              var moment = require('moment');
+              var startDate = moment( new Date().toISOString(), 'YYYY-MM-DDTHH:mm:ss');
+              var endDate = moment(response.TopNews[i].StoryDateTime, 'YYYY-MM-DDTHH:mm:ss');
+              var secondsDiff = endDate.diff(startDate, 'seconds');
+              var dateQuery = (-1)*parseInt(secondsDiff/86400)+'d '+(new Date(secondsDiff%86400*1000)).toUTCString().replace(/.*(\d{2}):(\d{2}):(\d{2}).*/, "$1h $2m");
+        
+              console.log(dateQuery)  
+              response.TopNews[i].date  =  dateQuery; 
+
              response.TopNews[i].Keywords =[];
              var words = headline.split(" ");
              
