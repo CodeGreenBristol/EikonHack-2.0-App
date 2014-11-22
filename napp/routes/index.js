@@ -70,7 +70,7 @@ router.get('/', function(req, res) {
               response.TopNews[i].date  =  dateQuery; 
 
              response.TopNews[i].Keywords =[];
-             var words = headline.split(" ");
+             var words = headline.replace(/[\.,-\/#!$%\^&\*;:{}=\-_`~()]/g,"").split(" ");
              
                for(var j = 0; j < words.length; j++)
                {
