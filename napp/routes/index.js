@@ -24,6 +24,37 @@ var topNews= {
    }
 }
 
+var liveNews={
+   "Entity": {
+       "E": "TopNews",
+       "W": {
+           "Codes": [
+               "urn:newsml:reuters.com:20020923:SPDOC_119827232002"
+           ],
+           "LoadImages": false,
+           "F": {
+               "AND": [
+                   {
+                       "field": "TopNews.StoryDateTime",
+                       "AND": [
+                           {
+                               "value": new Date(),
+                               "operator": "eq"
+                           }
+                       ]
+                   }
+               ]
+           }
+       }
+   },
+   "St": [
+       {
+           "F": "StoryDateTime",
+           "O": "asc"
+       }
+   ]
+}
+
 
 /* GET home page. */
 router.get('/test', function(req, res) {
@@ -33,7 +64,7 @@ router.get('/test', function(req, res) {
 router.get('/', function(req, res) {
    msf.login(username, password, function(error) {
        if (!error) {
-           msf.getData(topNews, function(error, response) {
+           msf.getData(liveNews, function(error, response) {
 
            for(var i = 0; i <response.TopNews.length ; i++){
            var headline = response.TopNews[i].Headline;
