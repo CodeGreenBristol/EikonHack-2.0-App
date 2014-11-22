@@ -1,1 +1,72 @@
 /* COPYRIGHT INFO HERE */
+
+/* GENERAL STYLES */
+
+body {
+	width: 100%;
+	background-color: #1e1e21;
+	margin: 0;
+	padding: 0;
+}
+
+.clearfix {
+	clear:both;
+}
+
+/* HEADER STYLES */
+#header {
+	margin:0;
+	padding:0;
+	width: 100%;
+	height: 53px;
+	box-sizing: border-box;
+	#logo {
+		width: 145px;
+		float: left;
+		padding: 10px;
+		box-sizing: border-box;
+		#main-text {
+
+		}
+	}
+	#news-bar {
+		width: ~"calc(100% - 145px)";
+		float: left;
+		background-color: #252529;
+		padding: 10px;
+		box-sizing: border-box;
+	}
+}
+
+#content {
+	width: ~"calc(100% - 10px)";
+	height: ~"calc(100% - 80px)";
+	margin: 0;
+	padding: 5px;
+	.widget-box {
+		width: ~"calc(100% - 10px)";
+		background-color: #252529;
+		margin: 5px;
+	}
+	#left-column, #right-column {
+		float: left;
+		margin: 0;
+		padding: 0;
+	}
+	#left-column {
+		width: 448px;
+		#sentiment-box {
+			height: 140px;
+		}
+		#feed-box {
+			height: 540px;
+		}
+	}
+	#right-column {
+		width: 908px;
+		#map-box {
+
+		}
+	}
+
+}

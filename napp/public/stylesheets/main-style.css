@@ -1,1 +1,62 @@
 /* COPYRIGHT INFO HERE */
+/* COPYRIGHT INFO HERE */
+/* GENERAL STYLES */
+body {
+  width: 100%;
+  background-color: #1e1e21;
+  margin: 0;
+  padding: 0;
+}
+.clearfix {
+  clear: both;
+}
+/* HEADER STYLES */
+#header {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 53px;
+  box-sizing: border-box;
+}
+#header #logo {
+  width: 145px;
+  float: left;
+  padding: 10px;
+  box-sizing: border-box;
+}
+#header #news-bar {
+  width: calc(100% - 145px);
+  float: left;
+  background-color: #252529;
+  padding: 10px;
+  box-sizing: border-box;
+}
+#content {
+  width: calc(100% - 10px);
+  height: calc(100% - 80px);
+  margin: 0;
+  padding: 5px;
+}
+#content .widget-box {
+  width: calc(100% - 10px);
+  background-color: #252529;
+  margin: 5px;
+}
+#content #left-column,
+#content #right-column {
+  float: left;
+  margin: 0;
+  padding: 0;
+}
+#content #left-column {
+  width: 448px;
+}
+#content #left-column #sentiment-box {
+  height: 140px;
+}
+#content #left-column #feed-box {
+  height: 540px;
+}
+#content #right-column {
+  width: 908px;
+}
