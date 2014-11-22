@@ -113,8 +113,8 @@
                 var listText = '<li class="news-item" data-item-id="' + index + '">' +
                     '<div class = "news-title">' + elem.Headline + '</div>' +
                     '<div class = "news-meta">' +
-                        '<span class = "news-date">3h ago</span>|' +
-                        '<span class = "news-excerpt">Following an announcement by Microsoft that they\'d match whatever sum Apple pour into their iWatch, the latter effectively declared war. This isn\'t the first ti...</span>' +							
+                        '<span class = "news-date">' + elem.date + '</span>|' +
+                        '<span class = "news-excerpt">' + elem.Brief + '</span>' +							
                     '</div>' +
                 '</li>';
                 
@@ -157,8 +157,8 @@
             var elem = newsData.TopNews[$(this).attr("data-item-id")];
             var newsText = '<div class = "news-title">' + elem.Headline + '</div>' +
                     '<div class = "news-meta">' +
-                        '<span class = "news-date">3h ago</span>|' +
-                        '<span class = "news-excerpt">Following an announcement by Microsoft that they\'d match whatever sum Apple pour into their iWatch, the latter effectively declared war. This isn\'t the first ti...</span>' +							
+                        '<span class = "news-date">' + elem.date + '</span>|' +
+                        '<span class = "news-excerpt">' + elem.Brief + '</span>' +							
                     '</div>';
                 
             $('#news-header').append(newsText);
