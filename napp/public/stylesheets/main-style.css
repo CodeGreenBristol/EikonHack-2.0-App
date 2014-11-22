@@ -148,8 +148,115 @@ body {
 #content #left-column #sentiment-box {
   height: 138px;
 }
+#content #left-column #sentiment-box #result {
+  float: left;
+  margin-top: 5px;
+}
+#content #left-column #sentiment-box #result #result-indicator,
+#content #left-column #sentiment-box #result #result-percent {
+  display: inline-block;
+}
+#content #left-column #sentiment-box #result #result-indicator {
+  width: 8px;
+  height: 8px;
+  margin: 5px;
+  margin-top: 3px;
+  vertical-align: top;
+}
+#content #left-column #sentiment-box #result #result-percent {
+  color: #fff;
+  font-weight: 700;
+  font-size: 20px;
+}
+#content #left-column #sentiment-box #bar {
+  float: left;
+  height: 10px;
+  margin-top: 20px;
+  padding: 0;
+  width: 400px;
+}
+#content #left-column #sentiment-box #bar #bar-negative,
+#content #left-column #sentiment-box #bar #bar-positive {
+  float: left;
+  width: 50%;
+  height: 10px;
+  padding: 0;
+}
+#content #left-column #sentiment-box #bar #bar-negative {
+  background-color: #ee4739;
+}
+#content #left-column #sentiment-box #bar #bar-positive {
+  background-color: #29e05a;
+}
+#content #left-column #sentiment-box #bar #cursor {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  left: 268px;
+  margin-top: -7px;
+}
+#content #left-column #sentiment-box #bar-percents {
+  float: left;
+  margin-top: 10px;
+  color: #79797a;
+  font-weight: 300;
+  font-size: 12px;
+  width: 400px;
+}
+#content #left-column #sentiment-box #bar-percents .first {
+  margin-left: 0px;
+}
+#content #left-column #sentiment-box #bar-percents .last {
+  margin-left: 50px;
+}
+#content #left-column #sentiment-box #bar-percents span {
+  margin-left: 73px;
+}
 #content #left-column #feed-box {
   height: 509px;
+}
+#content #left-column #feed-box #keywords {
+  float: left;
+  font-weight: 300;
+  font-size: 12px;
+  color: #79797a;
+  margin: 20px 20px 0px 3px;
+}
+#content #left-column #feed-box #keywords .keyword-box {
+  margin: 0px 5px 0px 5px;
+  background-color: #44444a;
+  padding: 5px 7px 5px 7px;
+  color: #98989a;
+  font-size: 12px;
+  font-weight: 300;
+}
+#content #left-column #feed-box .twitter-post {
+  float: left;
+  font-size: 13px;
+  padding: 20px 0px 20px 0px;
+  border-bottom: 1px solid #333;
+}
+#content #left-column #feed-box .twitter-post .twitter-name,
+#content #left-column #feed-box .twitter-post .twitter-user,
+#content #left-column #feed-box .twitter-post .twitter-time {
+  display: inline-block;
+  margin-top: 10px;
+  margin-right: 8px;
+}
+#content #left-column #feed-box .twitter-post .twitter-name {
+  font-weight: 700;
+  color: #fff;
+  margin-right: 20px;
+}
+#content #left-column #feed-box .twitter-post .twitter-user,
+#content #left-column #feed-box .twitter-post .twitter-time {
+  font-weight: 300;
+  color: #bcbcbc;
+}
+#content #left-column #feed-box .twitter-post .twitter-text {
+  margin-top: 10px;
+  font-weight: 400;
+  color: #fff;
 }
 #content #right-column {
   width: 926px;
