@@ -27,10 +27,10 @@ var topNews= {
 
 /* GET home page. */
 router.get('/', function(req, res) {
- res.render('index', { title: 'Express' });
+ res.render('index.ejs', { title: 'Express' });
 });
 
-router.get('/home', function(req, res) {
+router.get('/test', function(req, res) {
    msf.login(username, password, function(error) {
        if (!error) {
            msf.getData(topNews, function(error, response) {
@@ -52,13 +52,13 @@ router.get('/home', function(req, res) {
              
              console.log(response.TopNews[i].Headline +"\n"+ response.TopNews[i].Keywords);
            }
-             res.render('index.ejs', { news: JSON.stringify(response, false, 2)});
+             res.render('test.ejs', { news: JSON.stringify(response, false, 2)});
                  
                
            });
        } else {
            console.log("Error Login: "+error);
-           res.render('index.ejs', { news: "error"});
+           res.render('test.ejs', { news: "error"});
        }
    });
  
