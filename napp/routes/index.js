@@ -8,6 +8,37 @@ var username = "eikonstudent2@thomsonreuters.com";
 var password = "Secret123";
 var msf = new MSF(true);
 
+var marketFeed={
+   "Entity": {
+       "E": "TATimeSeries",
+       "W": {
+           "Tickers": [
+               "AAPL.O"
+           ],
+           "Currency": "USD",
+           "NoInfo": true,
+           "Interval": "Daily",
+           "IntervalMultiplier": 1,
+           "DateRange": "Month",
+           "DateRangeMultiplier": 1,
+           "StartDate": "2014-01-15T05:17:12",
+           "EndDate": "2014-05-01T00:00:00"
+           
+       }
+   }
+}
+
+function callback(newsfeed,res){
+    msf.getData(marketFeed, function(error, response) {
+     // for(var i = 0; i <response.R.length ; i++)
+     //  for(var j = 0; j <response.R[i].Data.length ; j++){
+     //  console.log(response.R[i].Data[j]);       
+     // }
+     console.log(newsfeed);
+        res.render('index.ejs', { news: JSON.stringify(newsfeed).toString(), marketdata: JSON.stringify(response, false, 2)});
+    });       
+}
+
 
 var liveNews={
    "Entity": {
@@ -53,8 +84,13 @@ router.get('/test', function(req, res) {
 
 router.get('/', function(req, res) {
    msf.login(username, password, function(error) {
+       
+
        if (!error) {
-           msf.getData(liveNews, function(error, response) {
+
+
+       
+            msf.getData(liveNews, function(error, response) {
 
            for(var i = 0; i <response.TopNews.length ; i++){
            var headline = response.TopNews[i].Headline;
@@ -80,12 +116,14 @@ router.get('/', function(req, res) {
                }
                    
              
-             console.log(response.TopNews[i].Headline +"\n"+ response.TopNews[i].Keywords);
+             //console.log(response.TopNews[i].Headline +"\n"+ response.TopNews[i].Keywords);
            }
-             res.render('index.ejs', { news: JSON.stringify(response, false, 2)});
+            
+            callback(response,res);
+                 //  res.render('index.ejs', { news: JSON.stringify(response, false, 2)});
                  
-               
-           });
+           });       
+
        } else {
            console.log("Error Login: "+error);
            res.render('index.ejs', { news: "error"});

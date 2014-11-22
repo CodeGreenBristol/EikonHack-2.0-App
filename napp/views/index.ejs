@@ -97,8 +97,11 @@
     <script src="javascripts/datamaps.world.min.js"></script>   
     <script>
         
-        var newsData = JSON.parse(<%-JSON.stringify(news)%>);
+        var newsData = <%-news%>;
+        var marketData = JSON.parse(<%-JSON.stringify(marketdata)%>);
         
+        console.log(newsData);
+        console.log(marketData);
         var currentNewsID = null;
         
         // POPULATE EXPANDED SELECTOR
