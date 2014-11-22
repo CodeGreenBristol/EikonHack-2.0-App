@@ -1,7 +1,7 @@
 var MSF = require("./MSF");
 
-var username = "XXX";
-var password = "YYY";
+var username = "eikonstudent1@thomsonreuters.com";
+var password = "Secret123";
 var msf = new MSF(true);
 
 msf.login(username, password, function(error) {

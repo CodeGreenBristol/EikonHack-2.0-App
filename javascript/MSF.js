@@ -19,9 +19,9 @@ MSF.prototype.login = function(username, password, callback) {
 		}
 	});
 	deferred.done(function(data, status, xhr) {
-		var cookie = xhr.getResponseHeader("set-cookie");
-		this._cookie = cookie;
-		callback(true);
+		if (status == "success") {
+			callback(true);
+		}
 	}.bind(this))
 	deferred.fail(function(xhr, textStatus, errorThrown) {
 		callback(false, errorThrown);
@@ -30,16 +30,15 @@ MSF.prototype.login = function(username, password, callback) {
 
 MSF.prototype.getData = function(param, callback) {
 	
-	if (this._cookie == null) {
-		callback(false, "Error: Not login yet");
-		return;
-	}
+	// if (this._cookie == null) {
+	// 	callback(false, "Error: Not login yet");
+	// 	return;
+	// }
 
 	var deferred = $.ajax({
 		type: "POST",
 		url: this.SERVICE_URL,
 		headers: {
-			"Cookie": this._cookie,
 			"Content-Type": "application/json"
 		},
 		data: JSON.stringify(param)
