@@ -1,1 +1,115 @@
 /* COPYRIGHT INFO HERE */
+
+/* GENERAL STYLES */
+
+body {
+	width: 100%;
+	background-color: #1e1e21;
+	margin: 0;
+	padding: 0;
+    font-family:"Open Sans", sans-serif;
+}
+
+.clearfix {
+	clear:both;
+}
+
+.orange {
+    color:#ff843c;
+}
+
+/* HEADER STYLES */
+
+#header {
+	margin:0;
+	padding:0;
+	width: 100%;
+    #logo, #news-bar {
+        float:left;
+    }
+    #logo {
+        padding:12px 20px 8px;
+        width:150px;
+        #main-text {
+            color:#fff;
+            font-size:20px;
+        }
+        #sub-text {
+            color:#808080;
+            font-weight:300;
+            font-size:13px;
+        }
+    }
+    #news-bar {
+        width:~"calc(100% - 230px)";
+        padding:20px;
+        background:#252529;
+        color:#fff;
+        #news-bar-left {
+            float:left;
+            #news-icon, #news-header {
+                display:inline-block;
+            }
+            #news-icon {
+                vertical-align:top;
+                margin-top:3px;
+            }
+            #news-header {
+                margin-left:20px;
+                .news-title {
+                    font-weight:700;
+                    font-size:20px;
+                }
+            }  
+        }
+        #news-bar-right {
+            float:right;
+            vertical-align:top;
+            margin-top:5px;
+            cursor:pointer;
+        }
+    }
+}
+
+/* CONTENT STYLES */
+
+#content {
+    height:691px;
+    width:1356px;
+    padding:5px;
+    .widget-box {
+        background:#252529;
+        width:~"calc(100% - 10px)";
+        margin:5px;
+        float:left;
+        box-sizing:border-box;
+        padding:10px;
+        .box-header {
+            font-weight:300;
+            color:#808080;
+            font-size:14px;
+        }
+    }
+    #left-column, #right-column {
+        float:left;
+        height:100%;
+    }
+    #left-column {
+        width:430px;
+        #sentiment-box {
+            height:138px;
+        }
+        #feed-box {
+            height:533px;
+        }
+    }
+    #right-column {
+        width:926px;
+        #map-box {
+            height:440px;
+        }
+        #market-box {
+            height:231px;
+        }
+    }
+}
