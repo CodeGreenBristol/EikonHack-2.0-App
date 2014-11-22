@@ -64,13 +64,13 @@ router.get('/', function(req, res) {
               var startDate = moment( new Date().toISOString(), 'YYYY-MM-DDTHH:mm:ss');
               var endDate = moment(response.TopNews[i].StoryDateTime, 'YYYY-MM-DDTHH:mm:ss');
               var secondsDiff = endDate.diff(startDate, 'seconds');
-              var dateQuery = (-1)*parseInt(secondsDiff/86400)+'d '+(new Date(secondsDiff%86400*1000)).toUTCString().replace(/.*(\d{2}):(\d{2}):(\d{2}).*/, "$1h $2m");
+              var dateQuery = (new Date(secondsDiff%86400*1000)).toUTCString().replace(/.*(\d{2}):(\d{2}):(\d{2}).*/, "$1h") + " ago";
         
               console.log(dateQuery)  
               response.TopNews[i].date  =  dateQuery; 
 
              response.TopNews[i].Keywords =[];
-             var words = headline.split(" ");
+             var words = headline.replace(/[\.,-\/#!$%\^&\*;:{}=\-_`~()]/g,"").split(" ");
              
                for(var j = 0; j < words.length; j++)
                {
