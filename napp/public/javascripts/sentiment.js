@@ -7,7 +7,7 @@ var twitter = require('ntwitter');
 // make Stream globally visible so we can clean up better
 var stream;
 
-var DEFAULT_TOPIC = "Justin Bieber";
+var DEFAULT_TOPIC = "Thomson Reuters";
 
 // defensiveness against errors parsing request bodies...
 process.on('uncaughtException', function (err) {
@@ -29,10 +29,10 @@ app.configure(function() {
 // See instructions HERE:  https://hub.jazz.net/project/srich/Sentiment%20Analysis%20App/overview
 // Look for "To get your own Twitter Application Keys" in the readme.md document
 var tweeter = new twitter({
-    consumer_key: 'your',
-    consumer_secret: 'keys',
-    access_token_key: 'go',
-    access_token_secret: 'here'
+    consumer_key: 'GjvVxkQOT79Yr11Cap0CEEpf3',
+    consumer_secret: 'i1jgy2fLnFwnNh6GCqMCFENzGbcxwtGAm7WIGlCu2ddc2prBqL',
+    access_token_key: '21316890-Eyir8KfU2wdmra4csf6zGAYQiSfEmaxrUORvrPwMo',
+    access_token_secret: 'Wgqjaac6jTnbLXBu7XJlA9NA7Eud1DSY5mqQMVifOFxmB'
 });
 
 app.get('/twitterCheck', function (req, res) {
