@@ -53,10 +53,10 @@
                 	<div id = "cursor"><img src = "images/positive-bar-icon.png" alt = "cursor" /></div>
                 </div>
 				<div id = "bar-percents">
-					<span class = "first">0%</span>
-					<span>25%</span>
+					<span class = "first">100%</span>
 					<span>50%</span>
-					<span>75%</span>
+					<span>0%</span>
+					<span>50%</span>
 					<span class = "last">100%</span>
 				</div>
             </div>
@@ -189,6 +189,31 @@
                 $('#news-expanded').fadeOut();
             }
         });
+		
+		// TWITTER SENTIMENT
+		var sentimentValue = 0;
+		function refreshSentimentBar (sentimentValue) {
+			if (sentimentValue >= 0 ) {
+				$('#result-indicator').children("img").attr("src", "images/positive-indicator.png");
+				$('#cursor').children("img").attr("src", "images/positive-bar-icon.png");
+			}
+			else {
+				$('#result-indicator').children("img").attr("src", "images/negative-indicator.png");
+				$('#cursor').children("img").attr("src", "images/negative-bar-icon.png");
+			}
+			var cursorPosition;
+			var procent;
+			percent = sentimentValue*100;
+			cursorPosition = (sentimentValue + 1)*200;
+			$('#cursor').css({left: cursorPosition + 'px'});
+			if(percent >= 0) {
+				$('#result-percent').html(percent + '% positive');
+			}
+			else {
+				$('#result-percent').html(-percent + '% negative');
+			}
+		}
+		refreshSentimentBar(0);
         
         // DATAMAPS
         $("#map-container").datamaps({

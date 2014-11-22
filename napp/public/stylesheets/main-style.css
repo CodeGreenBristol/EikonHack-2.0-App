@@ -213,11 +213,14 @@ body {
 #content #left-column #sentiment-box #bar-percents .first {
   margin-left: 0px;
 }
-#content #left-column #sentiment-box #bar-percents .last {
+#content #left-column #sentiment-box #bar-percents .second {
   margin-left: 50px;
 }
+#content #left-column #sentiment-box #bar-percents .last {
+  margin-left: 64px;
+}
 #content #left-column #sentiment-box #bar-percents span {
-  margin-left: 73px;
+  margin-left: 66px;
 }
 #content #left-column #feed-box {
   height: 509px;
