@@ -98,6 +98,68 @@ body {
         width:430px;
         #sentiment-box {
             height:138px;
+            #result {
+            	float: left;
+            	margin-top: 5px;
+            	#result-indicator, #result-percent {
+            		display: inline-block;
+            	}
+            	#result-indicator {
+            		width: 8px;
+            		height: 8px;
+            		margin: 5px;
+					margin-top: 3px;
+					vertical-align: top;
+            	}
+            	#result-percent {
+            		color: #fff;
+            		font-weight: 700;
+            		font-size: 20px;	
+            	}
+            }
+            #bar {
+            	float: left;
+				height: 10px;
+				margin-top: 20px;
+				padding: 0;
+				width: 400px;
+            	#bar-negative, #bar-positive {
+					float: left;
+            		width: 50%;
+					height: 10px;
+					padding: 0;
+            	}
+            	#bar-negative {
+            		background-color: #ee4739;
+            	}
+            	#bar-positive {
+            		background-color: #29e05a;
+            	}
+				#cursor {
+					position: absolute;
+					width: 16px;
+					height: 16px;
+					left: 268px;
+					margin-top: -7px;
+				}
+            }
+			#bar-percents {
+				float: left;
+				margin-top: 10px;
+				color: #79797a;
+				font-weight: 300;
+				font-size: 12px;
+				width: 400px;
+				.first {
+					margin-left: 0px;
+				}
+				.last {
+					margin-left: 50px;
+				}
+				span {
+					margin-left: 73px;
+				}
+			}
         }
         #feed-box {
             height:533px;
