@@ -20,8 +20,7 @@
 <div id = "header">
 		<div id = "logo">
 			<div id = "main-text">
-				<span class = "orange" title="News Analysis Platform">NAP</span>
-				<span>TIME</span>
+				<span class = "orange" title="News Analysis Platform">NAP</span><span>TIME</span>				
 			</div>
 			<div id = "sub-text">EikonHack 2.0</div>
 		</div>
@@ -64,15 +63,26 @@
 			<div id = "feed-box" class = "widget-box">
                 <div class="box-header">Real-time Twitter feed</div>
 				<div id = "keywords">
-					KEYWORDS
+					KEYWORDS&nbsp;&nbsp;&nbsp;
 					<span class = "keyword-box">Microsoft</span>
 					<span class = "keyword-box">Apple</span>
 					<span class = "keyword-box">Smartwatch</span>
 				</div>
 				<div class = "twitter-post">
-					<div class = "twitter-name">Tim Warren</div>
-					<div class = "twitter-user">@timwarren</div>
-					<div class = "twitter-time">1h</div>
+					<span class = "twitter-name">Tim Warren</span>
+					<span class = "twitter-meta"><span class = "twitter-user">@timwarren</span><span class = "twitter-time">1h</span></span>					
+					<div class = "twitter-text">The more I use the Microsoft band, the more I want to interact with 
+					notifications and have a smartwatch. Apple will be interesting</div>
+				</div>
+                <div class = "twitter-post">
+					<span class = "twitter-name">Tim Warren</span>
+					<span class = "twitter-meta"><span class = "twitter-user">@timwarren</span><span class = "twitter-time">1h</span></span>					
+					<div class = "twitter-text">The more I use the Microsoft band, the more I want to interact with 
+					notifications and have a smartwatch. Apple will be interesting</div>
+				</div>
+                <div class = "twitter-post">
+					<span class = "twitter-name">Tim Warren</span>
+					<span class = "twitter-meta"><span class = "twitter-user">@timwarren</span><span class = "twitter-time">1h</span></span>					
 					<div class = "twitter-text">The more I use the Microsoft band, the more I want to interact with 
 					notifications and have a smartwatch. Apple will be interesting</div>
 				</div>
@@ -168,9 +178,16 @@
             
             // UPDATE GLOBAL SELECTED VALUE
             currentNewsID = $(this).attr("data-item-id");
-            $('#news-expanded').hide();
-            $('#news-bar-right').attr("src", "images/expand-down-icon.png");
-            refreshNews();           
+            $('#news-expanded').fadeOut(400, refreshNews());
+            $('#news-bar-right').attr("src", "images/expand-down-icon.png");      
+        });
+        
+        // CLOSE EXPANDED IF CLICKED OUTSIDE
+        $(document).mouseup(function (e)
+        {
+            if (!$('#news-expanded').is(e.target) && $('#news-expanded').has(e.target).length === 0 && !$('#news-bar').hasClass('news-empty')) {
+                $('#news-expanded').fadeOut();
+            }
         });
         
         // DATAMAPS
