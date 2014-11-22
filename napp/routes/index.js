@@ -1,6 +1,7 @@
 var express = require('express');
 var MSF = require('../MSF');
 var router = express.Router();
+var unirest = require('unirest');
 
 
 var username = "eikonstudent2@thomsonreuters.com";
@@ -30,6 +31,7 @@ var topNews= {
    }
 }
 
+
 /* GET home page. */
 router.get('/', function(req, res) {
   res.render('index', { title: 'Express' });
@@ -40,6 +42,7 @@ router.get('/home', function(req, res) {
         if (!error) {
             msf.getData(topNews, function(error, response) {
                 if (!error) {
+
                     res.render('index.ejs', { news: JSON.stringify(response,false,2)});
                 } else {
                     console.log("Error Getting Data: "+error);
