@@ -16,17 +16,10 @@ var topNews= {
            "Codes": [
                "urn:newsml:reuters.com:20020923:SPDOC_119827232002"
            ],
-           "LoadImages": true
+           "LoadImages": false
        },
        "S": [
-           "TopNews",
-           "TopNews.Headline",
-           "TopNews.StoryDateTime",
-           "TopNews.RelatedStories.CreationDateAndTime",
-           "TopNews.RelatedStories.HeadLine",
-           "TopNews.RelatedStories.TopicSet",
-           "TopNews.Brief",
-           "TopNews.StoryId"
+           "TopNews.Headline"
        ]
    }
 }
@@ -34,29 +27,43 @@ var topNews= {
 
 /* GET home page. */
 router.get('/', function(req, res) {
-  res.render('index', { title: 'Express' });
+ res.render('index', { title: 'Express' });
 });
 
 router.get('/home', function(req, res) {
-    msf.login(username, password, function(error) {
-        if (!error) {
-            msf.getData(topNews, function(error, response) {
-                if (!error) {
+   msf.login(username, password, function(error) {
+       if (!error) {
+           msf.getData(topNews, function(error, response) {
 
-                    res.render('index.ejs', { news: JSON.stringify(response,false,2)});
-                } else {
-                    console.log("Error Getting Data: "+error);
-                     res.render('index.ejs', { news: "error"});
-                }
-            });
-        } else {
-            console.log("Error Login: "+error);
-            res.render('index.ejs', { news: "error"});
-        }
-    });
-   
+           for(var i = 0; i <response.TopNews.length ; i++){
+           var headline = response.TopNews[i].Headline;
+                            
+            
+             response.TopNews[i].Keywords =[];
+             var words = headline.split(" ");
+             
+               for(var j = 0; j < words.length; j++)
+               {
+                 if(words[j][0] <="Z" && words[j][0]>="A" ){
+                   response.TopNews[i].Keywords.push(words[j]);
+                             }
+               }
+                   
+             
+             console.log(response.TopNews[i].Headline +"\n"+ response.TopNews[i].Keywords);
+           }
+             res.render('index.ejs', { news: JSON.stringify(response, false, 2)});
+                 
+               
+           });
+       } else {
+           console.log("Error Login: "+error);
+           res.render('index.ejs', { news: "error"});
+       }
+   });
+ 
 
-  
+ 
 });
 
 module.exports = router;
