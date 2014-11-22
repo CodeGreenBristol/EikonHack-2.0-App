@@ -61,9 +61,8 @@ body {
                 margin-top:12px;
             }
             #news-header {
-                margin-left:20px;
-               
-            }             
+                margin-left:20px;              
+            }    
         }
         #news-bar-right {
             float:right;
@@ -75,6 +74,17 @@ body {
             &:hover {
                 opacity:.8;
             }
+        }
+    }
+    .news-empty {
+        #news-bar-left {
+            #news-header {
+                color:#888;
+                margin:12px 0px;
+            }
+        }
+        #news-bar-right {
+            display:none;
         }
     }
     #news-expanded {
@@ -107,7 +117,7 @@ body {
             font-size:20px;
         }
         .news-meta {
-            max-width:900px;
+            max-width:1000px;
             white-space: nowrap;
             overflow: hidden;
             text-overflow:ellipsis;

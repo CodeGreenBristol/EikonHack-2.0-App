@@ -25,18 +25,10 @@
 			</div>
 			<div id = "sub-text">EikonHack 2.0</div>
 		</div>
-		<div id = "news-bar">
-			<div id = "news-bar-left">
-            
+		<div id = "news-bar" class="news-empty">
+			<div id = "news-bar-left">          
 				<img id="news-icon" src = "images/news-icon.png" alt = "News icon" />
-				<div id = "news-header" class = "news-item empty-news">
-                    <!--
-					<div class = "news-title">Microsoft and Apple go head to head in smartwatch war</div>
-                    <div class = "news-meta">
-                        <span class = "news-date">3h ago</span>|
-                        <span class = "news-excerpt">Following an announcement by Microsoft that they'd match whatever sum Apple pour into their iWatch, the latter effectively declared war. This isn't the first ti...</span>							
-                    </div>
-                    -->
+				<div id = "news-header" class = "news-item">
                     <div class = "news-title">Pick a news item</div>
 				</div>              
 			</div>
@@ -45,20 +37,6 @@
         </div>
 		<div class = "clearfix"></div>
         <ul id="news-expanded">
-            <li class="news-item">
-                <div class = "news-title">Microsoft and Apple go head to head in smartwatch war</div>
-                <div class = "news-meta">
-                    <span class = "news-date">3h ago</span>|
-                    <span class = "news-excerpt">Following an announcement by Microsoft that they'd match whatever sum Apple pour into their iWatch, the latter effectively declared war. This isn't the first ti...</span>							
-                </div>
-            </li>
-            <li class="news-item">
-                <div class = "news-title">Microsoft and Apple go head to head in smartwatch war</div>
-                <div class = "news-meta">
-                    <span class = "news-date">3h ago</span>|
-                    <span class = "news-excerpt">Following an announcement by Microsoft that they'd match whatever sum Apple pour into their iWatch, the latter effectively declared war. This isn't the first ti...</span>							
-                </div>
-            </li>
         </ul>
 	</div>
 
@@ -107,7 +85,35 @@
     <script>
         
         var newsData = JSON.parse(<%-JSON.stringify(news)%>);
-        console.log(newsData);
+        
+        var currentNewsID = null;
+        
+        // POPULATE EXPANDED SELECTOR
+        function refreshNews(){
+        
+            $('#news-expanded').empty();
+            $.each(newsData.TopNews.slice(0, 6), function(index, elem){
+                
+                // SKIP IF ALREADY SHOWN
+                if(index == currentNewsID) { return true; }
+                
+                var listText = '<li class="news-item" data-item-id="' + index + '">' +
+                    '<div class = "news-title">' + elem.Headline + '</div>' +
+                    '<div class = "news-meta">' +
+                        '<span class = "news-date">3h ago</span>|' +
+                        '<span class = "news-excerpt">Following an announcement by Microsoft that they\'d match whatever sum Apple pour into their iWatch, the latter effectively declared war. This isn\'t the first ti...</span>' +							
+                    '</div>' +
+                '</li>';
+                
+                $('#news-expanded').append(listText);
+            });
+        }
+        refreshNews();
+        
+        // CHECK IF EMPTY NEWS
+        if($('#news-bar').hasClass('news-empty')){
+            $('#news-expanded').show();
+        }
         
         // EXPAND NEWS SELECTOR
         $('#news-bar-right').click(function(){
@@ -122,6 +128,33 @@
                 $('#news-expanded').fadeIn();
                 $('#news-bar-right').attr("src", "images/expand-up-icon.png");
             }
+        });
+        
+        // IF NEWS ITEM CLICK
+        $('#news-expanded').on("click", ".news-item", function(){
+        
+            // IF NEWS WAS EMPTY, NO LONGER EMPTY
+            if($('#news-bar').hasClass('news-empty')){
+                $('#news-bar').removeClass('news-empty');
+            }
+            
+            // UPDATE SELECTED NEWS
+            $('#news-header').empty();
+            
+            var elem = newsData.TopNews[$(this).attr("data-item-id")];
+            var newsText = '<div class = "news-title">' + elem.Headline + '</div>' +
+                    '<div class = "news-meta">' +
+                        '<span class = "news-date">3h ago</span>|' +
+                        '<span class = "news-excerpt">Following an announcement by Microsoft that they\'d match whatever sum Apple pour into their iWatch, the latter effectively declared war. This isn\'t the first ti...</span>' +							
+                    '</div>';
+                
+            $('#news-header').append(newsText);
+            
+            // UPDATE GLOBAL SELECTED VALUE
+            currentNewsID = $(this).attr("data-item-id");
+            $('#news-expanded').hide();
+            $('#news-bar-right').attr("src", "images/expand-down-icon.png");
+            refreshNews();           
         });
         
         // DATAMAPS

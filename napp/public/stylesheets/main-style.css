@@ -74,6 +74,13 @@ body {
 #header #news-bar #news-bar-right:hover {
   opacity: .8;
 }
+#header .news-empty #news-bar-left #news-header {
+  color: #888;
+  margin: 12px 0px;
+}
+#header .news-empty #news-bar-right {
+  display: none;
+}
 #header #news-expanded {
   display: none;
   color: #fff;
@@ -103,7 +110,7 @@ body {
   font-size: 20px;
 }
 #header .news-item .news-meta {
-  max-width: 900px;
+  max-width: 1000px;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
