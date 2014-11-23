@@ -68,6 +68,8 @@
                         
                     </span>
 				</div>
+                <div id="twitter-feed">
+               <!--
 				<div class = "twitter-post">
 					<span class = "twitter-name">Tim Warren</span>
 					<span class = "twitter-meta"><span class = "twitter-user">@timwarren</span><span class = "twitter-time">1h</span></span>					
@@ -86,6 +88,8 @@
 					<div class = "twitter-text">The more I use the Microsoft band, the more I want to interact with 
 					notifications and have a smartwatch. Apple will be interesting</div>
 				</div>
+                 -->
+                </div>
             </div>
             <div class = "clearfix"></div>
 		</div>
@@ -155,6 +159,8 @@
             }
         });
         
+        var twitterFeedStream = null;
+        
         // IF NEWS ITEM CLICK
         $('#news-expanded').on("click", ".news-item", function(){
         
@@ -181,6 +187,28 @@
                 $('#outer-keyword-box').append('<span class = "keyword-box">' + elem + '</span>');
             });
             
+            // RESET SENTIMENT VALUE
+             if (typeof sentimentValue !== 'undefined') {
+                sentimentValue = 0;
+                refreshSentimentBar(sentimentValue);
+            }
+            
+            
+            // START TWITTER STREAM
+            $('#twitter-feed').empty();
+            if (typeof twitterFeedStream !== 'undefined') {
+                clearInterval(twitterFeedStream);
+            }
+            
+            // IF LOCKHEED
+            if($(this).attr("data-item-id") == 0){
+                twitterFeedStream = setInterval(renderTweet, 2000);
+            }
+            else if ($(this).attr("data-item-id") == 1){
+                twitterFeedStream = setInterval(renderTweet, 2000);
+            }
+            
+            //
             // UPDATE GLOBAL SELECTED VALUE
             currentNewsID = $(this).attr("data-item-id");
             $('#news-expanded').fadeOut(400, refreshNews());
@@ -208,7 +236,7 @@
 			}
 			var cursorPosition;
 			var procent;
-			percent = sentimentValue*100;
+			percent = (sentimentValue*100).toFixed(2);
 			cursorPosition = (sentimentValue + 1)*200;
 			$('#cursor').css({left: (cursorPosition+8) + 'px'});
 			if(percent >= 0) {
@@ -232,19 +260,74 @@
             }
         });
 
-        $.getJSON( "javascripts/lockheed.json", function( data ) {
+        var lockheedJSON = [];
+        var visaJSON = [];
+        
+        // GET LOCKHEED TWEETS
+        $.getJSON( "javascripts/lockheed.json", function( data ) { 
             $.each(data.statuses, function(item, elem){
-               //console.log(elem);
-                console.log(elem.text, elem.user.name, elem.user.screen_name, elem.coordinates);
+                lockheedJSON.push([elem.text, elem.user.name, elem.user.screen_name, elem.coordinates, elem.sentiment]);
             });
         });
         
-        $.getJSON( "javascripts/visa.json", function( data ) {
+        $.getJSON( "javascripts/visa.json", function( data ) { 
             $.each(data.statuses, function(item, elem){
-               //console.log(elem);
-                console.log(elem.text, elem.user.name, elem.user.screen_name, elem.coordinates);
+                visaJSON.push([elem.text, elem.user.name, elem.user.screen_name, elem.coordinates, elem.sentiment]);
             });
         });
+
+           
+        var lockheedQueue = lockheedJSON.map(function(arr) {
+            return arr.slice();
+        });
+        var visaQueue = visaJSON.map(function(arr) {
+            return arr.slice();
+        });
+        
+        // ADD TWEET FUNCTION
+        function renderTweet(){
+            if(currentNewsID != 0 && currentNewsID != 1) return false;
+            
+            if(currentNewsID == 0){
+                if(lockheedQueue.length == 0){
+                    lockheedQueue = lockheedJSON.map(function(arr) {
+                        return arr.slice();
+                    });
+                }
+                var elem = lockheedQueue[0];
+            }
+            else {
+                if(visaQueue.length == 0){
+                    visaQueue = visaJSON.map(function(arr) {
+                        return arr.slice();
+                    });
+                }
+                var elem = visaQueue[0];
+            }
+            
+            var tweetText = '<div class = "twitter-post">' + 
+					'<span class = "twitter-name">' + elem[1] + '</span>' + 
+					'<span class = "twitter-meta"><span class = "twitter-user">@' + elem[2] + '</span><span class = "twitter-time">just now</span></span>' +					
+					'<div class = "twitter-text">' + elem[0] + '</div>' +
+				'</div>';
+            
+            // CHECK IF LENGTH IS EQUAL TO 4, DELETE LAST ELEMENT
+            if($('.twitter-post').length == 4){
+                $('.twitter-post').last().remove();
+            }
+            $('#twitter-feed').prepend(tweetText);
+            
+            if(currentNewsID == 0){
+                lockheedQueue.shift();
+            }
+            else {
+                visaQueue.shift();
+            }    
+            
+            // ADD SENTIMENT
+            sentimentValue = (sentimentValue + elem[4]) / 2;
+            refreshSentimentBar(sentimentValue);
+        }
         </script>
 	</body>
 </html>

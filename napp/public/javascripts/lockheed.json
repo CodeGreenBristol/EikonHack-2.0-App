@@ -16,6 +16,7 @@
       "in_reply_to_user_id": null,
       "in_reply_to_user_id_str": null,
       "in_reply_to_screen_name": null,
+      "sentiment": 0.2,
       "user": {
         "id": 1464779923,
         "id_str": "1464779923",
@@ -64,7 +65,9 @@
         "notifications": false
       },
       "geo": null,
-      "coordinates": null,
+      "coordinates": [
+        35.689506, 139.6917
+      ],
       "place": null,
       "contributors": null,
       "retweet_count": 0,
@@ -195,6 +198,7 @@
       "in_reply_to_user_id": null,
       "in_reply_to_user_id_str": null,
       "in_reply_to_screen_name": null,
+      "sentiment": 0.25,
       "user": {
         "id": 194427133,
         "id_str": "194427133",
@@ -256,7 +260,9 @@
         "notifications": false
       },
       "geo": null,
-      "coordinates": null,
+      "coordinates": [
+        51.507222, -0.1275
+      ],
       "place": null,
       "contributors": null,
       "retweet_count": 0,
@@ -298,6 +304,7 @@
       "in_reply_to_user_id": null,
       "in_reply_to_user_id_str": null,
       "in_reply_to_screen_name": null,
+      "sentiment": 0.33,
       "user": {
         "id": 2322392245,
         "id_str": "2322392245",
@@ -346,7 +353,9 @@
         "notifications": false
       },
       "geo": null,
-      "coordinates": null,
+      "coordinates": [
+        33.193701, -111.967850
+      ],
       "place": null,
       "contributors": null,
       "retweet_count": 0,
@@ -396,6 +405,7 @@
       "in_reply_to_user_id": null,
       "in_reply_to_user_id_str": null,
       "in_reply_to_screen_name": null,
+      "sentiment": 0.1,
       "user": {
         "id": 2512882298,
         "id_str": "2512882298",
@@ -444,7 +454,9 @@
         "notifications": false
       },
       "geo": null,
-      "coordinates": null,
+      "coordinates": [
+        48.856667, 2.350833
+      ],
       "place": null,
       "contributors": null,
       "retweet_count": 0,
@@ -494,6 +506,7 @@
       "in_reply_to_user_id": null,
       "in_reply_to_user_id_str": null,
       "in_reply_to_screen_name": null,
+      "sentiment": 0.2,
       "user": {
         "id": 2280338311,
         "id_str": "2280338311",
@@ -554,7 +567,9 @@
         "notifications": false
       },
       "geo": null,
-      "coordinates": null,
+      "coordinates": [
+        47.773161, 3.007813
+      ],
       "place": null,
       "contributors": null,
       "retweet_count": 0,
@@ -596,6 +611,7 @@
       "in_reply_to_user_id": null,
       "in_reply_to_user_id_str": null,
       "in_reply_to_screen_name": null,
+      "sentiment": 0.23,
       "user": {
         "id": 2658957878,
         "id_str": "2658957878",
@@ -644,7 +660,9 @@
         "notifications": false
       },
       "geo": null,
-      "coordinates": null,
+      "coordinates": [
+        44.334654, 24.455566
+      ],
       "place": null,
       "contributors": null,
       "retweeted_status": {
@@ -663,6 +681,7 @@
         "in_reply_to_user_id": null,
         "in_reply_to_user_id_str": null,
         "in_reply_to_screen_name": null,
+        "sentiment": 0.4,
         "user": {
           "id": 292615553,
           "id_str": "292615553",
@@ -724,7 +743,9 @@
           "notifications": false
         },
         "geo": null,
-        "coordinates": null,
+        "coordinates": [
+            51.389481, -2.485352
+        ],
         "place": null,
         "contributors": null,
         "retweet_count": 45,
@@ -955,6 +976,7 @@
       "in_reply_to_user_id": null,
       "in_reply_to_user_id_str": null,
       "in_reply_to_screen_name": null,
+      "sentiment": 0.3,
       "user": {
         "id": 165335229,
         "id_str": "165335229",
@@ -1003,7 +1025,9 @@
         "notifications": false
       },
       "geo": null,
-      "coordinates": null,
+      "coordinates": [
+        51.559144, -0.241699
+      ],
       "place": null,
       "contributors": null,
       "retweeted_status": {
@@ -1022,6 +1046,7 @@
         "in_reply_to_user_id": null,
         "in_reply_to_user_id_str": null,
         "in_reply_to_screen_name": null,
+        "sentiment": 0.25,
         "user": {
           "id": 260706920,
           "id_str": "260706920",
@@ -1070,7 +1095,9 @@
           "notifications": false
         },
         "geo": null,
-        "coordinates": null,
+        "coordinates": [
+            56.797118, 13.996582
+        ],
         "place": null,
         "contributors": null,
         "retweet_count": 5,
@@ -1204,6 +1231,7 @@
       "in_reply_to_user_id": null,
       "in_reply_to_user_id_str": null,
       "in_reply_to_screen_name": null,
+      "sentiment": 0.5,
       "user": {
         "id": 1710120552,
         "id_str": "1710120552",
@@ -1252,7 +1280,9 @@
         "notifications": false
       },
       "geo": null,
-      "coordinates": null,
+      "coordinates": [
+        51.505880, -0.112305
+      ],
       "place": null,
       "contributors": null,
       "retweeted_status": {
@@ -1271,6 +1301,7 @@
         "in_reply_to_user_id": null,
         "in_reply_to_user_id_str": null,
         "in_reply_to_screen_name": null,
+        "sentiment": 0.4,
         "user": {
           "id": 292615553,
           "id_str": "292615553",
@@ -1332,7 +1363,9 @@
           "notifications": false
         },
         "geo": null,
-        "coordinates": null,
+        "coordinates": [
+            -37.718590, 144.975586
+        ],
         "place": null,
         "contributors": null,
         "retweet_count": 45,
@@ -1563,6 +1596,7 @@
       "in_reply_to_user_id": null,
       "in_reply_to_user_id_str": null,
       "in_reply_to_screen_name": null,
+      "sentiment": 0.3,
       "user": {
         "id": 2755587187,
         "id_str": "2755587187",
@@ -1611,7 +1645,9 @@
         "notifications": false
       },
       "geo": null,
-      "coordinates": null,
+      "coordinates": [
+      52.733506, -1.013184
+      ],
       "place": null,
       "contributors": null,
       "retweeted_status": {
@@ -1630,6 +1666,7 @@
         "in_reply_to_user_id": null,
         "in_reply_to_user_id_str": null,
         "in_reply_to_screen_name": null,
+        "sentiment": 0.2,
         "user": {
           "id": 260706920,
           "id_str": "260706920",
@@ -1678,7 +1715,9 @@
           "notifications": false
         },
         "geo": null,
-        "coordinates": null,
+        "coordinates": [
+            53.328126, -6.220703
+        ],
         "place": null,
         "contributors": null,
         "retweet_count": 5,
@@ -1812,6 +1851,7 @@
       "in_reply_to_user_id": null,
       "in_reply_to_user_id_str": null,
       "in_reply_to_screen_name": null,
+      "sentiment": 0.28,
       "user": {
         "id": 2755455294,
         "id_str": "2755455294",
@@ -1860,7 +1900,9 @@
         "notifications": false
       },
       "geo": null,
-      "coordinates": null,
+      "coordinates": [
+        -22.896616, -43.237381
+      ],
       "place": null,
       "contributors": null,
       "retweeted_status": {
@@ -1879,6 +1921,7 @@
         "in_reply_to_user_id": null,
         "in_reply_to_user_id_str": null,
         "in_reply_to_screen_name": null,
+        "sentiment": 0.23,
         "user": {
           "id": 260706920,
           "id_str": "260706920",
@@ -1927,7 +1970,9 @@
           "notifications": false
         },
         "geo": null,
-        "coordinates": null,
+        "coordinates": [
+            39.364723, -75.830078
+        ],
         "place": null,
         "contributors": null,
         "retweet_count": 5,
@@ -2061,6 +2106,7 @@
       "in_reply_to_user_id": null,
       "in_reply_to_user_id_str": null,
       "in_reply_to_screen_name": null,
+      "sentiment": 0.45,
       "user": {
         "id": 2817536035,
         "id_str": "2817536035",
@@ -2109,7 +2155,9 @@
         "notifications": false
       },
       "geo": null,
-      "coordinates": null,
+      "coordinates": [
+        33.998988, -118.208084
+      ],
       "place": null,
       "contributors": null,
       "retweeted_status": {
@@ -2128,6 +2176,7 @@
         "in_reply_to_user_id": null,
         "in_reply_to_user_id_str": null,
         "in_reply_to_screen_name": null,
+        "sentiment": 0.44,
         "user": {
           "id": 260706920,
           "id_str": "260706920",
@@ -2176,7 +2225,9 @@
           "notifications": false
         },
         "geo": null,
-        "coordinates": null,
+        "coordinates": [
+            39.296740, -76.604614
+        ],
         "place": null,
         "contributors": null,
         "retweet_count": 5,
@@ -2310,6 +2361,7 @@
       "in_reply_to_user_id": null,
       "in_reply_to_user_id_str": null,
       "in_reply_to_screen_name": null,
+      "sentiment": 0.33,
       "user": {
         "id": 84417802,
         "id_str": "84417802",
@@ -2371,7 +2423,9 @@
         "notifications": false
       },
       "geo": null,
-      "coordinates": null,
+      "coordinates": [
+        39.923061, -75.132446
+      ],
       "place": null,
       "contributors": null,
       "retweeted_status": {
@@ -2390,6 +2444,7 @@
         "in_reply_to_user_id": null,
         "in_reply_to_user_id_str": null,
         "in_reply_to_screen_name": null,
+        "sentiment": 0.1,
         "user": {
           "id": 260706920,
           "id_str": "260706920",
@@ -2438,7 +2493,9 @@
           "notifications": false
         },
         "geo": null,
-        "coordinates": null,
+        "coordinates": [
+            29.822588, -95.268631
+        ],
         "place": null,
         "contributors": null,
         "retweet_count": 5,
@@ -2572,6 +2629,7 @@
       "in_reply_to_user_id": null,
       "in_reply_to_user_id_str": null,
       "in_reply_to_screen_name": null,
+      "sentiment": 0.2,
       "user": {
         "id": 260706920,
         "id_str": "260706920",
@@ -2620,7 +2678,9 @@
         "notifications": false
       },
       "geo": null,
-      "coordinates": null,
+      "coordinates": [
+        40.698177, -73.999100
+      ],
       "place": null,
       "contributors": null,
       "retweet_count": 5,
@@ -2691,6 +2751,7 @@
       "in_reply_to_user_id": null,
       "in_reply_to_user_id_str": null,
       "in_reply_to_screen_name": null,
+      "sentiment": 0.2,
       "user": {
         "id": 30500021,
         "id_str": "30500021",
@@ -2752,7 +2813,9 @@
         "notifications": false
       },
       "geo": null,
-      "coordinates": null,
+      "coordinates": [
+        40.964183, -73.691483
+      ],
       "place": null,
       "contributors": null,
       "retweeted_status": {
@@ -2771,6 +2834,7 @@
         "in_reply_to_user_id": null,
         "in_reply_to_user_id_str": null,
         "in_reply_to_screen_name": null,
+        "sentiment": 0.3,
         "user": {
           "id": 292615553,
           "id_str": "292615553",
@@ -2832,7 +2896,9 @@
           "notifications": false
         },
         "geo": null,
-        "coordinates": null,
+        "coordinates": [
+            40.722960, -73.984375
+        ],
         "place": null,
         "contributors": null,
         "retweet_count": 45,
@@ -3063,6 +3129,7 @@
       "in_reply_to_user_id": null,
       "in_reply_to_user_id_str": null,
       "in_reply_to_screen_name": null,
+      "sentiment": 0.3,
       "user": {
         "id": 330573517,
         "id_str": "330573517",
@@ -3111,7 +3178,9 @@
         "notifications": false
       },
       "geo": null,
-      "coordinates": null,
+      "coordinates": [
+        39.724980, -104.980545
+      ],
       "place": null,
       "contributors": null,
       "retweeted_status": {
@@ -3130,6 +3199,7 @@
         "in_reply_to_user_id": null,
         "in_reply_to_user_id_str": null,
         "in_reply_to_screen_name": null,
+        "sentiment": 0.2,
         "user": {
           "id": 292615553,
           "id_str": "292615553",
@@ -3191,7 +3261,9 @@
           "notifications": false
         },
         "geo": null,
-        "coordinates": null,
+        "coordinates": [
+            55.772711, 37.639160
+        ],
         "place": null,
         "contributors": null,
         "retweet_count": 45,
