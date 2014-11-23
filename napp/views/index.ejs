@@ -213,6 +213,13 @@
                 twitterFeedStream = setInterval(renderTweet, 2000);
             }
             
+            if($(this).attr("data-item-id") == 0){
+                generateGraph(0);
+            }
+            else {
+                $('#market-graph').empty();
+            }
+            
             //
             // UPDATE GLOBAL SELECTED VALUE
             currentNewsID = $(this).attr("data-item-id");
@@ -368,11 +375,28 @@
                 d.Open = parseFloat(d.Open);
             });
             
-            lockheedData = data.R[0].Data;
+            lockheedData = data.R[0].Data;          
+        })
+        
+        $.getJSON( "Jsons/visaQ.json", function( data ) { 
+             $.each(data.R[0].Data, function(index, d){
+                d.Date = new Date(d.Date);              
+                d.Close = parseFloat(d.Close);
+                d.Open = parseFloat(d.Open);
+            });
             
-        }).done(function() {
+            visaData = data.R[0].Data;
+        });              
+        
+        function generateGraph(type){
             
-            marketData = lockheedData;
+            if(type == 0){
+                marketData = lockheedData;
+            }
+            else {
+                marketData = visaData;
+            }
+            
             crs.add(marketData); 
             
             // GENERATE MARKET GRAPH
@@ -407,12 +431,7 @@
                 //mainGraph.xAxis().tickFormat(d3.time.format("%d"));
                              
             dc.renderAll();
-        });
-        
-        $.getJSON( "Jsons/visaQ.json", function( data ) { 
-            visaData = data.R[0].Data;
-        });              
-        
+        }
 
         
         </script>
