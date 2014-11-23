@@ -106,9 +106,37 @@
     <script src="javascripts/topojson.v1.min.js"></script>
     <script src="javascripts/datamaps.world.min.js"></script>
     <script>
+
+
+    var url = "tweets.txt",
+    averageLineLength = 100,
+    numLinesToFetch   = 20,
+    marginForError    = 0.2,
+    bytesToFetch      = averageLineLength * numLinesToFetch * (1 + marginForError)
+    ;
+
+    $.ajax({ url: url, type: "HEAD" })
+      .then( function(_, _, xhr) {
+        var fileSize = parseInt(xhr.getResponseHeader('Content-Length')),
+            contentRangeStart = fileSize - bytesToFetch,
+            contentRangeEnd   = fileSize - 1,
+            contentRange      = contentRangeStart + "-" + contentRangeEnd + "/" + fileSize,
+            headers           = { "Content-Length": bytesToFetch,
+                                  "Content-Range":  "bytes " + contentRange }
+        ;
+
+        return $.ajax({ url: url, type: "GET", headers: headers });
+      } )
+      .then( function(data, statusText, xhr) {
+        var lines = data.split("\n");
+        lines = lines.slice(numLinesToFetch * -1);
+        console.log( "Last " + numLinesToFetch + " lines:\n",
+                     lines );
+      } )
+    ;
         
         var newsData = <%-news%>;
-       // var marketData = JSON.parse(<%-JSON.stringify(marketdata)%>);
+       var marketData = JSON.parse(<%-JSON.stringify(marketdata)%>);
         
         //console.log(marketData);
         var currentNewsID = null;
