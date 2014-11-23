@@ -87,7 +87,7 @@ stream.on('tweet', function (tweet) {
         if(err) {
             console.log(err);
         } else {
-            console.log("The file was saved!");
+            //console.log("The file was saved!");
         }
     }); 
     // stream.stop();

@@ -2,6 +2,7 @@ var express = require('express');
 var MSF = require('../MSF');
 var router = express.Router();
 var unirest = require('unirest');
+var async = require('async');
 
 
 var username = "eikonstudent2@thomsonreuters.com";
@@ -10,16 +11,11 @@ var msf = new MSF(true);
 
 var marketdataID=0;
 
-
-var marketFeed={};
-
-var visaQ = {
+var marketFeed = {
    "Entity": {
        "E": "TATimeSeries",
        "W": {
-           "Tickers": [
-               "V"
-           ],
+           "Tickers": [],
            "Currency": "USD",
            "NoInfo": false,
            "Interval": "Daily",
@@ -32,54 +28,28 @@ var visaQ = {
    }
 };
 
-var lockheedQ = {
-   "Entity": {
-       "E": "TATimeSeries",
-       "W": {
-           "Tickers": [
-               "LMT"
-           ],
-           "Currency": "USD",
-           "NoInfo": false,
-           "Interval": "Daily",
-           "IntervalMultiplier": 1,
-           "DateRangeMultiplier": 1,
-           "StartDate": "2013-05-01T00:00:00",
-           "EndDate": "2014-05-01T00:00:00"
-           
-       }
-   }
-};
+function symbol(company){
+    var request = require('request');
+    request("http://d.yimg.com/autoc.finance.yahoo.com/autoc?query="+company+"&callback=YAHOO.Finance.SymbolSuggest.ssCallback", function (error, response, body) {
+      if (!error && response.statusCode == 200) {
+        if(body.substring(0, body.length - 1).replace("YAHOO.Finance.SymbolSuggest.ssCallback(","").length>60){
+            marketFeed.Entity.W.Tickers.push(JSON.parse(body.substring(0, body.length - 1).replace("YAHOO.Finance.SymbolSuggest.ssCallback(","")).ResultSet.Result[0].symbol); // Print the google web page.
+         
+            }
+        }
+        
+    });
 
-var ThyssenQ = 
-{
-   "Entity": {
-       "E": "TATimeSeries",
-       "W": {
-           "Tickers": [
-               "TKAG.DE"
-           ],
-           "Currency": "USD",
-           "NoInfo": false,
-           "Interval": "Daily",
-           "IntervalMultiplier": 1,
-           "DateRangeMultiplier": 1,
-           "StartDate": "2013-05-01T00:00:00",
-           "EndDate": "2014-05-01T00:00:00"
-           
-       }
-   }
-};
+}
 
 function callback(newsfeed,res, marketdataID){
 
-    if(marketdataID==10) marketFeed= visaQ;
-    if(marketdataID==11) marketFeed= lockheedQ;
-    if(marketdataID==12) marketFeed= ThyssenQ;
+
+while(marketFeed.Entity.W.Tickers==[])console.log(marketFeed.Entity.W.Tickers);
     msf.getData(marketFeed, function(error, response) {
      
      
-     console.log(newsfeed);
+     
         res.render('index.ejs', { news: JSON.stringify(newsfeed).toString(), marketdata: JSON.stringify(response, false, 2)});
     });       
 }
@@ -145,7 +115,7 @@ router.get('/', function(req, res) {
               var secondsDiff = endDate.diff(startDate, 'seconds');
               var dateQuery = (new Date(secondsDiff%86400*1000)).toUTCString().replace(/.*(\d{2}):(\d{2}):(\d{2}).*/, "$1h") + " ago";
         
-              console.log(dateQuery)  
+              //console.log(dateQuery)  
               response.TopNews[i].date  =  dateQuery; 
 
              response.TopNews[i].Keywords =[];
@@ -182,10 +152,13 @@ router.get('/', function(req, res) {
           response.TopNews[2].Keywords[1] ="Sueddeutsche";
           response.TopNews[2].Keywords[2] ="Military";
           response.TopNews[2].date = "07h ago";
-           
+          
+          //console.log(response.TopNews.length);
+          for(var r=0; r< response.TopNews.length;r++){
+            var comp_symbol=symbol(response.TopNews[r].Keywords[0]);
+          }
 
-            
-            callback(response,res, marketdataID);
+          callback(response,res, marketdataID);
                  //  res.render('index.ejs', { news: JSON.stringify(response, false, 2)});
                  
            });       
