@@ -12,104 +12,85 @@
 		<link href='stylesheets/fonts.css' type='text/css' rel='stylesheet' media="screen">
 		<!-- PAGE CSS -->
 		<link href="stylesheets/main-style.css" type="text/css" rel="stylesheet" media="screen">
+        <link href="stylesheets/dc.css" type="text/css" rel="stylesheet" media="screen">
 	</head>
 	<body>
-
-     
-
-<div id = "header">
-		<div id = "logo">
-			<div id = "main-text">
-				<span class = "orange" title="News Analysis Platform">NAP</span><span>TIME</span>				
-			</div>
-			<div id = "sub-text">EikonHack 2.0</div>
-		</div>
-		<div id = "news-bar" class="news-empty">
-			<div id = "news-bar-left">          
-				<img id="news-icon" src = "images/news-icon.png" alt = "News icon" />
-				<div id = "news-header" class = "news-item">
-                    <div class = "news-title">Pick a news item</div>
-				</div>              
-			</div>
-            <img src = "images/expand-down-icon.png" id = "news-bar-right" alt = "Toggle news list" />
+        <div id = "header">
+            <div id = "logo">
+                <div id = "main-text">
+                    <span class = "orange" title="News Analysis Platform">NAP</span><span>TIME</span>				
+                </div>
+                <div id = "sub-text">EikonHack 2.0</div>
+            </div>
+            <div id = "news-bar" class="news-empty">
+                <div id = "news-bar-left">          
+                    <img id="news-icon" src = "images/news-icon.png" alt = "News icon" />
+                    <div id = "news-header" class = "news-item">
+                        <div class = "news-title">Pick a news item</div>
+                    </div>              
+                </div>
+                <img src = "images/expand-down-icon.png" id = "news-bar-right" alt = "Toggle news list" />
+                <div class = "clearfix"></div>
+            </div>
+            <div class = "clearfix"></div>
+            <ul id="news-expanded">
+            </ul>
+        </div>
+        <div id = "content">
+            <div id = "left-column">
+                <div id = "sentiment-box" class = "widget-box">
+                    <div class="box-header">Twitter sentiment analysis</div>
+                    <div id = "result">
+                        <div id = "result-indicator"><img src = "images/positive-indicator.png" alt = "indicator" /></div>
+                        <div id = "result-percent">67% positive</div>
+                    </div>
+                    <div id = "bar">
+                        <div id = "bar-negative"></div>
+                        <div id = "bar-positive"></div>
+                        <div id = "cursor"><img src = "images/positive-bar-icon.png" alt = "cursor" /></div>
+                    </div>
+                    <div id = "bar-percents">
+                        <span id = "percent-1">100%</span>
+                        <span id = "percent-2">50%</span>
+                        <span id = "percent-3">0%</span>
+                        <span id = "percent-4">50%</span>
+                        <span id = "percent-5">100%</span>
+                    </div>
+                </div>
+                <div id = "feed-box" class = "widget-box">
+                    <div class="box-header">Real-time Twitter feed</div>
+                    <div id = "keywords">
+                        KEYWORDS
+                        <span id="outer-keyword-box">
+                            
+                        </span>
+                    </div>
+                    <div id="twitter-feed">
+                    </div>
+                </div>
+                <div class = "clearfix"></div>
+            </div>
+            <div id = "right-column">
+                <div id = "map-box" class = "widget-box">
+                    <div class="box-header">Real-time tweet locations</div>
+                    <div id="map-container"></div>
+                </div>
+                <div id = "market-box" class = "widget-box">
+                    <div class="box-header">Market analysis</div>
+                    <div id="market-graph"></div>
+                </div>
+                <div class = "clearfix"></div>
+            </div>
             <div class = "clearfix"></div>
         </div>
-		<div class = "clearfix"></div>
-        <ul id="news-expanded">
-        </ul>
-	</div>
-
-	<div id = "content">
-		<div id = "left-column">
-			<div id = "sentiment-box" class = "widget-box">
-                <div class="box-header">Twitter sentiment analysis</div>
-                <div id = "result">
-                	<div id = "result-indicator"><img src = "images/positive-indicator.png" alt = "indicator" /></div>
-                	<div id = "result-percent">67% positive</div>
-                </div>
-                <div id = "bar">
-                	<div id = "bar-negative"></div>
-                	<div id = "bar-positive"></div>
-                	<div id = "cursor"><img src = "images/positive-bar-icon.png" alt = "cursor" /></div>
-                </div>
-				<div id = "bar-percents">
-					<span id = "percent-1">100%</span>
-					<span id = "percent-2">50%</span>
-					<span id = "percent-3">0%</span>
-					<span id = "percent-4">50%</span>
-					<span id = "percent-5">100%</span>
-				</div>
-            </div>
-			<div id = "feed-box" class = "widget-box">
-                <div class="box-header">Real-time Twitter feed</div>
-				<div id = "keywords">
-					KEYWORDS
-                    <span id="outer-keyword-box">
-                        
-                    </span>
-				</div>
-                <div id="twitter-feed">
-               <!--
-				<div class = "twitter-post">
-					<span class = "twitter-name">Tim Warren</span>
-					<span class = "twitter-meta"><span class = "twitter-user">@timwarren</span><span class = "twitter-time">1h</span></span>					
-					<div class = "twitter-text">The more I use the Microsoft band, the more I want to interact with 
-					notifications and have a smartwatch. Apple will be interesting</div>
-				</div>
-                <div class = "twitter-post">
-					<span class = "twitter-name">Tim Warren</span>
-					<span class = "twitter-meta"><span class = "twitter-user">@timwarren</span><span class = "twitter-time">1h</span></span>					
-					<div class = "twitter-text">The more I use the Microsoft band, the more I want to interact with 
-					notifications and have a smartwatch. Apple will be interesting</div>
-				</div>
-                <div class = "twitter-post">
-					<span class = "twitter-name">Tim Warren</span>
-					<span class = "twitter-meta"><span class = "twitter-user">@timwarren</span><span class = "twitter-time">1h</span></span>					
-					<div class = "twitter-text">The more I use the Microsoft band, the more I want to interact with 
-					notifications and have a smartwatch. Apple will be interesting</div>
-				</div>
-                 -->
-                </div>
-            </div>
-            <div class = "clearfix"></div>
-		</div>
-		<div id = "right-column">
-			<div id = "map-box" class = "widget-box">
-                <div class="box-header">Real-time tweet locations</div>
-                <div id="map-container"></div>
-            </div>
-			<div id = "market-box" class = "widget-box">
-                <div class="box-header">Market analysis</div>
-            </div>
-            <div class = "clearfix"></div>
-		</div>
-		<div class = "clearfix"></div>
-	</div>
-    <script src="javascripts/jquery-2.1.1.min.js"></script>
-    <script src="javascripts/d3.min.js"></script>
-    <script src="javascripts/topojson.v1.min.js"></script>
-    <script src="javascripts/datamaps.world.min.js"></script>
-    <script>
+        <script src="javascripts/jquery-2.1.1.min.js"></script>
+        <script src="javascripts/d3.min.js"></script>
+        <script src="javascripts/topojson.v1.min.js"></script>
+        <script src="javascripts/datamaps.world.min.js"></script>
+        <script src="javascripts/crossfilter.min.js"></script>
+        <script src="javascripts/dc.min.js"></script>
+        <script>
+/*
     var copy;
 
      $(document).ready(function() {
@@ -127,9 +108,9 @@
 
     setTimeout(functionToLoadFile, 10);
 });
-        
+*/        
         var newsData = <%-news%>;
-       var marketData = JSON.parse(<%-JSON.stringify(marketdata)%>);
+        var marketData = JSON.parse(<%-JSON.stringify(marketdata)%>);
         
         //console.log(marketData);
         var currentNewsID = null;
@@ -371,6 +352,69 @@
             refreshSentimentBar(sentimentValue);
         }
                 
+        // MARKET ANALYSIS
+        
+        var marketData = null;
+        var lockheedData = null;
+        var visaData = null;
+        var crs = crossfilter([]);    
+        var mainGraph = dc.lineChart('#market-graph');
+        var graphDimension = null, graphGroup = null;
+        
+        $.getJSON( "Jsons/lockheedQ.json", function( data ) {    
+            $.each(data.R[0].Data, function(index, d){
+                d.Date = new Date(d.Date);              
+                d.Close = parseFloat(d.Close);
+                d.Open = parseFloat(d.Open);
+            });
+            
+            lockheedData = data.R[0].Data;
+            
+        }).done(function() {
+            
+            marketData = lockheedData;
+            crs.add(marketData); 
+            
+            // GENERATE MARKET GRAPH
+            graphDimension = crs.dimension(function(d){ return d.Date });
+            graphGroup = graphDimension.group().reduceSum(function(d){return d.Close});
+            
+            var xExtent = d3.extent(marketData, function(d) { return d.Date; });
+            var yCloseExtent = d3.extent(marketData, function(d) { return d.Close; });
+            var yOpenExtent = d3.extent(marketData, function(d) { return d.Open; });
+            var yExtent = [Math.min(yCloseExtent[0], yOpenExtent[0]), Math.max(yCloseExtent[1], yOpenExtent[1])];
+            
+            mainGraph
+                .dimension(graphDimension)
+                .group(graphGroup)
+                .height(190)
+                .width(895)
+                .margins({top: 0, right: 0, bottom: 0, left: 0})
+                
+                .renderArea(true)
+                .yAxisPadding("25%")
+                .xUnits(d3.time.minute)
+                .valueAccessor(function(d){
+                    return d.value;
+                })
+                .renderHorizontalGridLines(true)
+                .brushOn(false)
+                .renderTitle(true)
+                .x(d3.time.scale().domain(xExtent))
+                .y(d3.scale.linear().domain(yExtent))
+                .title(function(d){return d.y.toFixed(3)})
+                mainGraph.yAxis().ticks(5);
+                //mainGraph.xAxis().tickFormat(d3.time.format("%d"));
+                             
+            dc.renderAll();
+        });
+        
+        $.getJSON( "Jsons/visaQ.json", function( data ) { 
+            visaData = data.R[0].Data;
+        });              
+        
+
+        
         </script>
 	</body>
 </html>

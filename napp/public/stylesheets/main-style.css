@@ -291,3 +291,14 @@ body {
 #content #right-column #market-box {
   height: 231px;
 }
+#content #right-column #market-box #market-graph {
+  width: 895px;
+  height: 190px;
+}
+#content #right-column #market-box #market-graph .area,
+#content #right-column #market-box #market-graph .dc-tooltip .dot {
+  fill: #ff843c;
+}
+#content #right-column #market-box #market-graph .line {
+  stroke: #ff843c;
+}
