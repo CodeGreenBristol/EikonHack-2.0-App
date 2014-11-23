@@ -63,10 +63,10 @@
 			<div id = "feed-box" class = "widget-box">
                 <div class="box-header">Real-time Twitter feed</div>
 				<div id = "keywords">
-					KEYWORDS&nbsp;&nbsp;&nbsp;
-					<span class = "keyword-box">Microsoft</span>
-					<span class = "keyword-box">Apple</span>
-					<span class = "keyword-box">Smartwatch</span>
+					KEYWORDS
+                    <span id="outer-keyword-box">
+                        
+                    </span>
 				</div>
 				<div class = "twitter-post">
 					<span class = "twitter-name">Tim Warren</span>
@@ -110,7 +110,6 @@
         var newsData = <%-news%>;
        // var marketData = JSON.parse(<%-JSON.stringify(marketdata)%>);
         
-        console.log(newsData);
         //console.log(marketData);
         var currentNewsID = null;
         
@@ -118,7 +117,7 @@
         function refreshNews(){
         
             $('#news-expanded').empty();
-            $.each(newsData.TopNews.slice(0, 6), function(index, elem){
+            $.each(newsData.TopNews.slice(0,6), function(index, elem){
                 
                 // SKIP IF ALREADY SHOWN
                 if(index == currentNewsID) { return true; }
@@ -175,6 +174,12 @@
                     '</div>';
                 
             $('#news-header').append(newsText);
+            
+            // MODIFY LIVE FEED KEYWORDS
+            $('#outer-keyword-box').empty();
+            $.each(elem.Keywords, function(index, elem){
+                $('#outer-keyword-box').append('<span class = "keyword-box">' + elem + '</span>');
+            });
             
             // UPDATE GLOBAL SELECTED VALUE
             currentNewsID = $(this).attr("data-item-id");
