@@ -1,0 +1,3421 @@
+{
+  "statuses": [
+    {
+      "metadata": {
+        "iso_language_code": "en",
+        "result_type": "recent"
+      },
+      "created_at": "Sat Nov 22 23:44:58 +0000 2014",
+      "id": 536304362654818300,
+      "id_str": "536304362654818304",
+      "text": "RT\"@thef35: Via @Defense_news: @DeptofDefense and @LockheedMartin finalize 8th #F35 lot: http://t.co/EoPnd4Dw6C http://t.co/Y0NMxeTjyJ\"",
+      "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+      "truncated": false,
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 1464779923,
+        "id_str": "1464779923",
+        "name": "laty",
+        "screen_name": "laty72",
+        "location": "",
+        "profile_location": null,
+        "description": "English/French. Francais/Anglais",
+        "url": null,
+        "entities": {
+          "description": {
+            "urls": []
+          }
+        },
+        "protected": false,
+        "followers_count": 1827,
+        "friends_count": 1889,
+        "listed_count": 6,
+        "created_at": "Tue May 28 14:01:30 +0000 2013",
+        "favourites_count": 417,
+        "utc_offset": -39600,
+        "time_zone": "Midway Island",
+        "geo_enabled": true,
+        "verified": false,
+        "statuses_count": 1635,
+        "lang": "en",
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "C0DEED",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": false,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/497325740128739328/FHzAIj8E_normal.jpeg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/497325740128739328/FHzAIj8E_normal.jpeg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/1464779923/1408340903",
+        "profile_link_color": "0084B4",
+        "profile_sidebar_border_color": "C0DEED",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "default_profile": true,
+        "default_profile_image": false,
+        "following": false,
+        "follow_request_sent": false,
+        "notifications": false
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "retweet_count": 0,
+      "favorite_count": 0,
+      "entities": {
+        "hashtags": [
+          {
+            "text": "F35",
+            "indices": [
+              79,
+              83
+            ]
+          }
+        ],
+        "symbols": [],
+        "user_mentions": [
+          {
+            "screen_name": "thef35",
+            "name": "F-35 Lightning II",
+            "id": 292615553,
+            "id_str": "292615553",
+            "indices": [
+              3,
+              10
+            ]
+          },
+          {
+            "screen_name": "defense_news",
+            "name": "Defense News",
+            "id": 21312961,
+            "id_str": "21312961",
+            "indices": [
+              16,
+              29
+            ]
+          },
+          {
+            "screen_name": "DeptofDefense",
+            "name": "U.S. Dept of Defense",
+            "id": 66369181,
+            "id_str": "66369181",
+            "indices": [
+              31,
+              45
+            ]
+          },
+          {
+            "screen_name": "LockheedMartin",
+            "name": "Lockheed Martin",
+            "id": 42871498,
+            "id_str": "42871498",
+            "indices": [
+              50,
+              65
+            ]
+          }
+        ],
+        "urls": [
+          {
+            "url": "http://t.co/EoPnd4Dw6C",
+            "expanded_url": "http://bit.ly/1xXySSE",
+            "display_url": "bit.ly/1xXySSE",
+            "indices": [
+              89,
+              111
+            ]
+          }
+        ],
+        "media": [
+          {
+            "id": 535945781644386300,
+            "id_str": "535945781644386304",
+            "indices": [
+              112,
+              134
+            ],
+            "media_url": "http://pbs.twimg.com/media/B3AP2U3IYAAhUvi.jpg",
+            "media_url_https": "https://pbs.twimg.com/media/B3AP2U3IYAAhUvi.jpg",
+            "url": "http://t.co/Y0NMxeTjyJ",
+            "display_url": "pic.twitter.com/Y0NMxeTjyJ",
+            "expanded_url": "http://twitter.com/thef35/status/535945782088978432/photo/1",
+            "type": "photo",
+            "sizes": {
+              "medium": {
+                "w": 600,
+                "h": 399,
+                "resize": "fit"
+              },
+              "small": {
+                "w": 340,
+                "h": 226,
+                "resize": "fit"
+              },
+              "thumb": {
+                "w": 150,
+                "h": 150,
+                "resize": "crop"
+              },
+              "large": {
+                "w": 1024,
+                "h": 682,
+                "resize": "fit"
+              }
+            },
+            "source_status_id": 535945782088978400,
+            "source_status_id_str": "535945782088978432"
+          }
+        ]
+      },
+      "favorited": false,
+      "retweeted": false,
+      "possibly_sensitive": false,
+      "lang": "en"
+    },
+    {
+      "metadata": {
+        "iso_language_code": "en",
+        "result_type": "recent"
+      },
+      "created_at": "Sat Nov 22 19:08:30 +0000 2014",
+      "id": 536234784419115000,
+      "id_str": "536234784419115008",
+      "text": "Lockheed, Pentagon Ink $4.7 Billion F-35 Fighter Deal http://t.co/fMDlcVvL1y",
+      "source": "<a href=\"http://www.facebook.com/twitter\" rel=\"nofollow\">Facebook</a>",
+      "truncated": false,
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 194427133,
+        "id_str": "194427133",
+        "name": "Laporte Patriots",
+        "screen_name": "LaPortePatriots",
+        "location": "LaPorte Indiana",
+        "profile_location": null,
+        "description": "LaPorte County Patriots Founder/coordinator",
+        "url": "http://t.co/wem4JHQSDz",
+        "entities": {
+          "url": {
+            "urls": [
+              {
+                "url": "http://t.co/wem4JHQSDz",
+                "expanded_url": "http://www.facebook.com/group.php?gid=102985746421571",
+                "display_url": "facebook.com/group.php?gid=…",
+                "indices": [
+                  0,
+                  22
+                ]
+              }
+            ]
+          },
+          "description": {
+            "urls": []
+          }
+        },
+        "protected": false,
+        "followers_count": 158,
+        "friends_count": 217,
+        "listed_count": 8,
+        "created_at": "Fri Sep 24 02:51:13 +0000 2010",
+        "favourites_count": 34,
+        "utc_offset": -21600,
+        "time_zone": "Central Time (US & Canada)",
+        "geo_enabled": true,
+        "verified": false,
+        "statuses_count": 9734,
+        "lang": "en",
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "131516",
+        "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/158766356/x5fbbefbac4dbfe2ba3a7e9fc28c287f.jpg",
+        "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/158766356/x5fbbefbac4dbfe2ba3a7e9fc28c287f.jpg",
+        "profile_background_tile": true,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/521442907727753217/C82i31Gy_normal.jpeg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/521442907727753217/C82i31Gy_normal.jpeg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/194427133/1414641696",
+        "profile_link_color": "009999",
+        "profile_sidebar_border_color": "EEEEEE",
+        "profile_sidebar_fill_color": "EFEFEF",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "default_profile": false,
+        "default_profile_image": false,
+        "following": false,
+        "follow_request_sent": false,
+        "notifications": false
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "retweet_count": 0,
+      "favorite_count": 0,
+      "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "user_mentions": [],
+        "urls": [
+          {
+            "url": "http://t.co/fMDlcVvL1y",
+            "expanded_url": "http://fb.me/6TXRw3Ukn",
+            "display_url": "fb.me/6TXRw3Ukn",
+            "indices": [
+              54,
+              76
+            ]
+          }
+        ]
+      },
+      "favorited": false,
+      "retweeted": false,
+      "possibly_sensitive": false,
+      "lang": "en"
+    },
+    {
+      "metadata": {
+        "iso_language_code": "en",
+        "result_type": "recent"
+      },
+      "created_at": "Sat Nov 22 17:28:02 +0000 2014",
+      "id": 536209504158097400,
+      "id_str": "536209504158097408",
+      "text": "$LMT Fridays chart action also bullish; IBD-The world's most expensive weapons program is now at a 3.5% discount - http://t.co/XGonfzCXif",
+      "source": "<a href=\"https://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android Tablets</a>",
+      "truncated": false,
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 2322392245,
+        "id_str": "2322392245",
+        "name": "Jaguar Stocks",
+        "screen_name": "JaguarStocks",
+        "location": "",
+        "profile_location": null,
+        "description": "Stock and Options Trader",
+        "url": null,
+        "entities": {
+          "description": {
+            "urls": []
+          }
+        },
+        "protected": false,
+        "followers_count": 12,
+        "friends_count": 14,
+        "listed_count": 0,
+        "created_at": "Sat Feb 01 14:12:58 +0000 2014",
+        "favourites_count": 15,
+        "utc_offset": null,
+        "time_zone": null,
+        "geo_enabled": false,
+        "verified": false,
+        "statuses_count": 113,
+        "lang": "en",
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "C0DEED",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": false,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/429641847053352960/wH9ppcPK_normal.jpeg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/429641847053352960/wH9ppcPK_normal.jpeg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/2322392245/1391266639",
+        "profile_link_color": "0084B4",
+        "profile_sidebar_border_color": "C0DEED",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "default_profile": true,
+        "default_profile_image": false,
+        "following": false,
+        "follow_request_sent": false,
+        "notifications": false
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "retweet_count": 0,
+      "favorite_count": 0,
+      "entities": {
+        "hashtags": [],
+        "symbols": [
+          {
+            "text": "LMT",
+            "indices": [
+              0,
+              4
+            ]
+          }
+        ],
+        "user_mentions": [],
+        "urls": [
+          {
+            "url": "http://t.co/XGonfzCXif",
+            "expanded_url": "http://ow.ly/EHl5z",
+            "display_url": "ow.ly/EHl5z",
+            "indices": [
+              115,
+              137
+            ]
+          }
+        ]
+      },
+      "favorited": false,
+      "retweeted": false,
+      "possibly_sensitive": false,
+      "lang": "en"
+    },
+    {
+      "metadata": {
+        "iso_language_code": "en",
+        "result_type": "recent"
+      },
+      "created_at": "Sat Nov 22 15:28:45 +0000 2014",
+      "id": 536179482516656100,
+      "id_str": "536179482516656128",
+      "text": "Scoreboard lights up in Jefferson Forest playoff victory over Eastern ...:  http://t.co/VjPW9xdbSn #USNavy",
+      "source": "<a href=\"http://twitterfeed.com\" rel=\"nofollow\">twitterfeed</a>",
+      "truncated": false,
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 2512882298,
+        "id_str": "2512882298",
+        "name": "U.S. Navy",
+        "screen_name": "USNavyNews",
+        "location": "",
+        "profile_location": null,
+        "description": "Latest news about the United States #Navy",
+        "url": null,
+        "entities": {
+          "description": {
+            "urls": []
+          }
+        },
+        "protected": false,
+        "followers_count": 102,
+        "friends_count": 304,
+        "listed_count": 1,
+        "created_at": "Wed May 21 15:28:19 +0000 2014",
+        "favourites_count": 0,
+        "utc_offset": null,
+        "time_zone": null,
+        "geo_enabled": false,
+        "verified": false,
+        "statuses_count": 3364,
+        "lang": "it",
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "C0DEED",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": false,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/469141275657003010/NiD9djU5_normal.jpeg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/469141275657003010/NiD9djU5_normal.jpeg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/2512882298/1400687123",
+        "profile_link_color": "0084B4",
+        "profile_sidebar_border_color": "C0DEED",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "default_profile": true,
+        "default_profile_image": false,
+        "following": false,
+        "follow_request_sent": false,
+        "notifications": false
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "retweet_count": 0,
+      "favorite_count": 0,
+      "entities": {
+        "hashtags": [
+          {
+            "text": "USNavy",
+            "indices": [
+              99,
+              106
+            ]
+          }
+        ],
+        "symbols": [],
+        "user_mentions": [],
+        "urls": [
+          {
+            "url": "http://t.co/VjPW9xdbSn",
+            "expanded_url": "http://bit.ly/1z8TFSq",
+            "display_url": "bit.ly/1z8TFSq",
+            "indices": [
+              76,
+              98
+            ]
+          }
+        ]
+      },
+      "favorited": false,
+      "retweeted": false,
+      "possibly_sensitive": false,
+      "lang": "en"
+    },
+    {
+      "metadata": {
+        "iso_language_code": "en",
+        "result_type": "recent"
+      },
+      "created_at": "Sat Nov 22 15:20:04 +0000 2014",
+      "id": 536177299541196800,
+      "id_str": "536177299541196800",
+      "text": "Lockheed, Pentagon Ink $4.7 Billion Deal For Eighth Batch Of F-35 Fighters http://t.co/gmZ1wWaJN1",
+      "source": "<a href=\"http://ifttt.com\" rel=\"nofollow\">IFTTT</a>",
+      "truncated": false,
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 2280338311,
+        "id_str": "2280338311",
+        "name": "NigeriaTell",
+        "screen_name": "NigeriaTell",
+        "location": "Abuja, Nigeria",
+        "profile_location": null,
+        "description": "Constantly giving you latest update about everything... Nigeria News, Breaking News, Politics, Business & Economy, Technology, Entertainment, Lifestyle & Sports",
+        "url": "http://t.co/mRQhzrRhcl",
+        "entities": {
+          "url": {
+            "urls": [
+              {
+                "url": "http://t.co/mRQhzrRhcl",
+                "expanded_url": "http://www.nigeriatell.com",
+                "display_url": "nigeriatell.com",
+                "indices": [
+                  0,
+                  22
+                ]
+              }
+            ]
+          },
+          "description": {
+            "urls": []
+          }
+        },
+        "protected": false,
+        "followers_count": 258,
+        "friends_count": 111,
+        "listed_count": 5,
+        "created_at": "Tue Jan 07 09:20:38 +0000 2014",
+        "favourites_count": 1,
+        "utc_offset": null,
+        "time_zone": null,
+        "geo_enabled": false,
+        "verified": false,
+        "statuses_count": 115417,
+        "lang": "en",
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "000000",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": false,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/517151876400160768/BrIYZr9y_normal.png",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/517151876400160768/BrIYZr9y_normal.png",
+        "profile_link_color": "E90606",
+        "profile_sidebar_border_color": "000000",
+        "profile_sidebar_fill_color": "000000",
+        "profile_text_color": "000000",
+        "profile_use_background_image": false,
+        "default_profile": false,
+        "default_profile_image": false,
+        "following": false,
+        "follow_request_sent": false,
+        "notifications": false
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "retweet_count": 0,
+      "favorite_count": 0,
+      "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "user_mentions": [],
+        "urls": [
+          {
+            "url": "http://t.co/gmZ1wWaJN1",
+            "expanded_url": "http://ift.tt/1r9ga5C",
+            "display_url": "ift.tt/1r9ga5C",
+            "indices": [
+              75,
+              97
+            ]
+          }
+        ]
+      },
+      "favorited": false,
+      "retweeted": false,
+      "possibly_sensitive": false,
+      "lang": "en"
+    },
+    {
+      "metadata": {
+        "iso_language_code": "en",
+        "result_type": "recent"
+      },
+      "created_at": "Sat Nov 22 15:12:43 +0000 2014",
+      "id": 536175447600812000,
+      "id_str": "536175447600812033",
+      "text": "RT @thef35: Via @Defense_news: @DeptofDefense and @LockheedMartin finalize 8th #F35 lot: http://t.co/1F43mqL0V4 http://t.co/A8H2JUzp20",
+      "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+      "truncated": false,
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 2658957878,
+        "id_str": "2658957878",
+        "name": "Vladimir Antonov",
+        "screen_name": "VovaAnt",
+        "location": "",
+        "profile_location": null,
+        "description": "",
+        "url": null,
+        "entities": {
+          "description": {
+            "urls": []
+          }
+        },
+        "protected": false,
+        "followers_count": 601,
+        "friends_count": 1999,
+        "listed_count": 7,
+        "created_at": "Sat Jul 19 08:06:48 +0000 2014",
+        "favourites_count": 14619,
+        "utc_offset": null,
+        "time_zone": null,
+        "geo_enabled": false,
+        "verified": false,
+        "statuses_count": 18164,
+        "lang": "ru",
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "C0DEED",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": false,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/490930798132883457/BirskX50_normal.jpeg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/490930798132883457/BirskX50_normal.jpeg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/2658957878/1405975782",
+        "profile_link_color": "0084B4",
+        "profile_sidebar_border_color": "C0DEED",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "default_profile": true,
+        "default_profile_image": false,
+        "following": false,
+        "follow_request_sent": false,
+        "notifications": false
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "retweeted_status": {
+        "metadata": {
+          "iso_language_code": "en",
+          "result_type": "recent"
+        },
+        "created_at": "Sat Nov 22 00:00:06 +0000 2014",
+        "id": 535945782088978400,
+        "id_str": "535945782088978432",
+        "text": "Via @Defense_news: @DeptofDefense and @LockheedMartin finalize 8th #F35 lot: http://t.co/1F43mqL0V4 http://t.co/A8H2JUzp20",
+        "source": "<a href=\"http://www.spredfast.com\" rel=\"nofollow\">Spredfast app</a>",
+        "truncated": false,
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+          "id": 292615553,
+          "id_str": "292615553",
+          "name": "F-35 Lightning II",
+          "screen_name": "thef35",
+          "location": "",
+          "profile_location": null,
+          "description": "The official Twitter account of the Lockheed Martin F-35 Lightning II - a 5th generation multirole stealth fighter for the U.S. and its allies.",
+          "url": "http://t.co/LRC2ozYB8b",
+          "entities": {
+            "url": {
+              "urls": [
+                {
+                  "url": "http://t.co/LRC2ozYB8b",
+                  "expanded_url": "http://www.f35.com",
+                  "display_url": "f35.com",
+                  "indices": [
+                    0,
+                    22
+                  ]
+                }
+              ]
+            },
+            "description": {
+              "urls": []
+            }
+          },
+          "protected": false,
+          "followers_count": 20851,
+          "friends_count": 127,
+          "listed_count": 323,
+          "created_at": "Tue May 03 23:14:54 +0000 2011",
+          "favourites_count": 83,
+          "utc_offset": -21600,
+          "time_zone": "Central Time (US & Canada)",
+          "geo_enabled": false,
+          "verified": false,
+          "statuses_count": 1322,
+          "lang": "en",
+          "contributors_enabled": false,
+          "is_translator": false,
+          "is_translation_enabled": false,
+          "profile_background_color": "C0DEED",
+          "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/378800000091284309/7f299079e9222bb6629b49de1e1fe769.jpeg",
+          "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/378800000091284309/7f299079e9222bb6629b49de1e1fe769.jpeg",
+          "profile_background_tile": false,
+          "profile_image_url": "http://pbs.twimg.com/profile_images/1427926999/11J00226_006_normal.jpg",
+          "profile_image_url_https": "https://pbs.twimg.com/profile_images/1427926999/11J00226_006_normal.jpg",
+          "profile_banner_url": "https://pbs.twimg.com/profile_banners/292615553/1415202215",
+          "profile_link_color": "0084B4",
+          "profile_sidebar_border_color": "FFFFFF",
+          "profile_sidebar_fill_color": "DDEEF6",
+          "profile_text_color": "333333",
+          "profile_use_background_image": true,
+          "default_profile": false,
+          "default_profile_image": false,
+          "following": false,
+          "follow_request_sent": false,
+          "notifications": false
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "retweet_count": 45,
+        "favorite_count": 78,
+        "entities": {
+          "hashtags": [
+            {
+              "text": "F35",
+              "indices": [
+                67,
+                71
+              ]
+            }
+          ],
+          "symbols": [],
+          "user_mentions": [
+            {
+              "screen_name": "defense_news",
+              "name": "Defense News",
+              "id": 21312961,
+              "id_str": "21312961",
+              "indices": [
+                4,
+                17
+              ]
+            },
+            {
+              "screen_name": "DeptofDefense",
+              "name": "U.S. Dept of Defense",
+              "id": 66369181,
+              "id_str": "66369181",
+              "indices": [
+                19,
+                33
+              ]
+            },
+            {
+              "screen_name": "LockheedMartin",
+              "name": "Lockheed Martin",
+              "id": 42871498,
+              "id_str": "42871498",
+              "indices": [
+                38,
+                53
+              ]
+            }
+          ],
+          "urls": [
+            {
+              "url": "http://t.co/1F43mqL0V4",
+              "expanded_url": "http://bit.ly/1xXySSE",
+              "display_url": "bit.ly/1xXySSE",
+              "indices": [
+                77,
+                99
+              ]
+            }
+          ],
+          "media": [
+            {
+              "id": 535945781644386300,
+              "id_str": "535945781644386304",
+              "indices": [
+                100,
+                122
+              ],
+              "media_url": "http://pbs.twimg.com/media/B3AP2U3IYAAhUvi.jpg",
+              "media_url_https": "https://pbs.twimg.com/media/B3AP2U3IYAAhUvi.jpg",
+              "url": "http://t.co/A8H2JUzp20",
+              "display_url": "pic.twitter.com/A8H2JUzp20",
+              "expanded_url": "http://twitter.com/thef35/status/535945782088978432/photo/1",
+              "type": "photo",
+              "sizes": {
+                "medium": {
+                  "w": 600,
+                  "h": 399,
+                  "resize": "fit"
+                },
+                "small": {
+                  "w": 340,
+                  "h": 226,
+                  "resize": "fit"
+                },
+                "thumb": {
+                  "w": 150,
+                  "h": 150,
+                  "resize": "crop"
+                },
+                "large": {
+                  "w": 1024,
+                  "h": 682,
+                  "resize": "fit"
+                }
+              }
+            }
+          ]
+        },
+        "favorited": false,
+        "retweeted": false,
+        "possibly_sensitive": false,
+        "lang": "en"
+      },
+      "retweet_count": 45,
+      "favorite_count": 0,
+      "entities": {
+        "hashtags": [
+          {
+            "text": "F35",
+            "indices": [
+              79,
+              83
+            ]
+          }
+        ],
+        "symbols": [],
+        "user_mentions": [
+          {
+            "screen_name": "thef35",
+            "name": "F-35 Lightning II",
+            "id": 292615553,
+            "id_str": "292615553",
+            "indices": [
+              3,
+              10
+            ]
+          },
+          {
+            "screen_name": "defense_news",
+            "name": "Defense News",
+            "id": 21312961,
+            "id_str": "21312961",
+            "indices": [
+              16,
+              29
+            ]
+          },
+          {
+            "screen_name": "DeptofDefense",
+            "name": "U.S. Dept of Defense",
+            "id": 66369181,
+            "id_str": "66369181",
+            "indices": [
+              31,
+              45
+            ]
+          },
+          {
+            "screen_name": "LockheedMartin",
+            "name": "Lockheed Martin",
+            "id": 42871498,
+            "id_str": "42871498",
+            "indices": [
+              50,
+              65
+            ]
+          }
+        ],
+        "urls": [
+          {
+            "url": "http://t.co/1F43mqL0V4",
+            "expanded_url": "http://bit.ly/1xXySSE",
+            "display_url": "bit.ly/1xXySSE",
+            "indices": [
+              89,
+              111
+            ]
+          }
+        ],
+        "media": [
+          {
+            "id": 535945781644386300,
+            "id_str": "535945781644386304",
+            "indices": [
+              112,
+              134
+            ],
+            "media_url": "http://pbs.twimg.com/media/B3AP2U3IYAAhUvi.jpg",
+            "media_url_https": "https://pbs.twimg.com/media/B3AP2U3IYAAhUvi.jpg",
+            "url": "http://t.co/A8H2JUzp20",
+            "display_url": "pic.twitter.com/A8H2JUzp20",
+            "expanded_url": "http://twitter.com/thef35/status/535945782088978432/photo/1",
+            "type": "photo",
+            "sizes": {
+              "medium": {
+                "w": 600,
+                "h": 399,
+                "resize": "fit"
+              },
+              "small": {
+                "w": 340,
+                "h": 226,
+                "resize": "fit"
+              },
+              "thumb": {
+                "w": 150,
+                "h": 150,
+                "resize": "crop"
+              },
+              "large": {
+                "w": 1024,
+                "h": 682,
+                "resize": "fit"
+              }
+            },
+            "source_status_id": 535945782088978400,
+            "source_status_id_str": "535945782088978432"
+          }
+        ]
+      },
+      "favorited": false,
+      "retweeted": false,
+      "possibly_sensitive": false,
+      "lang": "en"
+    },
+    {
+      "metadata": {
+        "iso_language_code": "en",
+        "result_type": "recent"
+      },
+      "created_at": "Sat Nov 22 15:04:03 +0000 2014",
+      "id": 536173270119514100,
+      "id_str": "536173270119514112",
+      "text": "RT @Kostian_V: #Lockheed, #Pentagon ink $4.7 billion deal for eighth batch of F-35 fighters | Reuters #F35 #JSF http://t.co/XoD99yHmI4",
+      "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+      "truncated": false,
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 165335229,
+        "id_str": "165335229",
+        "name": "hp",
+        "screen_name": "2111015",
+        "location": "",
+        "profile_location": null,
+        "description": "Human rights, animal rights, exploring diff't cultures, travelled to 26 countries in N. America, S. America, E./W. Europe, Asia, Africa, Middle East",
+        "url": null,
+        "entities": {
+          "description": {
+            "urls": []
+          }
+        },
+        "protected": false,
+        "followers_count": 1201,
+        "friends_count": 1989,
+        "listed_count": 55,
+        "created_at": "Sun Jul 11 07:54:38 +0000 2010",
+        "favourites_count": 38212,
+        "utc_offset": null,
+        "time_zone": null,
+        "geo_enabled": false,
+        "verified": false,
+        "statuses_count": 54092,
+        "lang": "en",
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "C0DEED",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": false,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/532284884686213120/qznWHtoF_normal.jpeg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/532284884686213120/qznWHtoF_normal.jpeg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/165335229/1413125937",
+        "profile_link_color": "0084B4",
+        "profile_sidebar_border_color": "C0DEED",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "default_profile": true,
+        "default_profile_image": false,
+        "following": false,
+        "follow_request_sent": false,
+        "notifications": false
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "retweeted_status": {
+        "metadata": {
+          "iso_language_code": "en",
+          "result_type": "recent"
+        },
+        "created_at": "Sat Nov 22 14:11:14 +0000 2014",
+        "id": 536159977543446500,
+        "id_str": "536159977543446528",
+        "text": "#Lockheed, #Pentagon ink $4.7 billion deal for eighth batch of F-35 fighters | Reuters #F35 #JSF http://t.co/XoD99yHmI4",
+        "source": "<a href=\"https://dev.twitter.com/docs/tfw\" rel=\"nofollow\">Twitter for Websites</a>",
+        "truncated": false,
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+          "id": 260706920,
+          "id_str": "260706920",
+          "name": "Ville Kostian",
+          "screen_name": "Kostian_V",
+          "location": "Helsinki, Finland",
+          "profile_location": null,
+          "description": "Geopolitics, PMESII. The New Great Game, the New Silk Road, Arctic, Russia, MENA, Central Asia and other global hot spots... Energy- and Cybersecurity.",
+          "url": null,
+          "entities": {
+            "description": {
+              "urls": []
+            }
+          },
+          "protected": false,
+          "followers_count": 2740,
+          "friends_count": 2823,
+          "listed_count": 180,
+          "created_at": "Fri Mar 04 12:33:57 +0000 2011",
+          "favourites_count": 5669,
+          "utc_offset": 7200,
+          "time_zone": "Helsinki",
+          "geo_enabled": false,
+          "verified": false,
+          "statuses_count": 152354,
+          "lang": "en",
+          "contributors_enabled": false,
+          "is_translator": false,
+          "is_translation_enabled": false,
+          "profile_background_color": "1A1B1F",
+          "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/378800000023732680/cbeb320c886ddeea71e27984ce944bad.jpeg",
+          "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/378800000023732680/cbeb320c886ddeea71e27984ce944bad.jpeg",
+          "profile_background_tile": false,
+          "profile_image_url": "http://pbs.twimg.com/profile_images/1279261845/img_prometheus_normal.jpg",
+          "profile_image_url_https": "https://pbs.twimg.com/profile_images/1279261845/img_prometheus_normal.jpg",
+          "profile_banner_url": "https://pbs.twimg.com/profile_banners/260706920/1402758618",
+          "profile_link_color": "2FC2EF",
+          "profile_sidebar_border_color": "FFFFFF",
+          "profile_sidebar_fill_color": "DDEEF6",
+          "profile_text_color": "333333",
+          "profile_use_background_image": true,
+          "default_profile": false,
+          "default_profile_image": false,
+          "following": false,
+          "follow_request_sent": false,
+          "notifications": false
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "retweet_count": 5,
+        "favorite_count": 2,
+        "entities": {
+          "hashtags": [
+            {
+              "text": "Lockheed",
+              "indices": [
+                0,
+                9
+              ]
+            },
+            {
+              "text": "Pentagon",
+              "indices": [
+                11,
+                20
+              ]
+            },
+            {
+              "text": "F35",
+              "indices": [
+                87,
+                91
+              ]
+            },
+            {
+              "text": "JSF",
+              "indices": [
+                92,
+                96
+              ]
+            }
+          ],
+          "symbols": [],
+          "user_mentions": [],
+          "urls": [
+            {
+              "url": "http://t.co/XoD99yHmI4",
+              "expanded_url": "http://www.reuters.com/article/2014/11/21/us-lockheed-fighter-idUSKCN0J52DJ20141121",
+              "display_url": "reuters.com/article/2014/1…",
+              "indices": [
+                97,
+                119
+              ]
+            }
+          ]
+        },
+        "favorited": false,
+        "retweeted": false,
+        "possibly_sensitive": false,
+        "lang": "en"
+      },
+      "retweet_count": 5,
+      "favorite_count": 0,
+      "entities": {
+        "hashtags": [
+          {
+            "text": "Lockheed",
+            "indices": [
+              15,
+              24
+            ]
+          },
+          {
+            "text": "Pentagon",
+            "indices": [
+              26,
+              35
+            ]
+          },
+          {
+            "text": "F35",
+            "indices": [
+              102,
+              106
+            ]
+          },
+          {
+            "text": "JSF",
+            "indices": [
+              107,
+              111
+            ]
+          }
+        ],
+        "symbols": [],
+        "user_mentions": [
+          {
+            "screen_name": "Kostian_V",
+            "name": "Ville Kostian",
+            "id": 260706920,
+            "id_str": "260706920",
+            "indices": [
+              3,
+              13
+            ]
+          }
+        ],
+        "urls": [
+          {
+            "url": "http://t.co/XoD99yHmI4",
+            "expanded_url": "http://www.reuters.com/article/2014/11/21/us-lockheed-fighter-idUSKCN0J52DJ20141121",
+            "display_url": "reuters.com/article/2014/1…",
+            "indices": [
+              112,
+              134
+            ]
+          }
+        ]
+      },
+      "favorited": false,
+      "retweeted": false,
+      "possibly_sensitive": false,
+      "lang": "en"
+    },
+    {
+      "metadata": {
+        "iso_language_code": "en",
+        "result_type": "recent"
+      },
+      "created_at": "Sat Nov 22 14:39:28 +0000 2014",
+      "id": 536167079930761200,
+      "id_str": "536167079930761216",
+      "text": "RT @thef35: Via @Defense_news: @DeptofDefense and @LockheedMartin finalize 8th #F35 lot: http://t.co/1F43mqL0V4 http://t.co/A8H2JUzp20",
+      "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+      "truncated": false,
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 1710120552,
+        "id_str": "1710120552",
+        "name": "Rosa ",
+        "screen_name": "RosaTrunk",
+        "location": "boonsboro",
+        "profile_location": null,
+        "description": "best battle buddy!",
+        "url": null,
+        "entities": {
+          "description": {
+            "urls": []
+          }
+        },
+        "protected": false,
+        "followers_count": 8331,
+        "friends_count": 7887,
+        "listed_count": 123,
+        "created_at": "Thu Aug 29 14:19:45 +0000 2013",
+        "favourites_count": 74118,
+        "utc_offset": null,
+        "time_zone": null,
+        "geo_enabled": false,
+        "verified": false,
+        "statuses_count": 139213,
+        "lang": "en",
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "C0DEED",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": false,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/502983248319115264/h3q8e_d3_normal.jpeg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/502983248319115264/h3q8e_d3_normal.jpeg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/1710120552/1415058255",
+        "profile_link_color": "0084B4",
+        "profile_sidebar_border_color": "C0DEED",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "default_profile": true,
+        "default_profile_image": false,
+        "following": false,
+        "follow_request_sent": false,
+        "notifications": false
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "retweeted_status": {
+        "metadata": {
+          "iso_language_code": "en",
+          "result_type": "recent"
+        },
+        "created_at": "Sat Nov 22 00:00:06 +0000 2014",
+        "id": 535945782088978400,
+        "id_str": "535945782088978432",
+        "text": "Via @Defense_news: @DeptofDefense and @LockheedMartin finalize 8th #F35 lot: http://t.co/1F43mqL0V4 http://t.co/A8H2JUzp20",
+        "source": "<a href=\"http://www.spredfast.com\" rel=\"nofollow\">Spredfast app</a>",
+        "truncated": false,
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+          "id": 292615553,
+          "id_str": "292615553",
+          "name": "F-35 Lightning II",
+          "screen_name": "thef35",
+          "location": "",
+          "profile_location": null,
+          "description": "The official Twitter account of the Lockheed Martin F-35 Lightning II - a 5th generation multirole stealth fighter for the U.S. and its allies.",
+          "url": "http://t.co/LRC2ozYB8b",
+          "entities": {
+            "url": {
+              "urls": [
+                {
+                  "url": "http://t.co/LRC2ozYB8b",
+                  "expanded_url": "http://www.f35.com",
+                  "display_url": "f35.com",
+                  "indices": [
+                    0,
+                    22
+                  ]
+                }
+              ]
+            },
+            "description": {
+              "urls": []
+            }
+          },
+          "protected": false,
+          "followers_count": 20851,
+          "friends_count": 127,
+          "listed_count": 323,
+          "created_at": "Tue May 03 23:14:54 +0000 2011",
+          "favourites_count": 83,
+          "utc_offset": -21600,
+          "time_zone": "Central Time (US & Canada)",
+          "geo_enabled": false,
+          "verified": false,
+          "statuses_count": 1322,
+          "lang": "en",
+          "contributors_enabled": false,
+          "is_translator": false,
+          "is_translation_enabled": false,
+          "profile_background_color": "C0DEED",
+          "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/378800000091284309/7f299079e9222bb6629b49de1e1fe769.jpeg",
+          "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/378800000091284309/7f299079e9222bb6629b49de1e1fe769.jpeg",
+          "profile_background_tile": false,
+          "profile_image_url": "http://pbs.twimg.com/profile_images/1427926999/11J00226_006_normal.jpg",
+          "profile_image_url_https": "https://pbs.twimg.com/profile_images/1427926999/11J00226_006_normal.jpg",
+          "profile_banner_url": "https://pbs.twimg.com/profile_banners/292615553/1415202215",
+          "profile_link_color": "0084B4",
+          "profile_sidebar_border_color": "FFFFFF",
+          "profile_sidebar_fill_color": "DDEEF6",
+          "profile_text_color": "333333",
+          "profile_use_background_image": true,
+          "default_profile": false,
+          "default_profile_image": false,
+          "following": false,
+          "follow_request_sent": false,
+          "notifications": false
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "retweet_count": 45,
+        "favorite_count": 78,
+        "entities": {
+          "hashtags": [
+            {
+              "text": "F35",
+              "indices": [
+                67,
+                71
+              ]
+            }
+          ],
+          "symbols": [],
+          "user_mentions": [
+            {
+              "screen_name": "defense_news",
+              "name": "Defense News",
+              "id": 21312961,
+              "id_str": "21312961",
+              "indices": [
+                4,
+                17
+              ]
+            },
+            {
+              "screen_name": "DeptofDefense",
+              "name": "U.S. Dept of Defense",
+              "id": 66369181,
+              "id_str": "66369181",
+              "indices": [
+                19,
+                33
+              ]
+            },
+            {
+              "screen_name": "LockheedMartin",
+              "name": "Lockheed Martin",
+              "id": 42871498,
+              "id_str": "42871498",
+              "indices": [
+                38,
+                53
+              ]
+            }
+          ],
+          "urls": [
+            {
+              "url": "http://t.co/1F43mqL0V4",
+              "expanded_url": "http://bit.ly/1xXySSE",
+              "display_url": "bit.ly/1xXySSE",
+              "indices": [
+                77,
+                99
+              ]
+            }
+          ],
+          "media": [
+            {
+              "id": 535945781644386300,
+              "id_str": "535945781644386304",
+              "indices": [
+                100,
+                122
+              ],
+              "media_url": "http://pbs.twimg.com/media/B3AP2U3IYAAhUvi.jpg",
+              "media_url_https": "https://pbs.twimg.com/media/B3AP2U3IYAAhUvi.jpg",
+              "url": "http://t.co/A8H2JUzp20",
+              "display_url": "pic.twitter.com/A8H2JUzp20",
+              "expanded_url": "http://twitter.com/thef35/status/535945782088978432/photo/1",
+              "type": "photo",
+              "sizes": {
+                "medium": {
+                  "w": 600,
+                  "h": 399,
+                  "resize": "fit"
+                },
+                "small": {
+                  "w": 340,
+                  "h": 226,
+                  "resize": "fit"
+                },
+                "thumb": {
+                  "w": 150,
+                  "h": 150,
+                  "resize": "crop"
+                },
+                "large": {
+                  "w": 1024,
+                  "h": 682,
+                  "resize": "fit"
+                }
+              }
+            }
+          ]
+        },
+        "favorited": false,
+        "retweeted": false,
+        "possibly_sensitive": false,
+        "lang": "en"
+      },
+      "retweet_count": 45,
+      "favorite_count": 0,
+      "entities": {
+        "hashtags": [
+          {
+            "text": "F35",
+            "indices": [
+              79,
+              83
+            ]
+          }
+        ],
+        "symbols": [],
+        "user_mentions": [
+          {
+            "screen_name": "thef35",
+            "name": "F-35 Lightning II",
+            "id": 292615553,
+            "id_str": "292615553",
+            "indices": [
+              3,
+              10
+            ]
+          },
+          {
+            "screen_name": "defense_news",
+            "name": "Defense News",
+            "id": 21312961,
+            "id_str": "21312961",
+            "indices": [
+              16,
+              29
+            ]
+          },
+          {
+            "screen_name": "DeptofDefense",
+            "name": "U.S. Dept of Defense",
+            "id": 66369181,
+            "id_str": "66369181",
+            "indices": [
+              31,
+              45
+            ]
+          },
+          {
+            "screen_name": "LockheedMartin",
+            "name": "Lockheed Martin",
+            "id": 42871498,
+            "id_str": "42871498",
+            "indices": [
+              50,
+              65
+            ]
+          }
+        ],
+        "urls": [
+          {
+            "url": "http://t.co/1F43mqL0V4",
+            "expanded_url": "http://bit.ly/1xXySSE",
+            "display_url": "bit.ly/1xXySSE",
+            "indices": [
+              89,
+              111
+            ]
+          }
+        ],
+        "media": [
+          {
+            "id": 535945781644386300,
+            "id_str": "535945781644386304",
+            "indices": [
+              112,
+              134
+            ],
+            "media_url": "http://pbs.twimg.com/media/B3AP2U3IYAAhUvi.jpg",
+            "media_url_https": "https://pbs.twimg.com/media/B3AP2U3IYAAhUvi.jpg",
+            "url": "http://t.co/A8H2JUzp20",
+            "display_url": "pic.twitter.com/A8H2JUzp20",
+            "expanded_url": "http://twitter.com/thef35/status/535945782088978432/photo/1",
+            "type": "photo",
+            "sizes": {
+              "medium": {
+                "w": 600,
+                "h": 399,
+                "resize": "fit"
+              },
+              "small": {
+                "w": 340,
+                "h": 226,
+                "resize": "fit"
+              },
+              "thumb": {
+                "w": 150,
+                "h": 150,
+                "resize": "crop"
+              },
+              "large": {
+                "w": 1024,
+                "h": 682,
+                "resize": "fit"
+              }
+            },
+            "source_status_id": 535945782088978400,
+            "source_status_id_str": "535945782088978432"
+          }
+        ]
+      },
+      "favorited": false,
+      "retweeted": false,
+      "possibly_sensitive": false,
+      "lang": "en"
+    },
+    {
+      "metadata": {
+        "iso_language_code": "en",
+        "result_type": "recent"
+      },
+      "created_at": "Sat Nov 22 14:38:14 +0000 2014",
+      "id": 536166773339742200,
+      "id_str": "536166773339742208",
+      "text": "RT @Kostian_V: #Lockheed, #Pentagon ink $4.7 billion deal for eighth batch of F-35 fighters | Reuters #F35 #JSF http://t.co/XoD99yHmI4",
+      "source": "<a href=\"http://twitter.com/#!/download/ipad\" rel=\"nofollow\">Twitter for iPad</a>",
+      "truncated": false,
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 2755587187,
+        "id_str": "2755587187",
+        "name": "Khalid Al Afghani",
+        "screen_name": "alkabulee",
+        "location": "Afghanistan",
+        "profile_location": null,
+        "description": "Sahih Bukhari 9 88 204 If two Muslims take out their swords to fight each other, then both of them will be from amongst the people of the Hell",
+        "url": null,
+        "entities": {
+          "description": {
+            "urls": []
+          }
+        },
+        "protected": false,
+        "followers_count": 210,
+        "friends_count": 122,
+        "listed_count": 0,
+        "created_at": "Fri Aug 22 16:30:11 +0000 2014",
+        "favourites_count": 259,
+        "utc_offset": 12600,
+        "time_zone": "Tehran",
+        "geo_enabled": false,
+        "verified": false,
+        "statuses_count": 2749,
+        "lang": "en",
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "000000",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": false,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/535011173582651392/r3YexX0P_normal.jpeg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/535011173582651392/r3YexX0P_normal.jpeg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/2755587187/1416391581",
+        "profile_link_color": "ABB8C2",
+        "profile_sidebar_border_color": "000000",
+        "profile_sidebar_fill_color": "000000",
+        "profile_text_color": "000000",
+        "profile_use_background_image": false,
+        "default_profile": false,
+        "default_profile_image": false,
+        "following": false,
+        "follow_request_sent": false,
+        "notifications": false
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "retweeted_status": {
+        "metadata": {
+          "iso_language_code": "en",
+          "result_type": "recent"
+        },
+        "created_at": "Sat Nov 22 14:11:14 +0000 2014",
+        "id": 536159977543446500,
+        "id_str": "536159977543446528",
+        "text": "#Lockheed, #Pentagon ink $4.7 billion deal for eighth batch of F-35 fighters | Reuters #F35 #JSF http://t.co/XoD99yHmI4",
+        "source": "<a href=\"https://dev.twitter.com/docs/tfw\" rel=\"nofollow\">Twitter for Websites</a>",
+        "truncated": false,
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+          "id": 260706920,
+          "id_str": "260706920",
+          "name": "Ville Kostian",
+          "screen_name": "Kostian_V",
+          "location": "Helsinki, Finland",
+          "profile_location": null,
+          "description": "Geopolitics, PMESII. The New Great Game, the New Silk Road, Arctic, Russia, MENA, Central Asia and other global hot spots... Energy- and Cybersecurity.",
+          "url": null,
+          "entities": {
+            "description": {
+              "urls": []
+            }
+          },
+          "protected": false,
+          "followers_count": 2740,
+          "friends_count": 2823,
+          "listed_count": 180,
+          "created_at": "Fri Mar 04 12:33:57 +0000 2011",
+          "favourites_count": 5669,
+          "utc_offset": 7200,
+          "time_zone": "Helsinki",
+          "geo_enabled": false,
+          "verified": false,
+          "statuses_count": 152354,
+          "lang": "en",
+          "contributors_enabled": false,
+          "is_translator": false,
+          "is_translation_enabled": false,
+          "profile_background_color": "1A1B1F",
+          "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/378800000023732680/cbeb320c886ddeea71e27984ce944bad.jpeg",
+          "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/378800000023732680/cbeb320c886ddeea71e27984ce944bad.jpeg",
+          "profile_background_tile": false,
+          "profile_image_url": "http://pbs.twimg.com/profile_images/1279261845/img_prometheus_normal.jpg",
+          "profile_image_url_https": "https://pbs.twimg.com/profile_images/1279261845/img_prometheus_normal.jpg",
+          "profile_banner_url": "https://pbs.twimg.com/profile_banners/260706920/1402758618",
+          "profile_link_color": "2FC2EF",
+          "profile_sidebar_border_color": "FFFFFF",
+          "profile_sidebar_fill_color": "DDEEF6",
+          "profile_text_color": "333333",
+          "profile_use_background_image": true,
+          "default_profile": false,
+          "default_profile_image": false,
+          "following": false,
+          "follow_request_sent": false,
+          "notifications": false
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "retweet_count": 5,
+        "favorite_count": 2,
+        "entities": {
+          "hashtags": [
+            {
+              "text": "Lockheed",
+              "indices": [
+                0,
+                9
+              ]
+            },
+            {
+              "text": "Pentagon",
+              "indices": [
+                11,
+                20
+              ]
+            },
+            {
+              "text": "F35",
+              "indices": [
+                87,
+                91
+              ]
+            },
+            {
+              "text": "JSF",
+              "indices": [
+                92,
+                96
+              ]
+            }
+          ],
+          "symbols": [],
+          "user_mentions": [],
+          "urls": [
+            {
+              "url": "http://t.co/XoD99yHmI4",
+              "expanded_url": "http://www.reuters.com/article/2014/11/21/us-lockheed-fighter-idUSKCN0J52DJ20141121",
+              "display_url": "reuters.com/article/2014/1…",
+              "indices": [
+                97,
+                119
+              ]
+            }
+          ]
+        },
+        "favorited": false,
+        "retweeted": false,
+        "possibly_sensitive": false,
+        "lang": "en"
+      },
+      "retweet_count": 5,
+      "favorite_count": 0,
+      "entities": {
+        "hashtags": [
+          {
+            "text": "Lockheed",
+            "indices": [
+              15,
+              24
+            ]
+          },
+          {
+            "text": "Pentagon",
+            "indices": [
+              26,
+              35
+            ]
+          },
+          {
+            "text": "F35",
+            "indices": [
+              102,
+              106
+            ]
+          },
+          {
+            "text": "JSF",
+            "indices": [
+              107,
+              111
+            ]
+          }
+        ],
+        "symbols": [],
+        "user_mentions": [
+          {
+            "screen_name": "Kostian_V",
+            "name": "Ville Kostian",
+            "id": 260706920,
+            "id_str": "260706920",
+            "indices": [
+              3,
+              13
+            ]
+          }
+        ],
+        "urls": [
+          {
+            "url": "http://t.co/XoD99yHmI4",
+            "expanded_url": "http://www.reuters.com/article/2014/11/21/us-lockheed-fighter-idUSKCN0J52DJ20141121",
+            "display_url": "reuters.com/article/2014/1…",
+            "indices": [
+              112,
+              134
+            ]
+          }
+        ]
+      },
+      "favorited": false,
+      "retweeted": false,
+      "possibly_sensitive": false,
+      "lang": "en"
+    },
+    {
+      "metadata": {
+        "iso_language_code": "en",
+        "result_type": "recent"
+      },
+      "created_at": "Sat Nov 22 14:28:39 +0000 2014",
+      "id": 536164361216458750,
+      "id_str": "536164361216458752",
+      "text": "RT @Kostian_V: #Lockheed, #Pentagon ink $4.7 billion deal for eighth batch of F-35 fighters | Reuters #F35 #JSF http://t.co/XoD99yHmI4",
+      "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+      "truncated": false,
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 2755455294,
+        "id_str": "2755455294",
+        "name": "Ari Laaksonen",
+        "screen_name": "LaaksonenAri",
+        "location": "Parola, Suomi/Finland",
+        "profile_location": null,
+        "description": "There is nothing like a #tank if you want to achieve #effect",
+        "url": null,
+        "entities": {
+          "description": {
+            "urls": []
+          }
+        },
+        "protected": false,
+        "followers_count": 72,
+        "friends_count": 288,
+        "listed_count": 0,
+        "created_at": "Fri Aug 22 16:12:01 +0000 2014",
+        "favourites_count": 49,
+        "utc_offset": 7200,
+        "time_zone": "Helsinki",
+        "geo_enabled": false,
+        "verified": false,
+        "statuses_count": 2212,
+        "lang": "fi",
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "C0DEED",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": false,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/502856783292297217/S63kcUaF_normal.jpeg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/502856783292297217/S63kcUaF_normal.jpeg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/2755455294/1411324524",
+        "profile_link_color": "0084B4",
+        "profile_sidebar_border_color": "C0DEED",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "default_profile": true,
+        "default_profile_image": false,
+        "following": false,
+        "follow_request_sent": false,
+        "notifications": false
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "retweeted_status": {
+        "metadata": {
+          "iso_language_code": "en",
+          "result_type": "recent"
+        },
+        "created_at": "Sat Nov 22 14:11:14 +0000 2014",
+        "id": 536159977543446500,
+        "id_str": "536159977543446528",
+        "text": "#Lockheed, #Pentagon ink $4.7 billion deal for eighth batch of F-35 fighters | Reuters #F35 #JSF http://t.co/XoD99yHmI4",
+        "source": "<a href=\"https://dev.twitter.com/docs/tfw\" rel=\"nofollow\">Twitter for Websites</a>",
+        "truncated": false,
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+          "id": 260706920,
+          "id_str": "260706920",
+          "name": "Ville Kostian",
+          "screen_name": "Kostian_V",
+          "location": "Helsinki, Finland",
+          "profile_location": null,
+          "description": "Geopolitics, PMESII. The New Great Game, the New Silk Road, Arctic, Russia, MENA, Central Asia and other global hot spots... Energy- and Cybersecurity.",
+          "url": null,
+          "entities": {
+            "description": {
+              "urls": []
+            }
+          },
+          "protected": false,
+          "followers_count": 2740,
+          "friends_count": 2823,
+          "listed_count": 180,
+          "created_at": "Fri Mar 04 12:33:57 +0000 2011",
+          "favourites_count": 5669,
+          "utc_offset": 7200,
+          "time_zone": "Helsinki",
+          "geo_enabled": false,
+          "verified": false,
+          "statuses_count": 152354,
+          "lang": "en",
+          "contributors_enabled": false,
+          "is_translator": false,
+          "is_translation_enabled": false,
+          "profile_background_color": "1A1B1F",
+          "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/378800000023732680/cbeb320c886ddeea71e27984ce944bad.jpeg",
+          "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/378800000023732680/cbeb320c886ddeea71e27984ce944bad.jpeg",
+          "profile_background_tile": false,
+          "profile_image_url": "http://pbs.twimg.com/profile_images/1279261845/img_prometheus_normal.jpg",
+          "profile_image_url_https": "https://pbs.twimg.com/profile_images/1279261845/img_prometheus_normal.jpg",
+          "profile_banner_url": "https://pbs.twimg.com/profile_banners/260706920/1402758618",
+          "profile_link_color": "2FC2EF",
+          "profile_sidebar_border_color": "FFFFFF",
+          "profile_sidebar_fill_color": "DDEEF6",
+          "profile_text_color": "333333",
+          "profile_use_background_image": true,
+          "default_profile": false,
+          "default_profile_image": false,
+          "following": false,
+          "follow_request_sent": false,
+          "notifications": false
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "retweet_count": 5,
+        "favorite_count": 2,
+        "entities": {
+          "hashtags": [
+            {
+              "text": "Lockheed",
+              "indices": [
+                0,
+                9
+              ]
+            },
+            {
+              "text": "Pentagon",
+              "indices": [
+                11,
+                20
+              ]
+            },
+            {
+              "text": "F35",
+              "indices": [
+                87,
+                91
+              ]
+            },
+            {
+              "text": "JSF",
+              "indices": [
+                92,
+                96
+              ]
+            }
+          ],
+          "symbols": [],
+          "user_mentions": [],
+          "urls": [
+            {
+              "url": "http://t.co/XoD99yHmI4",
+              "expanded_url": "http://www.reuters.com/article/2014/11/21/us-lockheed-fighter-idUSKCN0J52DJ20141121",
+              "display_url": "reuters.com/article/2014/1…",
+              "indices": [
+                97,
+                119
+              ]
+            }
+          ]
+        },
+        "favorited": false,
+        "retweeted": false,
+        "possibly_sensitive": false,
+        "lang": "en"
+      },
+      "retweet_count": 5,
+      "favorite_count": 0,
+      "entities": {
+        "hashtags": [
+          {
+            "text": "Lockheed",
+            "indices": [
+              15,
+              24
+            ]
+          },
+          {
+            "text": "Pentagon",
+            "indices": [
+              26,
+              35
+            ]
+          },
+          {
+            "text": "F35",
+            "indices": [
+              102,
+              106
+            ]
+          },
+          {
+            "text": "JSF",
+            "indices": [
+              107,
+              111
+            ]
+          }
+        ],
+        "symbols": [],
+        "user_mentions": [
+          {
+            "screen_name": "Kostian_V",
+            "name": "Ville Kostian",
+            "id": 260706920,
+            "id_str": "260706920",
+            "indices": [
+              3,
+              13
+            ]
+          }
+        ],
+        "urls": [
+          {
+            "url": "http://t.co/XoD99yHmI4",
+            "expanded_url": "http://www.reuters.com/article/2014/11/21/us-lockheed-fighter-idUSKCN0J52DJ20141121",
+            "display_url": "reuters.com/article/2014/1…",
+            "indices": [
+              112,
+              134
+            ]
+          }
+        ]
+      },
+      "favorited": false,
+      "retweeted": false,
+      "possibly_sensitive": false,
+      "lang": "en"
+    },
+    {
+      "metadata": {
+        "iso_language_code": "en",
+        "result_type": "recent"
+      },
+      "created_at": "Sat Nov 22 14:14:13 +0000 2014",
+      "id": 536160726063124500,
+      "id_str": "536160726063124480",
+      "text": "RT @Kostian_V: #Lockheed, #Pentagon ink $4.7 billion deal for eighth batch of F-35 fighters | Reuters #F35 #JSF http://t.co/XoD99yHmI4",
+      "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+      "truncated": false,
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 2817536035,
+        "id_str": "2817536035",
+        "name": "Dawood",
+        "screen_name": "Suleiman_Dawood",
+        "location": "",
+        "profile_location": null,
+        "description": "Middle East commentator on Alraabit, focus on economics, markets, revolution and geopolitical shifts. RT≠endorsement, Independent Analyst, unaffiliated with any",
+        "url": null,
+        "entities": {
+          "description": {
+            "urls": []
+          }
+        },
+        "protected": false,
+        "followers_count": 1752,
+        "friends_count": 392,
+        "listed_count": 19,
+        "created_at": "Thu Sep 18 17:58:29 +0000 2014",
+        "favourites_count": 330,
+        "utc_offset": null,
+        "time_zone": null,
+        "geo_enabled": false,
+        "verified": false,
+        "statuses_count": 4736,
+        "lang": "en",
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "C0DEED",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": false,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/526140055450963968/xLRYK2yj_normal.jpeg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/526140055450963968/xLRYK2yj_normal.jpeg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/2817536035/1411071198",
+        "profile_link_color": "0084B4",
+        "profile_sidebar_border_color": "C0DEED",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "default_profile": true,
+        "default_profile_image": false,
+        "following": false,
+        "follow_request_sent": false,
+        "notifications": false
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "retweeted_status": {
+        "metadata": {
+          "iso_language_code": "en",
+          "result_type": "recent"
+        },
+        "created_at": "Sat Nov 22 14:11:14 +0000 2014",
+        "id": 536159977543446500,
+        "id_str": "536159977543446528",
+        "text": "#Lockheed, #Pentagon ink $4.7 billion deal for eighth batch of F-35 fighters | Reuters #F35 #JSF http://t.co/XoD99yHmI4",
+        "source": "<a href=\"https://dev.twitter.com/docs/tfw\" rel=\"nofollow\">Twitter for Websites</a>",
+        "truncated": false,
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+          "id": 260706920,
+          "id_str": "260706920",
+          "name": "Ville Kostian",
+          "screen_name": "Kostian_V",
+          "location": "Helsinki, Finland",
+          "profile_location": null,
+          "description": "Geopolitics, PMESII. The New Great Game, the New Silk Road, Arctic, Russia, MENA, Central Asia and other global hot spots... Energy- and Cybersecurity.",
+          "url": null,
+          "entities": {
+            "description": {
+              "urls": []
+            }
+          },
+          "protected": false,
+          "followers_count": 2740,
+          "friends_count": 2823,
+          "listed_count": 180,
+          "created_at": "Fri Mar 04 12:33:57 +0000 2011",
+          "favourites_count": 5669,
+          "utc_offset": 7200,
+          "time_zone": "Helsinki",
+          "geo_enabled": false,
+          "verified": false,
+          "statuses_count": 152354,
+          "lang": "en",
+          "contributors_enabled": false,
+          "is_translator": false,
+          "is_translation_enabled": false,
+          "profile_background_color": "1A1B1F",
+          "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/378800000023732680/cbeb320c886ddeea71e27984ce944bad.jpeg",
+          "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/378800000023732680/cbeb320c886ddeea71e27984ce944bad.jpeg",
+          "profile_background_tile": false,
+          "profile_image_url": "http://pbs.twimg.com/profile_images/1279261845/img_prometheus_normal.jpg",
+          "profile_image_url_https": "https://pbs.twimg.com/profile_images/1279261845/img_prometheus_normal.jpg",
+          "profile_banner_url": "https://pbs.twimg.com/profile_banners/260706920/1402758618",
+          "profile_link_color": "2FC2EF",
+          "profile_sidebar_border_color": "FFFFFF",
+          "profile_sidebar_fill_color": "DDEEF6",
+          "profile_text_color": "333333",
+          "profile_use_background_image": true,
+          "default_profile": false,
+          "default_profile_image": false,
+          "following": false,
+          "follow_request_sent": false,
+          "notifications": false
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "retweet_count": 5,
+        "favorite_count": 2,
+        "entities": {
+          "hashtags": [
+            {
+              "text": "Lockheed",
+              "indices": [
+                0,
+                9
+              ]
+            },
+            {
+              "text": "Pentagon",
+              "indices": [
+                11,
+                20
+              ]
+            },
+            {
+              "text": "F35",
+              "indices": [
+                87,
+                91
+              ]
+            },
+            {
+              "text": "JSF",
+              "indices": [
+                92,
+                96
+              ]
+            }
+          ],
+          "symbols": [],
+          "user_mentions": [],
+          "urls": [
+            {
+              "url": "http://t.co/XoD99yHmI4",
+              "expanded_url": "http://www.reuters.com/article/2014/11/21/us-lockheed-fighter-idUSKCN0J52DJ20141121",
+              "display_url": "reuters.com/article/2014/1…",
+              "indices": [
+                97,
+                119
+              ]
+            }
+          ]
+        },
+        "favorited": false,
+        "retweeted": false,
+        "possibly_sensitive": false,
+        "lang": "en"
+      },
+      "retweet_count": 5,
+      "favorite_count": 0,
+      "entities": {
+        "hashtags": [
+          {
+            "text": "Lockheed",
+            "indices": [
+              15,
+              24
+            ]
+          },
+          {
+            "text": "Pentagon",
+            "indices": [
+              26,
+              35
+            ]
+          },
+          {
+            "text": "F35",
+            "indices": [
+              102,
+              106
+            ]
+          },
+          {
+            "text": "JSF",
+            "indices": [
+              107,
+              111
+            ]
+          }
+        ],
+        "symbols": [],
+        "user_mentions": [
+          {
+            "screen_name": "Kostian_V",
+            "name": "Ville Kostian",
+            "id": 260706920,
+            "id_str": "260706920",
+            "indices": [
+              3,
+              13
+            ]
+          }
+        ],
+        "urls": [
+          {
+            "url": "http://t.co/XoD99yHmI4",
+            "expanded_url": "http://www.reuters.com/article/2014/11/21/us-lockheed-fighter-idUSKCN0J52DJ20141121",
+            "display_url": "reuters.com/article/2014/1…",
+            "indices": [
+              112,
+              134
+            ]
+          }
+        ]
+      },
+      "favorited": false,
+      "retweeted": false,
+      "possibly_sensitive": false,
+      "lang": "en"
+    },
+    {
+      "metadata": {
+        "iso_language_code": "en",
+        "result_type": "recent"
+      },
+      "created_at": "Sat Nov 22 14:12:13 +0000 2014",
+      "id": 536160224026316800,
+      "id_str": "536160224026316800",
+      "text": "RT @Kostian_V: #Lockheed, #Pentagon ink $4.7 billion deal for eighth batch of F-35 fighters | Reuters #F35 #JSF http://t.co/XoD99yHmI4",
+      "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+      "truncated": false,
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 84417802,
+        "id_str": "84417802",
+        "name": "Kari Salmela",
+        "screen_name": "TheApilas",
+        "location": "West coast, Sweden",
+        "profile_location": null,
+        "description": "Hockey and motor sports lover, computer technician, music and movie lover. Tweet/retweets mostly in Swedish/English/Finnish and sometimes other languages..",
+        "url": "https://t.co/qU4DjLz0kB",
+        "entities": {
+          "url": {
+            "urls": [
+              {
+                "url": "https://t.co/qU4DjLz0kB",
+                "expanded_url": "https://paper.li/TheApilas/1413497451",
+                "display_url": "paper.li/TheApilas/1413…",
+                "indices": [
+                  0,
+                  23
+                ]
+              }
+            ]
+          },
+          "description": {
+            "urls": []
+          }
+        },
+        "protected": false,
+        "followers_count": 173,
+        "friends_count": 519,
+        "listed_count": 2,
+        "created_at": "Thu Oct 22 20:33:48 +0000 2009",
+        "favourites_count": 3317,
+        "utc_offset": null,
+        "time_zone": null,
+        "geo_enabled": false,
+        "verified": false,
+        "statuses_count": 9659,
+        "lang": "en",
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "131516",
+        "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/502314435080241153/OTrh4KMh.jpeg",
+        "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/502314435080241153/OTrh4KMh.jpeg",
+        "profile_background_tile": false,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/502308872715919362/fpmDQYMO_normal.jpeg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/502308872715919362/fpmDQYMO_normal.jpeg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/84417802/1351608101",
+        "profile_link_color": "006633",
+        "profile_sidebar_border_color": "FFFFFF",
+        "profile_sidebar_fill_color": "EFEFEF",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "default_profile": false,
+        "default_profile_image": false,
+        "following": false,
+        "follow_request_sent": false,
+        "notifications": false
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "retweeted_status": {
+        "metadata": {
+          "iso_language_code": "en",
+          "result_type": "recent"
+        },
+        "created_at": "Sat Nov 22 14:11:14 +0000 2014",
+        "id": 536159977543446500,
+        "id_str": "536159977543446528",
+        "text": "#Lockheed, #Pentagon ink $4.7 billion deal for eighth batch of F-35 fighters | Reuters #F35 #JSF http://t.co/XoD99yHmI4",
+        "source": "<a href=\"https://dev.twitter.com/docs/tfw\" rel=\"nofollow\">Twitter for Websites</a>",
+        "truncated": false,
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+          "id": 260706920,
+          "id_str": "260706920",
+          "name": "Ville Kostian",
+          "screen_name": "Kostian_V",
+          "location": "Helsinki, Finland",
+          "profile_location": null,
+          "description": "Geopolitics, PMESII. The New Great Game, the New Silk Road, Arctic, Russia, MENA, Central Asia and other global hot spots... Energy- and Cybersecurity.",
+          "url": null,
+          "entities": {
+            "description": {
+              "urls": []
+            }
+          },
+          "protected": false,
+          "followers_count": 2740,
+          "friends_count": 2823,
+          "listed_count": 180,
+          "created_at": "Fri Mar 04 12:33:57 +0000 2011",
+          "favourites_count": 5669,
+          "utc_offset": 7200,
+          "time_zone": "Helsinki",
+          "geo_enabled": false,
+          "verified": false,
+          "statuses_count": 152354,
+          "lang": "en",
+          "contributors_enabled": false,
+          "is_translator": false,
+          "is_translation_enabled": false,
+          "profile_background_color": "1A1B1F",
+          "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/378800000023732680/cbeb320c886ddeea71e27984ce944bad.jpeg",
+          "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/378800000023732680/cbeb320c886ddeea71e27984ce944bad.jpeg",
+          "profile_background_tile": false,
+          "profile_image_url": "http://pbs.twimg.com/profile_images/1279261845/img_prometheus_normal.jpg",
+          "profile_image_url_https": "https://pbs.twimg.com/profile_images/1279261845/img_prometheus_normal.jpg",
+          "profile_banner_url": "https://pbs.twimg.com/profile_banners/260706920/1402758618",
+          "profile_link_color": "2FC2EF",
+          "profile_sidebar_border_color": "FFFFFF",
+          "profile_sidebar_fill_color": "DDEEF6",
+          "profile_text_color": "333333",
+          "profile_use_background_image": true,
+          "default_profile": false,
+          "default_profile_image": false,
+          "following": false,
+          "follow_request_sent": false,
+          "notifications": false
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "retweet_count": 5,
+        "favorite_count": 2,
+        "entities": {
+          "hashtags": [
+            {
+              "text": "Lockheed",
+              "indices": [
+                0,
+                9
+              ]
+            },
+            {
+              "text": "Pentagon",
+              "indices": [
+                11,
+                20
+              ]
+            },
+            {
+              "text": "F35",
+              "indices": [
+                87,
+                91
+              ]
+            },
+            {
+              "text": "JSF",
+              "indices": [
+                92,
+                96
+              ]
+            }
+          ],
+          "symbols": [],
+          "user_mentions": [],
+          "urls": [
+            {
+              "url": "http://t.co/XoD99yHmI4",
+              "expanded_url": "http://www.reuters.com/article/2014/11/21/us-lockheed-fighter-idUSKCN0J52DJ20141121",
+              "display_url": "reuters.com/article/2014/1…",
+              "indices": [
+                97,
+                119
+              ]
+            }
+          ]
+        },
+        "favorited": false,
+        "retweeted": false,
+        "possibly_sensitive": false,
+        "lang": "en"
+      },
+      "retweet_count": 5,
+      "favorite_count": 0,
+      "entities": {
+        "hashtags": [
+          {
+            "text": "Lockheed",
+            "indices": [
+              15,
+              24
+            ]
+          },
+          {
+            "text": "Pentagon",
+            "indices": [
+              26,
+              35
+            ]
+          },
+          {
+            "text": "F35",
+            "indices": [
+              102,
+              106
+            ]
+          },
+          {
+            "text": "JSF",
+            "indices": [
+              107,
+              111
+            ]
+          }
+        ],
+        "symbols": [],
+        "user_mentions": [
+          {
+            "screen_name": "Kostian_V",
+            "name": "Ville Kostian",
+            "id": 260706920,
+            "id_str": "260706920",
+            "indices": [
+              3,
+              13
+            ]
+          }
+        ],
+        "urls": [
+          {
+            "url": "http://t.co/XoD99yHmI4",
+            "expanded_url": "http://www.reuters.com/article/2014/11/21/us-lockheed-fighter-idUSKCN0J52DJ20141121",
+            "display_url": "reuters.com/article/2014/1…",
+            "indices": [
+              112,
+              134
+            ]
+          }
+        ]
+      },
+      "favorited": false,
+      "retweeted": false,
+      "possibly_sensitive": false,
+      "lang": "en"
+    },
+    {
+      "metadata": {
+        "iso_language_code": "en",
+        "result_type": "recent"
+      },
+      "created_at": "Sat Nov 22 14:11:14 +0000 2014",
+      "id": 536159977543446500,
+      "id_str": "536159977543446528",
+      "text": "#Lockheed, #Pentagon ink $4.7 billion deal for eighth batch of F-35 fighters | Reuters #F35 #JSF http://t.co/XoD99yHmI4",
+      "source": "<a href=\"https://dev.twitter.com/docs/tfw\" rel=\"nofollow\">Twitter for Websites</a>",
+      "truncated": false,
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 260706920,
+        "id_str": "260706920",
+        "name": "Ville Kostian",
+        "screen_name": "Kostian_V",
+        "location": "Helsinki, Finland",
+        "profile_location": null,
+        "description": "Geopolitics, PMESII. The New Great Game, the New Silk Road, Arctic, Russia, MENA, Central Asia and other global hot spots... Energy- and Cybersecurity.",
+        "url": null,
+        "entities": {
+          "description": {
+            "urls": []
+          }
+        },
+        "protected": false,
+        "followers_count": 2740,
+        "friends_count": 2823,
+        "listed_count": 180,
+        "created_at": "Fri Mar 04 12:33:57 +0000 2011",
+        "favourites_count": 5669,
+        "utc_offset": 7200,
+        "time_zone": "Helsinki",
+        "geo_enabled": false,
+        "verified": false,
+        "statuses_count": 152354,
+        "lang": "en",
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "1A1B1F",
+        "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/378800000023732680/cbeb320c886ddeea71e27984ce944bad.jpeg",
+        "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/378800000023732680/cbeb320c886ddeea71e27984ce944bad.jpeg",
+        "profile_background_tile": false,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/1279261845/img_prometheus_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/1279261845/img_prometheus_normal.jpg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/260706920/1402758618",
+        "profile_link_color": "2FC2EF",
+        "profile_sidebar_border_color": "FFFFFF",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "default_profile": false,
+        "default_profile_image": false,
+        "following": false,
+        "follow_request_sent": false,
+        "notifications": false
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "retweet_count": 5,
+      "favorite_count": 2,
+      "entities": {
+        "hashtags": [
+          {
+            "text": "Lockheed",
+            "indices": [
+              0,
+              9
+            ]
+          },
+          {
+            "text": "Pentagon",
+            "indices": [
+              11,
+              20
+            ]
+          },
+          {
+            "text": "F35",
+            "indices": [
+              87,
+              91
+            ]
+          },
+          {
+            "text": "JSF",
+            "indices": [
+              92,
+              96
+            ]
+          }
+        ],
+        "symbols": [],
+        "user_mentions": [],
+        "urls": [
+          {
+            "url": "http://t.co/XoD99yHmI4",
+            "expanded_url": "http://www.reuters.com/article/2014/11/21/us-lockheed-fighter-idUSKCN0J52DJ20141121",
+            "display_url": "reuters.com/article/2014/1…",
+            "indices": [
+              97,
+              119
+            ]
+          }
+        ]
+      },
+      "favorited": false,
+      "retweeted": false,
+      "possibly_sensitive": false,
+      "lang": "en"
+    },
+    {
+      "metadata": {
+        "iso_language_code": "en",
+        "result_type": "recent"
+      },
+      "created_at": "Sat Nov 22 14:04:56 +0000 2014",
+      "id": 536158392939581440,
+      "id_str": "536158392939581440",
+      "text": "RT @thef35: Via @Defense_news: @DeptofDefense and @LockheedMartin finalize 8th #F35 lot: http://t.co/1F43mqL0V4 http://t.co/A8H2JUzp20",
+      "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+      "truncated": false,
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 30500021,
+        "id_str": "30500021",
+        "name": "KarenJeanMatsko Hood",
+        "screen_name": "KarenJeanHood",
+        "location": "Greenacres, Washington USA",
+        "profile_location": null,
+        "description": "Author, Poet, Freelance Writer, Researcher, Child Advocate, Feminist, Teacher, Literacy Advocate, Cook, & Food Writer, Wife & Mom of 16 Great Kids & Foster Kids",
+        "url": "http://t.co/GdMBgVIpiw",
+        "entities": {
+          "url": {
+            "urls": [
+              {
+                "url": "http://t.co/GdMBgVIpiw",
+                "expanded_url": "http://KarenJeanMatskoHoodBlog.com",
+                "display_url": "KarenJeanMatskoHoodBlog.com",
+                "indices": [
+                  0,
+                  22
+                ]
+              }
+            ]
+          },
+          "description": {
+            "urls": []
+          }
+        },
+        "protected": false,
+        "followers_count": 173573,
+        "friends_count": 165035,
+        "listed_count": 415,
+        "created_at": "Sat Apr 11 18:50:48 +0000 2009",
+        "favourites_count": 823,
+        "utc_offset": -28800,
+        "time_zone": "Pacific Time (US & Canada)",
+        "geo_enabled": true,
+        "verified": false,
+        "statuses_count": 30046,
+        "lang": "en",
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "D8CFDF",
+        "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/378800000046392791/ed67813058547db906478c318c641931.jpeg",
+        "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/378800000046392791/ed67813058547db906478c318c641931.jpeg",
+        "profile_background_tile": false,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/3675847994/78db15a883b9da2e7e268f4a448406bd_normal.jpeg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/3675847994/78db15a883b9da2e7e268f4a448406bd_normal.jpeg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/30500021/1400474578",
+        "profile_link_color": "584D89",
+        "profile_sidebar_border_color": "FFFFFF",
+        "profile_sidebar_fill_color": "E5507E",
+        "profile_text_color": "362720",
+        "profile_use_background_image": true,
+        "default_profile": false,
+        "default_profile_image": false,
+        "following": false,
+        "follow_request_sent": false,
+        "notifications": false
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "retweeted_status": {
+        "metadata": {
+          "iso_language_code": "en",
+          "result_type": "recent"
+        },
+        "created_at": "Sat Nov 22 00:00:06 +0000 2014",
+        "id": 535945782088978400,
+        "id_str": "535945782088978432",
+        "text": "Via @Defense_news: @DeptofDefense and @LockheedMartin finalize 8th #F35 lot: http://t.co/1F43mqL0V4 http://t.co/A8H2JUzp20",
+        "source": "<a href=\"http://www.spredfast.com\" rel=\"nofollow\">Spredfast app</a>",
+        "truncated": false,
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+          "id": 292615553,
+          "id_str": "292615553",
+          "name": "F-35 Lightning II",
+          "screen_name": "thef35",
+          "location": "",
+          "profile_location": null,
+          "description": "The official Twitter account of the Lockheed Martin F-35 Lightning II - a 5th generation multirole stealth fighter for the U.S. and its allies.",
+          "url": "http://t.co/LRC2ozYB8b",
+          "entities": {
+            "url": {
+              "urls": [
+                {
+                  "url": "http://t.co/LRC2ozYB8b",
+                  "expanded_url": "http://www.f35.com",
+                  "display_url": "f35.com",
+                  "indices": [
+                    0,
+                    22
+                  ]
+                }
+              ]
+            },
+            "description": {
+              "urls": []
+            }
+          },
+          "protected": false,
+          "followers_count": 20851,
+          "friends_count": 127,
+          "listed_count": 323,
+          "created_at": "Tue May 03 23:14:54 +0000 2011",
+          "favourites_count": 83,
+          "utc_offset": -21600,
+          "time_zone": "Central Time (US & Canada)",
+          "geo_enabled": false,
+          "verified": false,
+          "statuses_count": 1322,
+          "lang": "en",
+          "contributors_enabled": false,
+          "is_translator": false,
+          "is_translation_enabled": false,
+          "profile_background_color": "C0DEED",
+          "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/378800000091284309/7f299079e9222bb6629b49de1e1fe769.jpeg",
+          "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/378800000091284309/7f299079e9222bb6629b49de1e1fe769.jpeg",
+          "profile_background_tile": false,
+          "profile_image_url": "http://pbs.twimg.com/profile_images/1427926999/11J00226_006_normal.jpg",
+          "profile_image_url_https": "https://pbs.twimg.com/profile_images/1427926999/11J00226_006_normal.jpg",
+          "profile_banner_url": "https://pbs.twimg.com/profile_banners/292615553/1415202215",
+          "profile_link_color": "0084B4",
+          "profile_sidebar_border_color": "FFFFFF",
+          "profile_sidebar_fill_color": "DDEEF6",
+          "profile_text_color": "333333",
+          "profile_use_background_image": true,
+          "default_profile": false,
+          "default_profile_image": false,
+          "following": false,
+          "follow_request_sent": false,
+          "notifications": false
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "retweet_count": 45,
+        "favorite_count": 78,
+        "entities": {
+          "hashtags": [
+            {
+              "text": "F35",
+              "indices": [
+                67,
+                71
+              ]
+            }
+          ],
+          "symbols": [],
+          "user_mentions": [
+            {
+              "screen_name": "defense_news",
+              "name": "Defense News",
+              "id": 21312961,
+              "id_str": "21312961",
+              "indices": [
+                4,
+                17
+              ]
+            },
+            {
+              "screen_name": "DeptofDefense",
+              "name": "U.S. Dept of Defense",
+              "id": 66369181,
+              "id_str": "66369181",
+              "indices": [
+                19,
+                33
+              ]
+            },
+            {
+              "screen_name": "LockheedMartin",
+              "name": "Lockheed Martin",
+              "id": 42871498,
+              "id_str": "42871498",
+              "indices": [
+                38,
+                53
+              ]
+            }
+          ],
+          "urls": [
+            {
+              "url": "http://t.co/1F43mqL0V4",
+              "expanded_url": "http://bit.ly/1xXySSE",
+              "display_url": "bit.ly/1xXySSE",
+              "indices": [
+                77,
+                99
+              ]
+            }
+          ],
+          "media": [
+            {
+              "id": 535945781644386300,
+              "id_str": "535945781644386304",
+              "indices": [
+                100,
+                122
+              ],
+              "media_url": "http://pbs.twimg.com/media/B3AP2U3IYAAhUvi.jpg",
+              "media_url_https": "https://pbs.twimg.com/media/B3AP2U3IYAAhUvi.jpg",
+              "url": "http://t.co/A8H2JUzp20",
+              "display_url": "pic.twitter.com/A8H2JUzp20",
+              "expanded_url": "http://twitter.com/thef35/status/535945782088978432/photo/1",
+              "type": "photo",
+              "sizes": {
+                "medium": {
+                  "w": 600,
+                  "h": 399,
+                  "resize": "fit"
+                },
+                "small": {
+                  "w": 340,
+                  "h": 226,
+                  "resize": "fit"
+                },
+                "thumb": {
+                  "w": 150,
+                  "h": 150,
+                  "resize": "crop"
+                },
+                "large": {
+                  "w": 1024,
+                  "h": 682,
+                  "resize": "fit"
+                }
+              }
+            }
+          ]
+        },
+        "favorited": false,
+        "retweeted": false,
+        "possibly_sensitive": false,
+        "lang": "en"
+      },
+      "retweet_count": 45,
+      "favorite_count": 0,
+      "entities": {
+        "hashtags": [
+          {
+            "text": "F35",
+            "indices": [
+              79,
+              83
+            ]
+          }
+        ],
+        "symbols": [],
+        "user_mentions": [
+          {
+            "screen_name": "thef35",
+            "name": "F-35 Lightning II",
+            "id": 292615553,
+            "id_str": "292615553",
+            "indices": [
+              3,
+              10
+            ]
+          },
+          {
+            "screen_name": "defense_news",
+            "name": "Defense News",
+            "id": 21312961,
+            "id_str": "21312961",
+            "indices": [
+              16,
+              29
+            ]
+          },
+          {
+            "screen_name": "DeptofDefense",
+            "name": "U.S. Dept of Defense",
+            "id": 66369181,
+            "id_str": "66369181",
+            "indices": [
+              31,
+              45
+            ]
+          },
+          {
+            "screen_name": "LockheedMartin",
+            "name": "Lockheed Martin",
+            "id": 42871498,
+            "id_str": "42871498",
+            "indices": [
+              50,
+              65
+            ]
+          }
+        ],
+        "urls": [
+          {
+            "url": "http://t.co/1F43mqL0V4",
+            "expanded_url": "http://bit.ly/1xXySSE",
+            "display_url": "bit.ly/1xXySSE",
+            "indices": [
+              89,
+              111
+            ]
+          }
+        ],
+        "media": [
+          {
+            "id": 535945781644386300,
+            "id_str": "535945781644386304",
+            "indices": [
+              112,
+              134
+            ],
+            "media_url": "http://pbs.twimg.com/media/B3AP2U3IYAAhUvi.jpg",
+            "media_url_https": "https://pbs.twimg.com/media/B3AP2U3IYAAhUvi.jpg",
+            "url": "http://t.co/A8H2JUzp20",
+            "display_url": "pic.twitter.com/A8H2JUzp20",
+            "expanded_url": "http://twitter.com/thef35/status/535945782088978432/photo/1",
+            "type": "photo",
+            "sizes": {
+              "medium": {
+                "w": 600,
+                "h": 399,
+                "resize": "fit"
+              },
+              "small": {
+                "w": 340,
+                "h": 226,
+                "resize": "fit"
+              },
+              "thumb": {
+                "w": 150,
+                "h": 150,
+                "resize": "crop"
+              },
+              "large": {
+                "w": 1024,
+                "h": 682,
+                "resize": "fit"
+              }
+            },
+            "source_status_id": 535945782088978400,
+            "source_status_id_str": "535945782088978432"
+          }
+        ]
+      },
+      "favorited": false,
+      "retweeted": false,
+      "possibly_sensitive": false,
+      "lang": "en"
+    },
+    {
+      "metadata": {
+        "iso_language_code": "en",
+        "result_type": "recent"
+      },
+      "created_at": "Sat Nov 22 14:04:28 +0000 2014",
+      "id": 536158273175814140,
+      "id_str": "536158273175814144",
+      "text": "RT @thef35: Via @Defense_news: @DeptofDefense and @LockheedMartin finalize 8th #F35 lot: http://t.co/1F43mqL0V4 http://t.co/A8H2JUzp20",
+      "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+      "truncated": false,
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 330573517,
+        "id_str": "330573517",
+        "name": "Anèr",
+        "screen_name": "Arthedain69",
+        "location": "",
+        "profile_location": null,
+        "description": "La maggior parte di noi nasce con l'aiuto del medico e muore allo stesso modo. (George Bernard Shaw)",
+        "url": null,
+        "entities": {
+          "description": {
+            "urls": []
+          }
+        },
+        "protected": false,
+        "followers_count": 1625,
+        "friends_count": 1997,
+        "listed_count": 34,
+        "created_at": "Wed Jul 06 20:38:24 +0000 2011",
+        "favourites_count": 1780,
+        "utc_offset": null,
+        "time_zone": null,
+        "geo_enabled": true,
+        "verified": false,
+        "statuses_count": 14715,
+        "lang": "it",
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "C0DEED",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": false,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/525287658504077312/ZsrGiVV1_normal.jpeg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/525287658504077312/ZsrGiVV1_normal.jpeg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/330573517/1353525985",
+        "profile_link_color": "0084B4",
+        "profile_sidebar_border_color": "C0DEED",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "default_profile": true,
+        "default_profile_image": false,
+        "following": false,
+        "follow_request_sent": false,
+        "notifications": false
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "retweeted_status": {
+        "metadata": {
+          "iso_language_code": "en",
+          "result_type": "recent"
+        },
+        "created_at": "Sat Nov 22 00:00:06 +0000 2014",
+        "id": 535945782088978400,
+        "id_str": "535945782088978432",
+        "text": "Via @Defense_news: @DeptofDefense and @LockheedMartin finalize 8th #F35 lot: http://t.co/1F43mqL0V4 http://t.co/A8H2JUzp20",
+        "source": "<a href=\"http://www.spredfast.com\" rel=\"nofollow\">Spredfast app</a>",
+        "truncated": false,
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+          "id": 292615553,
+          "id_str": "292615553",
+          "name": "F-35 Lightning II",
+          "screen_name": "thef35",
+          "location": "",
+          "profile_location": null,
+          "description": "The official Twitter account of the Lockheed Martin F-35 Lightning II - a 5th generation multirole stealth fighter for the U.S. and its allies.",
+          "url": "http://t.co/LRC2ozYB8b",
+          "entities": {
+            "url": {
+              "urls": [
+                {
+                  "url": "http://t.co/LRC2ozYB8b",
+                  "expanded_url": "http://www.f35.com",
+                  "display_url": "f35.com",
+                  "indices": [
+                    0,
+                    22
+                  ]
+                }
+              ]
+            },
+            "description": {
+              "urls": []
+            }
+          },
+          "protected": false,
+          "followers_count": 20851,
+          "friends_count": 127,
+          "listed_count": 323,
+          "created_at": "Tue May 03 23:14:54 +0000 2011",
+          "favourites_count": 83,
+          "utc_offset": -21600,
+          "time_zone": "Central Time (US & Canada)",
+          "geo_enabled": false,
+          "verified": false,
+          "statuses_count": 1322,
+          "lang": "en",
+          "contributors_enabled": false,
+          "is_translator": false,
+          "is_translation_enabled": false,
+          "profile_background_color": "C0DEED",
+          "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/378800000091284309/7f299079e9222bb6629b49de1e1fe769.jpeg",
+          "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/378800000091284309/7f299079e9222bb6629b49de1e1fe769.jpeg",
+          "profile_background_tile": false,
+          "profile_image_url": "http://pbs.twimg.com/profile_images/1427926999/11J00226_006_normal.jpg",
+          "profile_image_url_https": "https://pbs.twimg.com/profile_images/1427926999/11J00226_006_normal.jpg",
+          "profile_banner_url": "https://pbs.twimg.com/profile_banners/292615553/1415202215",
+          "profile_link_color": "0084B4",
+          "profile_sidebar_border_color": "FFFFFF",
+          "profile_sidebar_fill_color": "DDEEF6",
+          "profile_text_color": "333333",
+          "profile_use_background_image": true,
+          "default_profile": false,
+          "default_profile_image": false,
+          "following": false,
+          "follow_request_sent": false,
+          "notifications": false
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "retweet_count": 45,
+        "favorite_count": 78,
+        "entities": {
+          "hashtags": [
+            {
+              "text": "F35",
+              "indices": [
+                67,
+                71
+              ]
+            }
+          ],
+          "symbols": [],
+          "user_mentions": [
+            {
+              "screen_name": "defense_news",
+              "name": "Defense News",
+              "id": 21312961,
+              "id_str": "21312961",
+              "indices": [
+                4,
+                17
+              ]
+            },
+            {
+              "screen_name": "DeptofDefense",
+              "name": "U.S. Dept of Defense",
+              "id": 66369181,
+              "id_str": "66369181",
+              "indices": [
+                19,
+                33
+              ]
+            },
+            {
+              "screen_name": "LockheedMartin",
+              "name": "Lockheed Martin",
+              "id": 42871498,
+              "id_str": "42871498",
+              "indices": [
+                38,
+                53
+              ]
+            }
+          ],
+          "urls": [
+            {
+              "url": "http://t.co/1F43mqL0V4",
+              "expanded_url": "http://bit.ly/1xXySSE",
+              "display_url": "bit.ly/1xXySSE",
+              "indices": [
+                77,
+                99
+              ]
+            }
+          ],
+          "media": [
+            {
+              "id": 535945781644386300,
+              "id_str": "535945781644386304",
+              "indices": [
+                100,
+                122
+              ],
+              "media_url": "http://pbs.twimg.com/media/B3AP2U3IYAAhUvi.jpg",
+              "media_url_https": "https://pbs.twimg.com/media/B3AP2U3IYAAhUvi.jpg",
+              "url": "http://t.co/A8H2JUzp20",
+              "display_url": "pic.twitter.com/A8H2JUzp20",
+              "expanded_url": "http://twitter.com/thef35/status/535945782088978432/photo/1",
+              "type": "photo",
+              "sizes": {
+                "medium": {
+                  "w": 600,
+                  "h": 399,
+                  "resize": "fit"
+                },
+                "small": {
+                  "w": 340,
+                  "h": 226,
+                  "resize": "fit"
+                },
+                "thumb": {
+                  "w": 150,
+                  "h": 150,
+                  "resize": "crop"
+                },
+                "large": {
+                  "w": 1024,
+                  "h": 682,
+                  "resize": "fit"
+                }
+              }
+            }
+          ]
+        },
+        "favorited": false,
+        "retweeted": false,
+        "possibly_sensitive": false,
+        "lang": "en"
+      },
+      "retweet_count": 45,
+      "favorite_count": 0,
+      "entities": {
+        "hashtags": [
+          {
+            "text": "F35",
+            "indices": [
+              79,
+              83
+            ]
+          }
+        ],
+        "symbols": [],
+        "user_mentions": [
+          {
+            "screen_name": "thef35",
+            "name": "F-35 Lightning II",
+            "id": 292615553,
+            "id_str": "292615553",
+            "indices": [
+              3,
+              10
+            ]
+          },
+          {
+            "screen_name": "defense_news",
+            "name": "Defense News",
+            "id": 21312961,
+            "id_str": "21312961",
+            "indices": [
+              16,
+              29
+            ]
+          },
+          {
+            "screen_name": "DeptofDefense",
+            "name": "U.S. Dept of Defense",
+            "id": 66369181,
+            "id_str": "66369181",
+            "indices": [
+              31,
+              45
+            ]
+          },
+          {
+            "screen_name": "LockheedMartin",
+            "name": "Lockheed Martin",
+            "id": 42871498,
+            "id_str": "42871498",
+            "indices": [
+              50,
+              65
+            ]
+          }
+        ],
+        "urls": [
+          {
+            "url": "http://t.co/1F43mqL0V4",
+            "expanded_url": "http://bit.ly/1xXySSE",
+            "display_url": "bit.ly/1xXySSE",
+            "indices": [
+              89,
+              111
+            ]
+          }
+        ],
+        "media": [
+          {
+            "id": 535945781644386300,
+            "id_str": "535945781644386304",
+            "indices": [
+              112,
+              134
+            ],
+            "media_url": "http://pbs.twimg.com/media/B3AP2U3IYAAhUvi.jpg",
+            "media_url_https": "https://pbs.twimg.com/media/B3AP2U3IYAAhUvi.jpg",
+            "url": "http://t.co/A8H2JUzp20",
+            "display_url": "pic.twitter.com/A8H2JUzp20",
+            "expanded_url": "http://twitter.com/thef35/status/535945782088978432/photo/1",
+            "type": "photo",
+            "sizes": {
+              "medium": {
+                "w": 600,
+                "h": 399,
+                "resize": "fit"
+              },
+              "small": {
+                "w": 340,
+                "h": 226,
+                "resize": "fit"
+              },
+              "thumb": {
+                "w": 150,
+                "h": 150,
+                "resize": "crop"
+              },
+              "large": {
+                "w": 1024,
+                "h": 682,
+                "resize": "fit"
+              }
+            },
+            "source_status_id": 535945782088978400,
+            "source_status_id_str": "535945782088978432"
+          }
+        ]
+      },
+      "favorited": false,
+      "retweeted": false,
+      "possibly_sensitive": false,
+      "lang": "en"
+    }
+  ],
+  "search_metadata": {
+    "completed_in": 0.039,
+    "max_id": 536304362654818300,
+    "max_id_str": "536304362654818304",
+    "next_results": "?max_id=536158273175814143&q=lockheed%2Bpentagon%2Bf35&include_entities=1",
+    "query": "lockheed%2Bpentagon%2Bf35",
+    "refresh_url": "?since_id=536304362654818304&q=lockheed%2Bpentagon%2Bf35&include_entities=1",
+    "count": 15,
+    "since_id": 0,
+    "since_id_str": "0"
+  }
+}

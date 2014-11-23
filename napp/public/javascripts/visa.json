@@ -1,0 +1,1420 @@
+{
+  "statuses": [
+    {
+      "metadata": {
+        "iso_language_code": "en",
+        "result_type": "recent"
+      },
+      "created_at": "Sat Nov 22 11:17:28 +0000 2014",
+      "id": 536116245393723400,
+      "id_str": "536116245393723392",
+      "text": "Visa sees Visa Europe option now costing more than $10 billion (Yahoo!): Share With Friends:  |  | Business - ... http://t.co/XFcIGY9xJv",
+      "source": "<a href=\"http://twitterfeed.com\" rel=\"nofollow\">twitterfeed</a>",
+      "truncated": false,
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 223165072,
+        "id_str": "223165072",
+        "name": "Lance Culross",
+        "screen_name": "lancecul",
+        "location": "",
+        "profile_location": null,
+        "description": "Bad Credit Mortgages",
+        "url": "http://t.co/JIn2MFStKi",
+        "entities": {
+          "url": {
+            "urls": [
+              {
+                "url": "http://t.co/JIn2MFStKi",
+                "expanded_url": "http://www.badcreditmortgageloansite.com",
+                "display_url": "badcreditmortgageloansite.com",
+                "indices": [
+                  0,
+                  22
+                ]
+              }
+            ]
+          },
+          "description": {
+            "urls": []
+          }
+        },
+        "protected": false,
+        "followers_count": 116,
+        "friends_count": 224,
+        "listed_count": 2,
+        "created_at": "Sun Dec 05 15:57:48 +0000 2010",
+        "favourites_count": 0,
+        "utc_offset": null,
+        "time_zone": null,
+        "geo_enabled": false,
+        "verified": false,
+        "statuses_count": 1542,
+        "lang": "en",
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "022330",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme15/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme15/bg.png",
+        "profile_background_tile": false,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/1183156911/Mortgage_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/1183156911/Mortgage_normal.jpg",
+        "profile_link_color": "0084B4",
+        "profile_sidebar_border_color": "A8C7F7",
+        "profile_sidebar_fill_color": "C0DFEC",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "default_profile": false,
+        "default_profile_image": false,
+        "following": false,
+        "follow_request_sent": false,
+        "notifications": false
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "retweet_count": 0,
+      "favorite_count": 1,
+      "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "user_mentions": [],
+        "urls": [
+          {
+            "url": "http://t.co/XFcIGY9xJv",
+            "expanded_url": "http://bit.ly/1qN3erp",
+            "display_url": "bit.ly/1qN3erp",
+            "indices": [
+              114,
+              136
+            ]
+          }
+        ]
+      },
+      "favorited": false,
+      "retweeted": false,
+      "possibly_sensitive": false,
+      "lang": "en"
+    },
+    {
+      "metadata": {
+        "iso_language_code": "en",
+        "result_type": "recent"
+      },
+      "created_at": "Sat Nov 22 11:17:27 +0000 2014",
+      "id": 536116243736956900,
+      "id_str": "536116243736956928",
+      "text": "Visa sees Visa Europe option now costing more than $10 billion (Yahoo!): Share With Friends:  |  | Business - ... http://t.co/KsgxnmGv4S",
+      "source": "<a href=\"http://twitterfeed.com\" rel=\"nofollow\">twitterfeed</a>",
+      "truncated": false,
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 215625100,
+        "id_str": "215625100",
+        "name": "Phil Dutwich",
+        "screen_name": "phildutw",
+        "location": "",
+        "profile_location": null,
+        "description": "Christian Debt Counseling",
+        "url": "http://t.co/bcOmpNEpq1",
+        "entities": {
+          "url": {
+            "urls": [
+              {
+                "url": "http://t.co/bcOmpNEpq1",
+                "expanded_url": "http://christiandebtcounselingguide.com",
+                "display_url": "christiandebtcounselingguide.com",
+                "indices": [
+                  0,
+                  22
+                ]
+              }
+            ]
+          },
+          "description": {
+            "urls": []
+          }
+        },
+        "protected": false,
+        "followers_count": 91,
+        "friends_count": 205,
+        "listed_count": 0,
+        "created_at": "Sun Nov 14 13:28:00 +0000 2010",
+        "favourites_count": 0,
+        "utc_offset": null,
+        "time_zone": null,
+        "geo_enabled": false,
+        "verified": false,
+        "statuses_count": 1556,
+        "lang": "en",
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "ACDED6",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme18/bg.gif",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme18/bg.gif",
+        "profile_background_tile": false,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/1166932738/771882_money_trap1_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/1166932738/771882_money_trap1_normal.jpg",
+        "profile_link_color": "038543",
+        "profile_sidebar_border_color": "EEEEEE",
+        "profile_sidebar_fill_color": "F6F6F6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "default_profile": false,
+        "default_profile_image": false,
+        "following": false,
+        "follow_request_sent": false,
+        "notifications": false
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "retweet_count": 0,
+      "favorite_count": 1,
+      "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "user_mentions": [],
+        "urls": [
+          {
+            "url": "http://t.co/KsgxnmGv4S",
+            "expanded_url": "http://bit.ly/1qN3erp",
+            "display_url": "bit.ly/1qN3erp",
+            "indices": [
+              114,
+              136
+            ]
+          }
+        ]
+      },
+      "favorited": false,
+      "retweeted": false,
+      "possibly_sensitive": false,
+      "lang": "en"
+    },
+    {
+      "metadata": {
+        "iso_language_code": "en",
+        "result_type": "recent"
+      },
+      "created_at": "Sat Nov 22 02:28:18 +0000 2014",
+      "id": 535983076283662340,
+      "id_str": "535983076283662336",
+      "text": "Visa sees Visa Europe option now costing more than $10 billion: Visa Inc , the world's largest credit and debit… http://t.co/vGqQsa7fJ5",
+      "source": "<a href=\"http://dlvr.it\" rel=\"nofollow\">dlvr.it</a>",
+      "truncated": false,
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 725751931,
+        "id_str": "725751931",
+        "name": "Business Headlines",
+        "screen_name": "BusinessHeadlin",
+        "location": "",
+        "profile_location": null,
+        "description": "Business news headlines",
+        "url": "http://t.co/WUNdxZ9GYK",
+        "entities": {
+          "url": {
+            "urls": [
+              {
+                "url": "http://t.co/WUNdxZ9GYK",
+                "expanded_url": "http://executivepay.info/",
+                "display_url": "executivepay.info",
+                "indices": [
+                  0,
+                  22
+                ]
+              }
+            ]
+          },
+          "description": {
+            "urls": []
+          }
+        },
+        "protected": false,
+        "followers_count": 182,
+        "friends_count": 12,
+        "listed_count": 13,
+        "created_at": "Mon Jul 30 10:02:23 +0000 2012",
+        "favourites_count": 0,
+        "utc_offset": -18000,
+        "time_zone": "Eastern Time (US & Canada)",
+        "geo_enabled": false,
+        "verified": false,
+        "statuses_count": 89744,
+        "lang": "en",
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "FFFFFF",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": false,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/2447988478/g62wffbtlxj65ix0cfiq_normal.png",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/2447988478/g62wffbtlxj65ix0cfiq_normal.png",
+        "profile_link_color": "5A2E2E",
+        "profile_sidebar_border_color": "C0DEED",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": false,
+        "default_profile": false,
+        "default_profile_image": false,
+        "following": false,
+        "follow_request_sent": false,
+        "notifications": false
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "retweet_count": 0,
+      "favorite_count": 0,
+      "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "user_mentions": [],
+        "urls": [
+          {
+            "url": "http://t.co/vGqQsa7fJ5",
+            "expanded_url": "http://dlvr.it/7bbNFn",
+            "display_url": "dlvr.it/7bbNFn",
+            "indices": [
+              113,
+              135
+            ]
+          }
+        ]
+      },
+      "favorited": false,
+      "retweeted": false,
+      "possibly_sensitive": false,
+      "lang": "en"
+    },
+    {
+      "metadata": {
+        "iso_language_code": "en",
+        "result_type": "recent"
+      },
+      "created_at": "Sat Nov 22 02:16:52 +0000 2014",
+      "id": 535980200551407600,
+      "id_str": "535980200551407616",
+      "text": "Visa sees Visa Europe option now costing more than $10 billion: Visa Inc , the world's largest credit and debi... http://t.co/E8WZtXcxAr",
+      "source": "<a href=\"http://twitterfeed.com\" rel=\"nofollow\">twitterfeed</a>",
+      "truncated": false,
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 2865166750,
+        "id_str": "2865166750",
+        "name": "The News Time",
+        "screen_name": "The_News_Time_",
+        "location": "United States",
+        "profile_location": null,
+        "description": "Get WALLMART, PIZZA HUT, SHELL, FANDANGO, GAME STOP & AMAZON Gift Cards with free shipping in US & Canada",
+        "url": "http://t.co/c68Yce2OT1",
+        "entities": {
+          "url": {
+            "urls": [
+              {
+                "url": "http://t.co/c68Yce2OT1",
+                "expanded_url": "http://goo.gl/zb3rM6",
+                "display_url": "goo.gl/zb3rM6",
+                "indices": [
+                  0,
+                  22
+                ]
+              }
+            ]
+          },
+          "description": {
+            "urls": []
+          }
+        },
+        "protected": false,
+        "followers_count": 189,
+        "friends_count": 174,
+        "listed_count": 5,
+        "created_at": "Fri Nov 07 04:27:14 +0000 2014",
+        "favourites_count": 0,
+        "utc_offset": 0,
+        "time_zone": "London",
+        "geo_enabled": false,
+        "verified": false,
+        "statuses_count": 11237,
+        "lang": "en",
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "C0DEED",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": false,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/530578002334060545/gBR_Wmh1_normal.png",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/530578002334060545/gBR_Wmh1_normal.png",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/2865166750/1415334650",
+        "profile_link_color": "0084B4",
+        "profile_sidebar_border_color": "C0DEED",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "default_profile": true,
+        "default_profile_image": false,
+        "following": false,
+        "follow_request_sent": false,
+        "notifications": false
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "retweet_count": 0,
+      "favorite_count": 1,
+      "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "user_mentions": [],
+        "urls": [
+          {
+            "url": "http://t.co/E8WZtXcxAr",
+            "expanded_url": "http://yhoo.it/1qKHQDd",
+            "display_url": "yhoo.it/1qKHQDd",
+            "indices": [
+              114,
+              136
+            ]
+          }
+        ]
+      },
+      "favorited": false,
+      "retweeted": false,
+      "possibly_sensitive": false,
+      "lang": "en"
+    },
+    {
+      "metadata": {
+        "iso_language_code": "en",
+        "result_type": "recent"
+      },
+      "created_at": "Sat Nov 22 01:57:39 +0000 2014",
+      "id": 535975364099469300,
+      "id_str": "535975364099469312",
+      "text": "Visa sees Visa Europe option now costing more than $10 billion: (Reuters) - Visa Inc , the world's largest credit…",
+      "source": "<a href=\"http://www.google.com/\" rel=\"nofollow\">Google</a>",
+      "truncated": false,
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 2161082408,
+        "id_str": "2161082408",
+        "name": "yoonlysss",
+        "screen_name": "yoonlysss",
+        "location": "",
+        "profile_location": null,
+        "description": "art cool #followback #teamfollowback",
+        "url": null,
+        "entities": {
+          "description": {
+            "urls": []
+          }
+        },
+        "protected": false,
+        "followers_count": 683,
+        "friends_count": 650,
+        "listed_count": 5,
+        "created_at": "Mon Oct 28 15:11:51 +0000 2013",
+        "favourites_count": 0,
+        "utc_offset": null,
+        "time_zone": null,
+        "geo_enabled": false,
+        "verified": false,
+        "statuses_count": 40236,
+        "lang": "ru",
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "C0DEED",
+        "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/378800000103855320/bd9b0b1b9bd4c66d5321ce3b14e19c31.png",
+        "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/378800000103855320/bd9b0b1b9bd4c66d5321ce3b14e19c31.png",
+        "profile_background_tile": true,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/378800000660646803/e9f430b15279bc7d24d6b1573c7ee892_normal.jpeg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/378800000660646803/e9f430b15279bc7d24d6b1573c7ee892_normal.jpeg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/2161082408/1382974613",
+        "profile_link_color": "333333",
+        "profile_sidebar_border_color": "C0DEED",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "0084B4",
+        "profile_use_background_image": true,
+        "default_profile": false,
+        "default_profile_image": false,
+        "following": false,
+        "follow_request_sent": false,
+        "notifications": false
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "retweet_count": 0,
+      "favorite_count": 0,
+      "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "user_mentions": [],
+        "urls": []
+      },
+      "favorited": false,
+      "retweeted": false,
+      "lang": "en"
+    },
+    {
+      "metadata": {
+        "iso_language_code": "en",
+        "result_type": "recent"
+      },
+      "created_at": "Sat Nov 22 01:57:04 +0000 2014",
+      "id": 535975217802129400,
+      "id_str": "535975217802129409",
+      "text": "Visa sees Visa Europe option now costing more than $10 billion: (Reuters) - Visa Inc , the world's largest credit… http://t.co/pYztNvQ5oI",
+      "source": "<a href=\"http://dlvr.it\" rel=\"nofollow\">dlvr.it</a>",
+      "truncated": false,
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 383867563,
+        "id_str": "383867563",
+        "name": "NNY News.ca ",
+        "screen_name": "NewsNearYouca",
+        "location": "Canada",
+        "profile_location": null,
+        "description": "We are a division of On The Ground News Report Canada. Get the latest News Near You.Finance, Trading, Stock, Politics, Technology and Social News",
+        "url": "http://t.co/w7aqpXr0or",
+        "entities": {
+          "url": {
+            "urls": [
+              {
+                "url": "http://t.co/w7aqpXr0or",
+                "expanded_url": "http://onthegroundnewsreport.tumblr.com/",
+                "display_url": "onthegroundnewsreport.tumblr.com",
+                "indices": [
+                  0,
+                  22
+                ]
+              }
+            ]
+          },
+          "description": {
+            "urls": []
+          }
+        },
+        "protected": false,
+        "followers_count": 505,
+        "friends_count": 14,
+        "listed_count": 19,
+        "created_at": "Sun Oct 02 17:18:07 +0000 2011",
+        "favourites_count": 0,
+        "utc_offset": -36000,
+        "time_zone": "Hawaii",
+        "geo_enabled": false,
+        "verified": false,
+        "statuses_count": 380473,
+        "lang": "en",
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "C0DEED",
+        "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/378800000030415935/15e3c1404c0c84bdf23020539adccc5b.jpeg",
+        "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/378800000030415935/15e3c1404c0c84bdf23020539adccc5b.jpeg",
+        "profile_background_tile": true,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/506614700000305152/TZCXIq9A_normal.png",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/506614700000305152/TZCXIq9A_normal.png",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/383867563/1401021898",
+        "profile_link_color": "0084B4",
+        "profile_sidebar_border_color": "FFFFFF",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "default_profile": false,
+        "default_profile_image": false,
+        "following": false,
+        "follow_request_sent": false,
+        "notifications": false
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "retweet_count": 0,
+      "favorite_count": 0,
+      "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "user_mentions": [],
+        "urls": [
+          {
+            "url": "http://t.co/pYztNvQ5oI",
+            "expanded_url": "http://dlvr.it/7bZrqB",
+            "display_url": "dlvr.it/7bZrqB",
+            "indices": [
+              115,
+              137
+            ]
+          }
+        ]
+      },
+      "favorited": false,
+      "retweeted": false,
+      "possibly_sensitive": false,
+      "lang": "en"
+    },
+    {
+      "metadata": {
+        "iso_language_code": "en",
+        "result_type": "recent"
+      },
+      "created_at": "Sat Nov 22 01:31:03 +0000 2014",
+      "id": 535968672364261400,
+      "id_str": "535968672364261376",
+      "text": "Visa sees Visa Europe option now costing more than $10 billion:  Visa Inc , the world's largest credit and deb... http://t.co/aX9e4i6WLX",
+      "source": "<a href=\"http://twitterfeed.com\" rel=\"nofollow\">twitterfeed</a>",
+      "truncated": false,
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 484712281,
+        "id_str": "484712281",
+        "name": "EA Headlines News",
+        "screen_name": "AsianHeadlines",
+        "location": "East Asia",
+        "profile_location": null,
+        "description": "東アジアのニュースはニュースから中国、日本、韓国トップ ニュース サイトからホット ニュースを読むすべての周りのニュースの主要なオンライン情報源です。",
+        "url": null,
+        "entities": {
+          "description": {
+            "urls": []
+          }
+        },
+        "protected": false,
+        "followers_count": 387,
+        "friends_count": 207,
+        "listed_count": 7,
+        "created_at": "Mon Feb 06 12:08:31 +0000 2012",
+        "favourites_count": 2,
+        "utc_offset": 0,
+        "time_zone": "London",
+        "geo_enabled": false,
+        "verified": false,
+        "statuses_count": 56211,
+        "lang": "en",
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "C0DEED",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": false,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/513597160265240576/6Log2Ivo_normal.jpeg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/513597160265240576/6Log2Ivo_normal.jpeg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/484712281/1411286137",
+        "profile_link_color": "0084B4",
+        "profile_sidebar_border_color": "C0DEED",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "default_profile": true,
+        "default_profile_image": false,
+        "following": false,
+        "follow_request_sent": false,
+        "notifications": false
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "retweet_count": 0,
+      "favorite_count": 0,
+      "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "user_mentions": [],
+        "urls": [
+          {
+            "url": "http://t.co/aX9e4i6WLX",
+            "expanded_url": "http://bit.ly/11EyP2l",
+            "display_url": "bit.ly/11EyP2l",
+            "indices": [
+              114,
+              136
+            ]
+          }
+        ]
+      },
+      "favorited": false,
+      "retweeted": false,
+      "possibly_sensitive": false,
+      "lang": "en"
+    },
+    {
+      "metadata": {
+        "iso_language_code": "en",
+        "result_type": "recent"
+      },
+      "created_at": "Sat Nov 22 01:22:40 +0000 2014",
+      "id": 535966559512965100,
+      "id_str": "535966559512965120",
+      "text": "Visa sees Visa Europe option now costing more than $10 billion: Visa Inc , the world's largest credit and debi... http://t.co/6zlYmSN6Ml",
+      "source": "<a href=\"http://twitterfeed.com\" rel=\"nofollow\">twitterfeed</a>",
+      "truncated": false,
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 2577246427,
+        "id_str": "2577246427",
+        "name": "eCommerce solutions",
+        "screen_name": "AroundDiscovery",
+        "location": "Brazil",
+        "profile_location": null,
+        "description": "A platform of #consumer #services and #products, #SEO, #Marketing, #Trading, #Software and #Scripts.",
+        "url": "http://t.co/GJvDCR0Ktd",
+        "entities": {
+          "url": {
+            "urls": [
+              {
+                "url": "http://t.co/GJvDCR0Ktd",
+                "expanded_url": "http://consumersearchguide.blogspot.com.br",
+                "display_url": "consumersearchguide.blogspot.com.br",
+                "indices": [
+                  0,
+                  22
+                ]
+              }
+            ]
+          },
+          "description": {
+            "urls": []
+          }
+        },
+        "protected": false,
+        "followers_count": 442,
+        "friends_count": 449,
+        "listed_count": 8,
+        "created_at": "Thu Jun 19 17:42:39 +0000 2014",
+        "favourites_count": 2,
+        "utc_offset": null,
+        "time_zone": null,
+        "geo_enabled": true,
+        "verified": false,
+        "statuses_count": 18623,
+        "lang": "en",
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "C0DEED",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": false,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/514835607067959297/gYfC2b_D_normal.jpeg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/514835607067959297/gYfC2b_D_normal.jpeg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/2577246427/1411581470",
+        "profile_link_color": "0084B4",
+        "profile_sidebar_border_color": "C0DEED",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "default_profile": true,
+        "default_profile_image": false,
+        "following": false,
+        "follow_request_sent": false,
+        "notifications": false
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "retweet_count": 0,
+      "favorite_count": 0,
+      "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "user_mentions": [],
+        "urls": [
+          {
+            "url": "http://t.co/6zlYmSN6Ml",
+            "expanded_url": "http://yhoo.it/1qKuaIc",
+            "display_url": "yhoo.it/1qKuaIc",
+            "indices": [
+              114,
+              136
+            ]
+          }
+        ]
+      },
+      "favorited": false,
+      "retweeted": false,
+      "possibly_sensitive": false,
+      "lang": "en"
+    },
+    {
+      "metadata": {
+        "iso_language_code": "en",
+        "result_type": "recent"
+      },
+      "created_at": "Sat Nov 22 01:10:45 +0000 2014",
+      "id": 535963561701298200,
+      "id_str": "535963561701298176",
+      "text": "Visa sees Visa Europe option now costing more than $10 billion: (Reuters) - Visa Inc , the world's largest credit and debit card comp...",
+      "source": "<a href=\"http://twitterfeed.com\" rel=\"nofollow\">twitterfeed</a>",
+      "truncated": false,
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 1248778610,
+        "id_str": "1248778610",
+        "name": "DERRICK\tSNYDER",
+        "screen_name": "SNYDERSnyderd",
+        "location": "",
+        "profile_location": null,
+        "description": "",
+        "url": null,
+        "entities": {
+          "description": {
+            "urls": []
+          }
+        },
+        "protected": false,
+        "followers_count": 213,
+        "friends_count": 23,
+        "listed_count": 17,
+        "created_at": "Thu Mar 07 12:54:22 +0000 2013",
+        "favourites_count": 0,
+        "utc_offset": null,
+        "time_zone": null,
+        "geo_enabled": false,
+        "verified": false,
+        "statuses_count": 131838,
+        "lang": "en",
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "C0DEED",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": false,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/3349186222/745393a0c436a9d92dba756cf5161c16_normal.jpeg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/3349186222/745393a0c436a9d92dba756cf5161c16_normal.jpeg",
+        "profile_link_color": "0084B4",
+        "profile_sidebar_border_color": "C0DEED",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "default_profile": true,
+        "default_profile_image": false,
+        "following": false,
+        "follow_request_sent": false,
+        "notifications": false
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "retweet_count": 0,
+      "favorite_count": 0,
+      "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "user_mentions": [],
+        "urls": []
+      },
+      "favorited": false,
+      "retweeted": false,
+      "lang": "en"
+    },
+    {
+      "metadata": {
+        "iso_language_code": "en",
+        "result_type": "recent"
+      },
+      "created_at": "Sat Nov 22 01:06:49 +0000 2014",
+      "id": 535962572915105800,
+      "id_str": "535962572915105793",
+      "text": "Visa sees Visa Europe option now costing more than $10 billion: Visa Inc , the world's largest credit and debi... http://t.co/1soFT8wMpY",
+      "source": "<a href=\"http://twitterfeed.com\" rel=\"nofollow\">twitterfeed</a>",
+      "truncated": false,
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 296907334,
+        "id_str": "296907334",
+        "name": "The Debt Collector",
+        "screen_name": "RSD_Collects",
+        "location": "United States",
+        "profile_location": null,
+        "description": "Ross Stuart & Dawson is an IACC certified agency by the IACC, We  help companies manage their receivables. FB-http://t.co/2ITde6W2aA  or (248) 494-4710",
+        "url": "http://t.co/ABIWVnCkGq",
+        "entities": {
+          "url": {
+            "urls": [
+              {
+                "url": "http://t.co/ABIWVnCkGq",
+                "expanded_url": "http://www.CommercialDebtCollector.com/",
+                "display_url": "CommercialDebtCollector.com",
+                "indices": [
+                  0,
+                  22
+                ]
+              }
+            ]
+          },
+          "description": {
+            "urls": [
+              {
+                "url": "http://t.co/2ITde6W2aA",
+                "expanded_url": "http://goo.gl/YGV421",
+                "display_url": "goo.gl/YGV421",
+                "indices": [
+                  110,
+                  132
+                ]
+              }
+            ]
+          }
+        },
+        "protected": false,
+        "followers_count": 601,
+        "friends_count": 893,
+        "listed_count": 6,
+        "created_at": "Wed May 11 16:02:18 +0000 2011",
+        "favourites_count": 0,
+        "utc_offset": -18000,
+        "time_zone": "Eastern Time (US & Canada)",
+        "geo_enabled": false,
+        "verified": false,
+        "statuses_count": 16878,
+        "lang": "en",
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "C0DEED",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": false,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/500007541560983552/jYbnI_l4_normal.png",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/500007541560983552/jYbnI_l4_normal.png",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/296907334/1408048858",
+        "profile_link_color": "0084B4",
+        "profile_sidebar_border_color": "C0DEED",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "default_profile": true,
+        "default_profile_image": false,
+        "following": false,
+        "follow_request_sent": false,
+        "notifications": false
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "retweet_count": 0,
+      "favorite_count": 0,
+      "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "user_mentions": [],
+        "urls": [
+          {
+            "url": "http://t.co/1soFT8wMpY",
+            "expanded_url": "http://yhoo.it/1qKqxlE",
+            "display_url": "yhoo.it/1qKqxlE",
+            "indices": [
+              114,
+              136
+            ]
+          }
+        ]
+      },
+      "favorited": false,
+      "retweeted": false,
+      "possibly_sensitive": false,
+      "lang": "en"
+    },
+    {
+      "metadata": {
+        "iso_language_code": "en",
+        "result_type": "recent"
+      },
+      "created_at": "Sat Nov 22 00:52:34 +0000 2014",
+      "id": 535958984696414200,
+      "id_str": "535958984696414209",
+      "text": "#cmcg (Reuters) - Visa Inc , the world's largest credit and debit card company, said it might h... http://t.co/9WG05oLy1M #californiamcg",
+      "source": "<a href=\"http://twitterfeed.com\" rel=\"nofollow\">twitterfeed</a>",
+      "truncated": false,
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 2323260930,
+        "id_str": "2323260930",
+        "name": "cmcg",
+        "screen_name": "CMCG_California",
+        "location": "USA",
+        "profile_location": null,
+        "description": "California Management Consultant Group (CMCG) is a global management consulting with more than 700,000 people serving clients in more than 120 countries",
+        "url": "http://t.co/zu03rYEHCv",
+        "entities": {
+          "url": {
+            "urls": [
+              {
+                "url": "http://t.co/zu03rYEHCv",
+                "expanded_url": "http://californiamcg.com/",
+                "display_url": "californiamcg.com",
+                "indices": [
+                  0,
+                  22
+                ]
+              }
+            ]
+          },
+          "description": {
+            "urls": []
+          }
+        },
+        "protected": false,
+        "followers_count": 85,
+        "friends_count": 354,
+        "listed_count": 6,
+        "created_at": "Sun Feb 02 05:39:35 +0000 2014",
+        "favourites_count": 0,
+        "utc_offset": null,
+        "time_zone": null,
+        "geo_enabled": false,
+        "verified": false,
+        "statuses_count": 9654,
+        "lang": "en",
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "C0DEED",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": false,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/429854212755709952/UkHCx1Cp_normal.jpeg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/429854212755709952/UkHCx1Cp_normal.jpeg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/2323260930/1391320280",
+        "profile_link_color": "0084B4",
+        "profile_sidebar_border_color": "C0DEED",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "default_profile": true,
+        "default_profile_image": false,
+        "following": false,
+        "follow_request_sent": false,
+        "notifications": false
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "retweet_count": 0,
+      "favorite_count": 0,
+      "entities": {
+        "hashtags": [
+          {
+            "text": "cmcg",
+            "indices": [
+              0,
+              5
+            ]
+          },
+          {
+            "text": "californiamcg",
+            "indices": [
+              122,
+              136
+            ]
+          }
+        ],
+        "symbols": [],
+        "user_mentions": [],
+        "urls": [
+          {
+            "url": "http://t.co/9WG05oLy1M",
+            "expanded_url": "http://bit.ly/1yB2BQN",
+            "display_url": "bit.ly/1yB2BQN",
+            "indices": [
+              99,
+              121
+            ]
+          }
+        ]
+      },
+      "favorited": false,
+      "retweeted": false,
+      "possibly_sensitive": false,
+      "lang": "en"
+    },
+    {
+      "metadata": {
+        "iso_language_code": "en",
+        "result_type": "recent"
+      },
+      "created_at": "Sat Nov 22 00:52:20 +0000 2014",
+      "id": 535958925758066700,
+      "id_str": "535958925758066688",
+      "text": "Visa sees Visa Europe option now costing more than $10 billion: (Reuters) - Visa Inc , the world's largest credit and debit card comp...",
+      "source": "<a href=\"http://twitterfeed.com\" rel=\"nofollow\">twitterfeed</a>",
+      "truncated": false,
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 1243818943,
+        "id_str": "1243818943",
+        "name": "MARISSA\tHOGUE",
+        "screen_name": "HOGUEMARISSA",
+        "location": "",
+        "profile_location": null,
+        "description": "Me",
+        "url": null,
+        "entities": {
+          "description": {
+            "urls": []
+          }
+        },
+        "protected": false,
+        "followers_count": 162,
+        "friends_count": 37,
+        "listed_count": 14,
+        "created_at": "Tue Mar 05 14:02:18 +0000 2013",
+        "favourites_count": 0,
+        "utc_offset": null,
+        "time_zone": null,
+        "geo_enabled": false,
+        "verified": false,
+        "statuses_count": 97161,
+        "lang": "en",
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "C0DEED",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": false,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/3342015436/209d6821eb156180b44deb4311e21cea_normal.jpeg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/3342015436/209d6821eb156180b44deb4311e21cea_normal.jpeg",
+        "profile_link_color": "0084B4",
+        "profile_sidebar_border_color": "C0DEED",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "default_profile": true,
+        "default_profile_image": false,
+        "following": false,
+        "follow_request_sent": false,
+        "notifications": false
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "retweet_count": 0,
+      "favorite_count": 0,
+      "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "user_mentions": [],
+        "urls": []
+      },
+      "favorited": false,
+      "retweeted": false,
+      "lang": "en"
+    },
+    {
+      "metadata": {
+        "iso_language_code": "en",
+        "result_type": "recent"
+      },
+      "created_at": "Sat Nov 22 00:52:20 +0000 2014",
+      "id": 535958925753851900,
+      "id_str": "535958925753851904",
+      "text": "Visa sees Visa Europe option now costing more than $10 billion: (Reuters) - Visa Inc , the world's largest credit and debit card comp...",
+      "source": "<a href=\"http://twitterfeed.com\" rel=\"nofollow\">twitterfeed</a>",
+      "truncated": false,
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 1248613244,
+        "id_str": "1248613244",
+        "name": "ABDUL\tJOYNER",
+        "screen_name": "JoynerJOynera",
+        "location": "",
+        "profile_location": null,
+        "description": "",
+        "url": null,
+        "entities": {
+          "description": {
+            "urls": []
+          }
+        },
+        "protected": false,
+        "followers_count": 145,
+        "friends_count": 20,
+        "listed_count": 9,
+        "created_at": "Thu Mar 07 11:52:27 +0000 2013",
+        "favourites_count": 0,
+        "utc_offset": null,
+        "time_zone": null,
+        "geo_enabled": false,
+        "verified": false,
+        "statuses_count": 101821,
+        "lang": "en",
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "C0DEED",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": false,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/3349000704/60eff67c42fbc6b1ca389b870cb63554_normal.jpeg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/3349000704/60eff67c42fbc6b1ca389b870cb63554_normal.jpeg",
+        "profile_link_color": "0084B4",
+        "profile_sidebar_border_color": "C0DEED",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "default_profile": true,
+        "default_profile_image": false,
+        "following": false,
+        "follow_request_sent": false,
+        "notifications": false
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "retweet_count": 0,
+      "favorite_count": 0,
+      "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "user_mentions": [],
+        "urls": []
+      },
+      "favorited": false,
+      "retweeted": false,
+      "lang": "en"
+    },
+    {
+      "metadata": {
+        "iso_language_code": "en",
+        "result_type": "recent"
+      },
+      "created_at": "Sat Nov 22 00:52:19 +0000 2014",
+      "id": 535958922297761800,
+      "id_str": "535958922297761792",
+      "text": "Visa sees Visa Europe option now costing more than $10 billion: (Reuters) - Visa Inc , the world's largest credit and debit card comp...",
+      "source": "<a href=\"http://twitterfeed.com\" rel=\"nofollow\">twitterfeed</a>",
+      "truncated": false,
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 1028454576,
+        "id_str": "1028454576",
+        "name": "WAYNE\tWATSON",
+        "screen_name": "Wnodnii",
+        "location": "",
+        "profile_location": null,
+        "description": "",
+        "url": null,
+        "entities": {
+          "description": {
+            "urls": []
+          }
+        },
+        "protected": false,
+        "followers_count": 172,
+        "friends_count": 10,
+        "listed_count": 16,
+        "created_at": "Sat Dec 22 13:01:50 +0000 2012",
+        "favourites_count": 0,
+        "utc_offset": null,
+        "time_zone": null,
+        "geo_enabled": false,
+        "verified": false,
+        "statuses_count": 157232,
+        "lang": "en",
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "C0DEED",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": false,
+        "profile_image_url": "http://abs.twimg.com/sticky/default_profile_images/default_profile_2_normal.png",
+        "profile_image_url_https": "https://abs.twimg.com/sticky/default_profile_images/default_profile_2_normal.png",
+        "profile_link_color": "0084B4",
+        "profile_sidebar_border_color": "C0DEED",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "default_profile": true,
+        "default_profile_image": true,
+        "following": false,
+        "follow_request_sent": false,
+        "notifications": false
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "retweet_count": 0,
+      "favorite_count": 0,
+      "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "user_mentions": [],
+        "urls": []
+      },
+      "favorited": false,
+      "retweeted": false,
+      "lang": "en"
+    },
+    {
+      "metadata": {
+        "iso_language_code": "en",
+        "result_type": "recent"
+      },
+      "created_at": "Sat Nov 22 00:52:19 +0000 2014",
+      "id": 535958922259992600,
+      "id_str": "535958922259992576",
+      "text": "Visa sees Visa Europe option now costing more than $10 billion: (Reuters) - Visa Inc , the world's largest credit and debit card comp...",
+      "source": "<a href=\"http://twitterfeed.com\" rel=\"nofollow\">twitterfeed</a>",
+      "truncated": false,
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 1037090653,
+        "id_str": "1037090653",
+        "name": "HOLLIS\tESTES",
+        "screen_name": "HOLLISESTES",
+        "location": "",
+        "profile_location": null,
+        "description": "round and round",
+        "url": null,
+        "entities": {
+          "description": {
+            "urls": []
+          }
+        },
+        "protected": false,
+        "followers_count": 192,
+        "friends_count": 15,
+        "listed_count": 19,
+        "created_at": "Wed Dec 26 12:58:00 +0000 2012",
+        "favourites_count": 0,
+        "utc_offset": null,
+        "time_zone": null,
+        "geo_enabled": false,
+        "verified": false,
+        "statuses_count": 157249,
+        "lang": "en",
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "C0DEED",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": false,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/3023600692/cd6ddedf2ae63b10a03317f8ff0c5fa0_normal.jpeg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/3023600692/cd6ddedf2ae63b10a03317f8ff0c5fa0_normal.jpeg",
+        "profile_link_color": "0084B4",
+        "profile_sidebar_border_color": "C0DEED",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "default_profile": true,
+        "default_profile_image": false,
+        "following": false,
+        "follow_request_sent": false,
+        "notifications": false
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "retweet_count": 0,
+      "favorite_count": 0,
+      "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "user_mentions": [],
+        "urls": []
+      },
+      "favorited": false,
+      "retweeted": false,
+      "lang": "en"
+    }
+  ],
+  "search_metadata": {
+    "completed_in": 0.079,
+    "max_id": 536116245393723400,
+    "max_id_str": "536116245393723392",
+    "next_results": "?max_id=535958922259992575&q=visa%2Beurope%2Bcredit&include_entities=1",
+    "query": "visa%2Beurope%2Bcredit",
+    "refresh_url": "?since_id=536116245393723392&q=visa%2Beurope%2Bcredit&include_entities=1",
+    "count": 15,
+    "since_id": 0,
+    "since_id_str": "0"
+  }
+}
