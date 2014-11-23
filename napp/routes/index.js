@@ -8,33 +8,76 @@ var username = "eikonstudent2@thomsonreuters.com";
 var password = "Secret123";
 var msf = new MSF(true);
 
+var marketdataID=0;
 
-var marketFeed={
+
+var marketFeed={};
+
+var visaQ = {
    "Entity": {
        "E": "TATimeSeries",
        "W": {
            "Tickers": [
-               "AAPL.O"
+               "V"
            ],
            "Currency": "USD",
-           "NoInfo": true,
+           "NoInfo": false,
            "Interval": "Daily",
            "IntervalMultiplier": 1,
-           "DateRange": "Month",
            "DateRangeMultiplier": 1,
-           "StartDate": "2014-01-15T05:17:12",
+           "StartDate": "2013-05-01T00:00:00",
            "EndDate": "2014-05-01T00:00:00"
            
        }
    }
-}
+};
 
-function callback(newsfeed,res){
+var lockheedQ = {
+   "Entity": {
+       "E": "TATimeSeries",
+       "W": {
+           "Tickers": [
+               "LMT"
+           ],
+           "Currency": "USD",
+           "NoInfo": false,
+           "Interval": "Daily",
+           "IntervalMultiplier": 1,
+           "DateRangeMultiplier": 1,
+           "StartDate": "2013-05-01T00:00:00",
+           "EndDate": "2014-05-01T00:00:00"
+           
+       }
+   }
+};
+
+var ThyssenQ = 
+{
+   "Entity": {
+       "E": "TATimeSeries",
+       "W": {
+           "Tickers": [
+               "TKAG.DE"
+           ],
+           "Currency": "USD",
+           "NoInfo": false,
+           "Interval": "Daily",
+           "IntervalMultiplier": 1,
+           "DateRangeMultiplier": 1,
+           "StartDate": "2013-05-01T00:00:00",
+           "EndDate": "2014-05-01T00:00:00"
+           
+       }
+   }
+};
+
+function callback(newsfeed,res, marketdataID){
+
+    if(marketdataID==10) marketFeed= visaQ;
+    if(marketdataID==11) marketFeed= lockheedQ;
+    if(marketdataID==12) marketFeed= ThyssenQ;
     msf.getData(marketFeed, function(error, response) {
-     // for(var i = 0; i <response.R.length ; i++)
-     //  for(var j = 0; j <response.R[i].Data.length ; j++){
-     //  console.log(response.R[i].Data[j]);       
-     // }
+     
      
      console.log(newsfeed);
         res.render('index.ejs', { news: JSON.stringify(newsfeed).toString(), marketdata: JSON.stringify(response, false, 2)});
@@ -79,12 +122,10 @@ var liveNews={
 }
 
 
-/* GET home page. */
-router.get('/test', function(req, res) {
- res.render('index.ejs', { title: 'Express' });
-});
 
 router.get('/', function(req, res) {
+    marketdataID=10;
+    //req.query.marketdataID;
    msf.login(username, password, function(error) {
        
 
@@ -144,7 +185,7 @@ router.get('/', function(req, res) {
            
 
             
-            callback(response,res);
+            callback(response,res, marketdataID);
                  //  res.render('index.ejs', { news: JSON.stringify(response, false, 2)});
                  
            });       
