@@ -124,7 +124,8 @@ var liveNews={
 
 
 router.get('/', function(req, res) {
-    marketdataID=req.query.marketdataID;
+    marketdataID=10;
+    //req.query.marketdataID;
    msf.login(username, password, function(error) {
        
 
