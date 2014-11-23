@@ -1,8 +1,12 @@
 /* COPYRIGHT INFO HERE */
 /* COPYRIGHT INFO HERE */
 /* GENERAL STYLES */
+html,
 body {
-  width: 100%;
+  width: 1366px;
+  height: 768px;
+}
+body {
   background-color: #1e1e21;
   margin: 0;
   padding: 0;

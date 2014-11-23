@@ -232,6 +232,19 @@
             }
         });
 
+        $.getJSON( "javascripts/lockheed.json", function( data ) {
+            $.each(data.statuses, function(item, elem){
+               //console.log(elem);
+                console.log(elem.text, elem.user.name, elem.user.screen_name, elem.coordinates);
+            });
+        });
+        
+        $.getJSON( "javascripts/visa.json", function( data ) {
+            $.each(data.statuses, function(item, elem){
+               //console.log(elem);
+                console.log(elem.text, elem.user.name, elem.user.screen_name, elem.coordinates);
+            });
+        });
         </script>
 	</body>
 </html>
