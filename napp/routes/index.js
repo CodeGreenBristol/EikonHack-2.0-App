@@ -34,6 +34,7 @@ function callback(newsfeed,res){
      //  for(var j = 0; j <response.R[i].Data.length ; j++){
      //  console.log(response.R[i].Data[j]);       
      // }
+     
      console.log(newsfeed);
         res.render('index.ejs', { news: JSON.stringify(newsfeed).toString(), marketdata: JSON.stringify(response, false, 2)});
     });       

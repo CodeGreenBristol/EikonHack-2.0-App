@@ -105,14 +105,13 @@
     <script src="javascripts/d3.min.js"></script>
     <script src="javascripts/topojson.v1.min.js"></script>
     <script src="javascripts/datamaps.world.min.js"></script>
-    <script src="javascripts/twitter.js"></script>  
     <script>
         
         var newsData = <%-news%>;
-        var marketData = JSON.parse(<%-JSON.stringify(marketdata)%>);
+       // var marketData = JSON.parse(<%-JSON.stringify(marketdata)%>);
         
         console.log(newsData);
-        console.log(marketData);
+        //console.log(marketData);
         var currentNewsID = null;
         
         // POPULATE EXPANDED SELECTOR
@@ -202,7 +201,7 @@
                 highlightOnHover: false
             }
         });
-        
+
         </script>
 	</body>
 </html>
