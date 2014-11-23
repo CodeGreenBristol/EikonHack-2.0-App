@@ -210,7 +210,14 @@
                 refreshSentimentBar(sentimentValue);
             }
             
-            
+            // RESET BUBBLES
+            if (typeof bubbleCoords !== 'undefined') {
+                bubbleCoords = [];
+            }
+            if (typeof bubbleMap !== 'undefined') {
+                bubbleMap.bubbles([]);
+            }
+           
             // START TWITTER STREAM
             $('#twitter-feed').empty();
             if (typeof twitterFeedStream !== 'undefined') {
@@ -255,7 +262,7 @@
 			var procent;
 			percent = (sentimentValue*100).toFixed(2);
 			cursorPosition = (sentimentValue + 1)*200;
-			$('#cursor').css({left: (cursorPosition+8) + 'px'});
+			$('#cursor').animate({left: (cursorPosition+8) + 'px'});
 			if(percent >= 0) {
 				$('#result-percent').html(percent + '% positive');
 			}
@@ -265,18 +272,6 @@
 		}
 		refreshSentimentBar(0);
         
-        // DATAMAPS
-        $("#map-container").datamaps({
-            fills: {
-                defaultFill: "#2d2d31"
-            },
-            geographyConfig: {
-                borderWidth:0,
-                popupOnHover: false,
-                highlightOnHover: false
-            }
-        });
-
         var lockheedJSON = [];
         var visaJSON = [];
         
@@ -299,6 +294,29 @@
         });
         var visaQueue = visaJSON.map(function(arr) {
             return arr.slice();
+        });
+        
+        var bubbleCoords = [];
+        
+        // DATAMAPS          
+        var bubbleMap = new Datamap({
+            element: document.getElementById('map-container'),
+            fills: {
+                "bubbleFill": "#ff843c",
+                defaultFill: "#2d2d31"
+            },
+            geographyConfig: {
+                borderWidth:0,
+                popupOnHover: false,
+                highlightOnHover: false
+            },
+            bubbleConfig: {
+                borderWidth: 1,
+                borderColor: '#FFFFFF',
+                popupOnHover: false,
+                fillOpacity: 1,
+                highlightOnHover: false,
+            }
         });
         
         // ADD TWEET FUNCTION
@@ -341,10 +359,18 @@
                 visaQueue.shift();
             }    
             
+            // ADD TO BUBBLE COORDS
+            if(bubbleCoords.length == 12){
+                bubbleCoords.shift();
+            }
+            bubbleCoords.push({"latitude" : elem[3][0], "longitude" : elem[3][1], "radius" : "8", "fillKey": "bubbleFill"});
+            bubbleMap.bubbles(bubbleCoords);
+            
             // ADD SENTIMENT
             sentimentValue = (sentimentValue + elem[4]) / 2;
             refreshSentimentBar(sentimentValue);
         }
+                
         </script>
 	</body>
 </html>
