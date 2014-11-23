@@ -106,9 +106,26 @@
     <script src="javascripts/topojson.v1.min.js"></script>
     <script src="javascripts/datamaps.world.min.js"></script>
     <script>
+    var copy;
+
+     $(document).ready(function() {
+
+    function functionToLoadFile(){
+      jQuery.get('tweets/tweets.txt', function(data) {
+       if(copy!=data)console.log(JSON.parse(data));
+       copy = data;
+       
+
+       //$('#songtitleholder').html(songtitle);
+       setTimeout(functionToLoadFile, 5000);
+    });
+    }
+
+    setTimeout(functionToLoadFile, 10);
+});
         
         var newsData = <%-news%>;
-       // var marketData = JSON.parse(<%-JSON.stringify(marketdata)%>);
+       var marketData = JSON.parse(<%-JSON.stringify(marketdata)%>);
         
         //console.log(marketData);
         var currentNewsID = null;
