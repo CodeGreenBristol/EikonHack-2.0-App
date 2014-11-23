@@ -210,17 +210,20 @@ body {
   font-size: 12px;
   width: 400px;
 }
-#content #left-column #sentiment-box #bar-percents .first {
+#content #left-column #sentiment-box #bar-percents #percent-1 {
   margin-left: 0px;
 }
-#content #left-column #sentiment-box #bar-percents .second {
-  margin-left: 50px;
+#content #left-column #sentiment-box #bar-percents #percent-2 {
+  margin-left: 58px;
 }
-#content #left-column #sentiment-box #bar-percents .last {
-  margin-left: 64px;
+#content #left-column #sentiment-box #bar-percents #percent-3 {
+  margin-left: 74px;
 }
-#content #left-column #sentiment-box #bar-percents span {
-  margin-left: 66px;
+#content #left-column #sentiment-box #bar-percents #percent-4 {
+  margin-left: 76px;
+}
+#content #left-column #sentiment-box #bar-percents #percent-5 {
+  margin-left: 54px;
 }
 #content #left-column #feed-box {
   height: 509px;
